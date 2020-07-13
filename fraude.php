@@ -7,7 +7,7 @@ $detect = new Mobile_Detect;
 if( $detect->isMobile() && !$detect->isTablet() ){
     include $GLOBALS['srcMobileFraude'];
 }elseif( $detect->isTablet() ){
-    include $GLOBALS['srTablerFraude'];
+    include $GLOBALS['srTabletFraude'];
 }else{
     include $GLOBALS['srcDesktopFraude'];
 }

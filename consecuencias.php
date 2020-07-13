@@ -8,7 +8,7 @@ if( $detect->isMobile() && !$detect->isTablet() ){
     include $GLOBALS['srcMobileConsecuencias'];
 
 }elseif( $detect->isTablet() ){
-    include $GLOBALS['srcTableronsecuencias'];
+    include $GLOBALS['srcTabletConsecuencias'];
 }else{
     include $GLOBALS['srcDesktopConsecuencias'];
 }

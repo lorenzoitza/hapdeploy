@@ -7,7 +7,7 @@ $detect = new Mobile_Detect;
 if( $detect->isMobile() && !$detect->isTablet() ){
     include $GLOBALS['srcMobileIndex'];
 }elseif( $detect->isTablet() ){
-    include $GLOBALS['srTablerIndex'];
+    include $GLOBALS['srTabletIndex'];
 }else{
     include $GLOBALS['srcDesktopIndex'];
 }
