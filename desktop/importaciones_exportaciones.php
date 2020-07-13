@@ -17,10 +17,11 @@ if (!isset($_SESSION)) {
 
 
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="white" />
+<meta http-equiv="cache-control" content="no-cache" />
 
 
         <title>
@@ -94,7 +95,9 @@ if (!isset($_SESSION)) {
                                     ?>
                                 </div>
                                 <div class="col-md-12">
-                                    <img src="media/Recurso_17.svg" alt="" class=" img86">
+                                    <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
+                                    <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
+                                    <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
                                 </div>
                             </div>
 
@@ -120,13 +123,19 @@ if (!isset($_SESSION)) {
                    
                         <div class="col-md-6">
                             <div class="testimonial-item-graph">
-                                <img src="media/graph-import-export1.svg" class="img85 bg-import-export fx fadeInDown "
+                                <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown "
+                                    alt="">
+                                    <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown "
+                                    alt="">
+                                    <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown "
                                     alt="">
                             </div>
                         </div>
                         <div class="col-md-6 align-items-riht">
                             <div class="testimonial-item-graph ">
-                                <img src="media/graph-import-export-2.svg" class="img85 fx fadeInUp " alt="">
+                                <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
+                                <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
+                                <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,8 @@ $(document).ready(function() {
 
 
     $('#fullpage').fullpage({
-        licenseKey: 'F33D191A-30EF449F-B9750C26-DE7A9366',
+        // licenseKey: 'F33D191A-30EF449F-B9750C26-DE7A9366',
+        licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
         lockAnchors: true,
         anchors: ['section0', 'section1', 'section2', 'section3'],
 
@@ -26,12 +27,12 @@ $(document).ready(function() {
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,
-        normalScrollElements: '.normalscrollmobiles',
+        normalScrollElements: '.scrollable-content',
         scrollOverflow: true,
         scrollOverflowReset: true,
         scrollOverflowOptions: null,
-        touchSensitivity: 25,
-        bigSectionsDestination: null,
+        touchSensitivity: 5,
+        bigSectionsDestination: 'top',
 
         //Accesibilidad
         keyboardScrolling: true,
@@ -63,14 +64,16 @@ $(document).ready(function() {
                 $(".fx").removeClass("animated");
                 $("#indexlogo").attr("src", "media/Logo_HAP.png");
                 $(".navbar").removeClass("navbar-dark");
-                $(".logoScrollTop").removeClass("logo-bg");
-                $(".bg-div").removeClass("bg-arena");
+                // $(".logoScrollTop").removeClass("logo-bg");
+                // $(".bg-div").removeClass("bg-arena");
                 $(".fxInRightC").removeClass("fadeInRightC");
 
             } else if (loadedSection.index == 1 && direction == 'down') {
                 $(".fx").removeClass("animated");
-                $("#indexlogo").attr("src", "media/Logo_HAP.png");
-                $(".navbar").removeClass("navbar-dark");
+                $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
+                $(".navbar").addClass("navbar-dark");
+                // $("#indexlogo").attr("src", "media/Logo_HAP.png");
+                // $(".navbar").removeClass("navbar-dark");
                 // $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
                 // $(".navbar").addClass("navbar-dark");
                 // $(".logoScrollTop").addClass("logo-bg");
@@ -78,6 +81,8 @@ $(document).ready(function() {
                 $(".fxInDownC").addClass("fadeInDownC");
                 $(".fxInLeftC").addClass("fadeInLeftC");
                 $(".fxInRightC").removeClass("fadeInRightC");
+
+
 
 
             } else if (loadedSection.index == 1 && direction == 'up') {
@@ -97,6 +102,8 @@ $(document).ready(function() {
                 $(".fx").removeClass("animated");
                 $("#indexlogo").attr("src", "media/Logo_HAP.png");
                 $(".navbar").removeClass("navbar-dark");
+                $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
+                $(".navbar").addClass("navbar-dark");
                 $(".logoScrollTop").removeClass("logo-bg");
                 $(".bg-div").removeClass("bg-arena");
 
@@ -124,7 +131,7 @@ $(document).ready(function() {
 
             } else if (loadedSection.index == 3 && direction == 'up') {
                 $(".fx").removeClass("animated");
-                $("#indexlogo").attr("src", "media/Logo_HAP.png");
+                $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
                 // $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
                 // $(".navbar").addClass("navbar-dark");
                 // $(".logoScrollTop").addClass("logo-bg");
@@ -134,9 +141,20 @@ $(document).ready(function() {
                 $(".fxInDownC").addClass("fadeInDownC");
                 $(".fxInLeftC").addClass("fadeInLeftC");
 
+            } else if (loadedSection.index == 4 && direction == 'up') {
+                $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
+                $(".navbar").addClass("navbar-dark");
+                // $(".logoScrollTop").addClass("logo-bg");
+                // $(".bg-div").addClass("bg-arena");
+                $(".fx").addClass("animated");
+                $(".fxInRightCC").addClass("fadeInRightCC");
+
+
+
+
             }
 
-
+            // alert(loadedSection.index + " " + direction);
 
         },
         afterLoad: function(anchorLink, index, direction) {

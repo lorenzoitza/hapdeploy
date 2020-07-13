@@ -96,9 +96,10 @@ function loadJsIndexFiles()
     echo '<script src="js/bootstrap.min.js "></script> ';
     echo '<script src="js/jquery.appear.js "></script> ';
     echo '<script src="js/script.js "></script> ';
+    echo '<script src="js/script-mobile.js "></script> ';
+    echo '<script type="text/javascript" src="js/scrolloverflow.js"></script>';
     echo '<script type="text/javascript" src="js/fullpage.js"></script>';
     echo '<script type="text/javascript" src="js/fullpage.extensions.min.js"></script>';
-    echo '<script type="text/javascript" src="js/scrolloverflow.js"></script>';
     echo '<script type="text/javascript" src="js/fullpage.parallax.min.js"></script>';
     // echo "<script>
     // $(window).scroll($.debounce( 250, true, function(){

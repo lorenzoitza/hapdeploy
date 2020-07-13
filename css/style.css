@@ -68,7 +68,7 @@
 }
 
 .navbar {
-  padding: 0vh 4vw;
+  padding: 0vh 1vw;
 }
 
 .navbar.navbar-right {
@@ -246,6 +246,7 @@
   transform: rotate(-45deg);
 }
 .side-menu .inner-wrapper {
+  /*FiraSansThinWhite05rem*/
   padding: 0.5% 2%;
   height: 100%;
   position: relative;
@@ -673,6 +674,64 @@ button:active {
   width: 3vw;
 }
 
+/** 
+#sidemenu_toggle
+.pushwrap"
+.side-menu"
+side-menu-active
+#close_side_menu
+.side-nav .navbar-nav .nav-link
+#btn_sideNavClose
+.side-right-btn
+.navbar.navbar-right
+.navbar.navbar-right .navbar-nav .nav-link
+.navbar.navbar-right
+
+
+.navbar .navbar-expand-md .navbar-side .d-flex .justify-content-end
+.mr-auto
+#indexlogo_page
+.logo .logoScrollTop
+#indexlogo
+.logo-light .default
+.side-menu
+.inner-wrapper
+.btn-close .d-lg-none .d-xl-none
+#btn_sideNavClose
+.d-lg-none .d-xl-none
+#close_side_menu
+.d-inline-block .translateFr
+.clicLang
+#btn_ClicFr"
+#imgFlagFr
+.d-inline-block .translateEn
+#btn_ClicEn
+#imgFlagEn
+.d-inline-block .translateEs
+#btn_ClicEs
+#imgFlagEs
+.d-inline-block .sidemenu_btn
+#sidemenu_toggle
+.menu-ico
+.side-nav .w-100
+.navbar-nav
+.nav-item
+#index_page
+.nav-link
+#consecuencias_page
+#fraude_page
+#importaciones_exportaciones_page
+.fr
+.side-nav w-100
+.index_page
+.side-footer .text-white .w-100
+.social-icons-simple
+.fx InUpMenu
+.socialicon
+.company-about .fx .InMenu
+
+
+ **/
 header {
   width: 100%;
   z-index: 99;
@@ -2255,7 +2314,7 @@ header.header-appear nav.header-light .logo .logo-light {
   align-items: center;
 }
 #section0-consecuence .fp-bg {
-  background-image: url("../media/consecuencias/bg-section0.jpg");
+  background-image: url("../../media/consecuencias/bg-section0.jpg"), url("../media/consecuencias/bg-section0.jpg"), url("media/consecuencias/bg-section0.jpg");
 }
 #section0-consecuence .fp-bg:before {
   content: '';
@@ -2414,7 +2473,7 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 
 .section3bg {
-  background-image: url("../media/consecuencias/bg-sector3.jpg");
+  background-image: url("../../media/consecuencias/bg-sector3.jpg"), url("../media/consecuencias/bg-sector3.jpg"), url("media/consecuencias/bg-sector3.jpg");
   background-size: cover;
 }
 
@@ -2526,7 +2585,7 @@ header.header-appear nav.header-light .logo .logo-light {
   margin: 0 0 0 0;
 }
 #section0-fraud .fp-bg {
-  background-image: url("../media/fraude/bg-sector0.jpg");
+  background-image: url("../../media/fraude/bg-sector0.jpg"), url("../media/fraude/bg-sector0.jpg"), url("media/fraude/bg-sector0.jpg");
 }
 #section0-fraud .fp-bg:before {
   content: '';
@@ -2602,7 +2661,7 @@ header.header-appear nav.header-light .logo .logo-light {
   padding-left: 1%;
   padding-bottom: 0.5%;
   margin-bottom: 0%;
-  margin-top: 20%;
+  margin-top: 23%;
 }
 #section1-fraud .testimonial-item-fraud-page-col-2 {
   max-width: 100%;
@@ -2614,7 +2673,7 @@ header.header-appear nav.header-light .logo .logo-light {
   padding-left: 1%;
   padding-bottom: 0.5%;
   margin-bottom: 0%;
-  margin-top: 27%;
+  margin-top: 30%;
 }
 
 #section2-fraud .container-fluid {
@@ -2697,7 +2756,7 @@ header.header-appear nav.header-light .logo .logo-light {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background-image: url("../media/importexport/bg-sector0.svg");
+  background-image: url("../../media/importexport/bg-sector0.svg"), url("../media/importexport/bg-sector0.svg"), url("media/importexport/bg-sector0.svg");
   background-size: cover;
 }
 #section0-io .font1 {
@@ -2932,7 +2991,7 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 
 #section0 .fp-bg {
-  background-image: url("../../../media/index/mapaindex.svg"), url("../../media/index/mapaindex.svg"), url("../media/index/mapaindex.svg"), url("./media/index/mapaindex.svg"), url("media/index/mapaindex.svg");
+  background-image: url("../../media/index/mapaindex.svg"), url("../media/index/mapaindex.svg"), url("media/index/mapaindex.svg");
 }
 #section0 .fp-bg:before {
   content: '';
@@ -3063,7 +3122,7 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 
 #section2 {
-  background-image: url("../media/index/bg-index-section2.jpg");
+  background-image: url("../../media/index/bg-index-section2.jpg"), url("../media/index/bg-index-section2.jpg"), url("media/index/bg-index-section2.jpg");
   background-size: cover;
   background-position: centered;
   background-repeat: no-repeat;
@@ -3146,7 +3205,7 @@ header.header-appear nav.header-light .logo .logo-light {
 #section2 .fraudMessage {
   width: auto;
   -ms-flex-item-align: end;
-  padding-top: 80%;
+  padding-top: 85vh;
 }
 #section2 .buttom-left.es {
   position: relative;
