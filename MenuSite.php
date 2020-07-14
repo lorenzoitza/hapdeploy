@@ -3,26 +3,17 @@ require_once 'PageSettings.php';
 
 $pathFileImage =  'media/Logo_HAP.png';
 $pathFileImageBlack =  'media/Logo_HAP_Dark.png';
-
 $OpacityEs = 'opacity1';
 $OpacityFr = 'opacity1';
 $OpacityEn = 'opacity1';
 
-$ZoomEs = 'imgZoom';
-$ZoomFr = 'imgZoom';
-$ZoomEn = 'imgZoom';
-
-
 function menuLangOpacity(){
     if ($_SESSION['varHTML_Lang'] == 'es'){
         $GLOBALS['OpacityEs'] = 'opacity03';
-        $GLOBALS['ZoomEs'] = " ";
     }elseif ($_SESSION['varHTML_Lang'] == 'fr') {
         $GLOBALS['OpacityFr'] = 'opacity03';
-        $GLOBALS['ZoomFr'] = " ";
     }elseif ($_SESSION['varHTML_Lang'] == 'en') {
         $GLOBALS['OpacityEn'] = 'opacity03';
-        $GLOBALS['ZoomEn'] = " ";
     }
     
 }
@@ -32,15 +23,36 @@ function LoadMenuHeader()
     menuLangOpacity();
 
     echo ' 
-        <nav class="navbar navbar-expand-md navbar-side d-flex justify-content-end">
+        <nav class="navbar navbar-expand-md d-flex justify-content-end fixed-top" >
             <div class="mr-auto">
                 <a id ="indexlogo_page" href="index.php" title="Logo" class="logo logoScrollTop">
                     <img id="indexlogo" src="' . $GLOBALS['pathFileImage'] . ' " class="logo-light default" alt="logo light">
                 </a>
-            </div>';
-            
-            headerflags();
-    echo '         </nav>
+            </div>
+            <div class="p-2 ">
+                <a href="#" class="d-inline-block translateFr '.$GLOBALS['OpacityFr'].' imgZoom clicLang" data-lang="fr"
+                    id="btn_ClicFr" >
+                    <img src="css/flags/fr.svg" id="imgFlagFr">
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="#" class="d-inline-block translateEn '. $GLOBALS['OpacityEn'].' imgZoom clicLang" data-lang="en"
+                    id="btn_ClicEn">
+                    <img src="css/flags/gb-nir.svg" id="imgFlagEn">
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="#" class="d-inline-block translateEs '. $GLOBALS['OpacityEs'] .' clicLang" data-lang="es"
+                    id="btn_ClicEs">
+                    <img src="css/flags/es.svg" id="imgFlagEs">
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+                <span class="menu-ico">'. file_get_contents("css/flags/menu.svg") . '</span>
+                </a>
+            </div>
+        </nav>
 
         <div class="side-menu">
             <div class="inner-wrapper FiraSansThinWhite05rem">
@@ -52,7 +64,6 @@ function LoadMenuHeader()
         </div>
         <a class="d-lg-none d-xl-none" id="close_side_menu" href="javascript:void(0);"></a>';
 }
-
 
 
 function LoadMenuHeaderBlack()
@@ -61,44 +72,27 @@ function LoadMenuHeaderBlack()
     menuLangOpacity();
 
     echo ' 
-        <nav class="navbar navbar-expand-md navbar-side d-flex justify-content-end navbar-dark">
+        <nav class="navbar navbar-expand-md d-flex justify-content-end navbar-dark fixed-top" >
         <div class="mr-auto">
             <a id ="indexlogo_page" href="index.php" title="Logo" class="logo logoScrollTop">
                 <img id="indexlogo" src="' . $GLOBALS['pathFileImageBlack'] . ' " class="logo-light default" alt="logo light">
             </a>
-        </div>';
-        
-        headerflags();
-
-    echo ' </nav>
-
-        <div class="side-menu">
-            <div class="inner-wrapper FiraSansThinWhite05rem">
-                <span class="btn-close d-lg-none d-xl-none" id="btn_sideNavClose"><i></i><i></i></span>';
-                menu_items();
-                menuFooter();
-                echo '
-
-            </div>
         </div>
-        <a class="d-lg-none d-xl-none" id="close_side_menu" href="javascript:void(0);"></a>';
-}
-
-
-function headerflags(){
-    echo '
-            <div class="p-2">
-                <a href="#" class="d-inline-block translateFr '.$GLOBALS['OpacityFr'].' '.$GLOBALS['ZoomFr'].' clicLang" data-lang="fr" id="btn_ClicFr" >
+        <div class="p-2 ">
+                <a href="#" class="d-inline-block translateFr '. $GLOBALS['OpacityFr'] .' imgZoom clicLang" data-lang="fr"
+                    id="btn_ClicFr" >
                     <img src="css/flags/fr.svg" id="imgFlagFr">
                 </a>
             </div>
             <div class="p-2">
-                <a href="#" class="d-inline-block translateEn '. $GLOBALS['OpacityEn'].' '.$GLOBALS['ZoomEn'].' clicLang" data-lang="en" id="btn_ClicEn">
+                <a href="#" class="d-inline-block translateEn '. $GLOBALS['OpacityEn'].' imgZoom clicLang" data-lang="en"
+                    id="btn_ClicEn">
                     <img src="css/flags/gb-nir.svg" id="imgFlagEn">
                 </a>
             </div>
             <div class="p-2">
-                <a href="#" class="d-inline-block translateEs '. $GLOBALS['OpacityEs'] .' '.$GLOBALS['ZoomEs'].' clicLang" data-lang="es" id="btn_ClicEs">
+                <a href="#" class="d-inline-block translateEs '. $GLOBALS['OpacityEs'] .' clicLang" data-lang="es"
+                    id="btn_ClicEs">
                     <img src="css/flags/es.svg" id="imgFlagEs">
                 </a>
             </div>
@@ -106,12 +100,26 @@ function headerflags(){
                 <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
                 <span class="menu-ico">'. file_get_contents("css/flags/menu.svg") . '</span>
                 </a>
-            </div>';
+            </div>
+        </nav>
 
+        <div class="side-menu">
+            <div class="inner-wrapper FiraSansThinWhite05rem">
+            <span class="btn-close d-lg-none d-xl-none" id="btn_sideNavClose"><i></i><i></i></span>';
+            menu_items();
+            menuFooter();
+            echo '
+
+            </div>
+        </div>
+        <a class="dd-lg-none d-xl-none" id="close_side_menu" href="javascript:void(0);"></a>';
 }
 
+
+
+
 function menu_items(){
-    echo '  <div class="es">
+    echo '<div class="es">
                 <nav class="side-nav w-100">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -164,44 +172,44 @@ function menu_items(){
                         </li>
                     </ul>
                 </nav>
-            </div>';
+                </div>';
 }
 
 function menuFooter(){
     echo '
     <div class="side-footer text-white w-100">
-        <ul class="social-icons-simple">
-            <li>
-                <a class="fx InUpMenu " href="' . $GLOBALS['facebookLink'] . '">
-                    <i class="socialicon">'. file_get_contents("css/iconos/fb-white.svg") .'</i>
-                </a>
-            </li>
-            <li>
-                <a class="fx InDownMenu " href=" ' . $GLOBALS['twitterLink'] . '">
-                    <i class="socialicon">'. file_get_contents("css/iconos/tw-white.svg") .'</i>
-                </a>                        
-            </li>
-            <li>
-                <a class="fx InUpMenu " href="' . $GLOBALS['instagramLink'] . '">
-                    <i class="socialicon">'. file_get_contents("css/iconos/ig-white.svg") .'</i>
-                </a>
-            </li>
-            <li>
-                <a class="fx InDownMenu "  data-toggle="modal"  data-target="' . $GLOBALS['mailLink'] . '">
-                    <i class="socialicon">'. file_get_contents("css/iconos/mail-white.svg") .'</i>
-                </a>
-            </li>
-            <li>
-                <a class="fx InUpMenu" " href="' . $GLOBALS['youTubeLink'] . '">
-                    <i class="socialicon">'. file_get_contents("css/iconos/yt-white.svg") .'</i>
-                </a>
-            </li>
-            <li>
-                <a class="fx InDownMenu" " href="' . $GLOBALS['linkedInLink'] . '">
-                    <i class="socialicon">'. file_get_contents("css/iconos/in-white.svg") .'</i>
-                </a>
-            </li>
-        </ul>
-        <p class="company-about fx InMenu ">' . $GLOBALS['aboutTxt'] . '</p>
-    </div>';
+                    <ul class="social-icons-simple">
+                        <li>
+                            <a class="fx InUpMenu " href="' . $GLOBALS['facebookLink'] . '">
+                                <i class="socialicon">'. file_get_contents("css/iconos/fb-white.svg") .'</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fx InDownMenu " href=" ' . $GLOBALS['twitterLink'] . '">
+                                <i class="socialicon">'. file_get_contents("css/iconos/tw-white.svg") .'</i>
+                            </a>                        
+                        </li>
+                        <li>
+                            <a class="fx InUpMenu " href="' . $GLOBALS['instagramLink'] . '">
+                                <i class="socialicon">'. file_get_contents("css/iconos/ig-white.svg") .'</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fx InDownMenu "  data-toggle="modal"  data-target="' . $GLOBALS['mailLink'] . '">
+                                <i class="socialicon">'. file_get_contents("css/iconos/mail-white.svg") .'</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fx InUpMenu" " href="' . $GLOBALS['youTubeLink'] . '">
+                                <i class="socialicon">'. file_get_contents("css/iconos/yt-white.svg") .'</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fx InDownMenu" " href="' . $GLOBALS['linkedInLink'] . '">
+                                <i class="socialicon">'. file_get_contents("css/iconos/in-white.svg") .'</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="company-about fx InMenu ">' . $GLOBALS['aboutTxt'] . '</p>
+                </div>';
 }

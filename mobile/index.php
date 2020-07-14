@@ -54,7 +54,7 @@ $detect = new Mobile_Detect;
 
 
 
-        <div class="section fp-noscroll" id="section1">
+        <div class="section" id="section1">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6 bg-light">
@@ -66,8 +66,7 @@ $detect = new Mobile_Detect;
                         </div>
                     </div>
                     <div class="col-sm-6 p-0 center-block justify-content-center align-items-center m-0 bgOrange">
-                        <img src="media/colmena.svg" class="hive fx fadeInRight" alt="">
-
+                    <img src="media/colmena.svg" class="hive fx fadeInRight" alt="hive">
                     </div>
 
                 </div>
@@ -76,7 +75,7 @@ $detect = new Mobile_Detect;
         </div>
 
 
-        <div class=" section fp-auto-height-responsive" id="section2">
+        <div class=" section" id="section2">
             <div class="fp-bg"></div>
             <div class="container-fluid">
 
@@ -93,6 +92,29 @@ $detect = new Mobile_Detect;
                         </div>
                     </div>
                 </div>
+                
+                <!-- Start landscape -->
+
+
+                <div class="row lscp">
+                    <div class="col-sm-6  ">
+                        <div class="index-consecuence-item">
+                        <?php fraudIndexEs();
+                            btnLeerMasIndexEs("fraude.php");  
+                            ?>
+                        </div>
+                    </div>
+                    <div class="col-sm-6  ">
+                        <div class="fraudMessage">
+                            <?php fraudMessageIndexEs(); 
+                            ?>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End landscape -->
+
+
             </div>
             <?php loadScrollDownWhite();
             ?>
@@ -101,12 +123,12 @@ $detect = new Mobile_Detect;
 
 
 
-        <!-- Start portrait Section3 - Section4 -->
 
         <div class="section fp-auto-height-responsive" id="section3">
             <div class="container-fluid bgCrema  ">
-
-                <div class="row ">
+                
+            
+            <div class="row prt">
                     <div class="col-sm-12 bgYellow ">
                         <div class="index-consecuence-item ">
                             <?php
@@ -115,17 +137,6 @@ $detect = new Mobile_Detect;
                             ?>
                         </div>
                     </div>
-
-                </div>
-                <?php loadScrollDownBlack();
-                ?>
-
-            </div>
-        </div>
-
-        <div class="section fp-auto-height-responsive" id="section4">
-            <div class="container-fluid bgCrema  ">
-                <div class="row ">
                     <div class="col-sm-12 center-block justify-content-center align-items-center ">
                         <div class="text-right pt-1 topmnews">
                             <p class="p-0 m-0 "><img src="media/news1.png" class="newspaper-padding fx fadeInRight1" alt=""> </p>
@@ -134,7 +145,31 @@ $detect = new Mobile_Detect;
                             <p class="p-0 m-0 bottomnews"><img src="media/news4.png" class="newspaper-padding fx fadeInRight4" alt=""> </p>
                         </div>
                     </div>
+
                 </div>
+
+           
+
+                <!-- Start landscape Section3 -->
+                <div class="row  lscp">
+                    <div class="col-sm-8 bgYellow ">
+                        <div class="index-consecuence-item ">
+                            <?php
+                            honeyFraudIndexEs();
+                            btnLeerMasIndexEs("importaciones_exportaciones.php");
+                            ?>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 center-block text-right justify-content-center align-items-center ">
+                        <div class="text-center item-newspaper">
+                            <p class="p-0 m-0"><img src="media/news1.png" class="newspaper-padding fx fadeInRight1" alt=""> </p>
+                            <p class="p-0 m-0"><img src="media/news2.png" class="newspaper-padding fx fadeInRight2" alt=""> </p>
+                            <p class="p-0 m-0"><img src="media/news3.png" class="newspaper-padding fx fadeInRight3" alt=""> </p>
+                            <p class="p-0 m-0"><img src="media/news4.png" class="newspaper-padding fx fadeInRight4" alt=""> </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End landscape -->
 
                 <?php loadFooter();
                 ?>
