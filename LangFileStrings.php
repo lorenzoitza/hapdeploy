@@ -61,17 +61,16 @@ function indexMain()
 {
     $imgTarroSrc = "media/tarro.png";
 
-    echo '
-        <h2 class="toph2index text-center es"><spam class="font1 es">Un tercio de la miel comerciada internacionalmente es</spam></h2>
-        <h2 class="toph2index text-center fr"><spam class="font1 fr">Un tiers du miel commercialisé à l&apos;international est</spam></h2>
-        <h2 class="toph2index text-center en"><spam class="font1 en">A third of internationally traded honey is</spam></h2>
-        <h2 class="text-center es"><spam class="font2 es">adulterada o 100% falsa</spam></h2>
-        <h2 class="text-center fr"><spam class="font2 fr">falsifié ou 100% faux</spam></h2>
-        <h2 class="text-center en"><spam class="font2 en">adulterated or 100% false</spam></h2>
-        <img src="' .  $imgTarroSrc . '" alt="" class="tarros">
-        <h2 class="text-center font1 es">¡Actuemos!</h2>
-        <h2 class="text-center font1 fr"> Agissons!</h2>
-        <h2 class="text-center font1 en">Let&apos;s act!</h2>';
+    echo '<h2 class="toph2index text-center es"><spam class="font1 es">Un tercio de la miel comerciada internacionalmente es</spam></h2>
+    <h2 class="toph2index text-center fr"><spam class="font1 fr">Un tiers du miel commercialisé à l&apos;international est</spam></h2>
+    <h2 class="toph2index text-center en"><spam class="font1 en">A third of internationally traded honey is</spam></h2>
+    <h2 class="text-center es"><spam class="font2 es">adulterada o 100% falsa</spam></h2>
+    <h2 class="text-center fr"><spam class="font2 fr">falsifié ou 100% faux</spam></h2>
+    <h2 class="text-center en"><spam class="font2 en">adulterated or 100% false</spam></h2>
+    <img src="' .  $imgTarroSrc . '" alt="" class="tarros">
+    <h2 class="text-center font1 es">¡Actuemos!</h2>
+    <h2 class="text-center font1 fr"> Agissons!</h2>
+    <h2 class="text-center font1 en">Let&apos;s act!</h2>';
 
         
 }
@@ -954,8 +953,6 @@ function lauderingImportExportRow1()
         A partir de ello, al mismo tiempo que las importaciones de miel china
         decrecían, las importaciones procedentes de otros páises, que históricamente
         no producían o exportaban grandes cantidades de miel, aumentaban anormalmente.
-        <br>
-        Una investigación federal reveló el esquema de
     </p>
 </div>
 
@@ -967,8 +964,6 @@ function lauderingImportExportRow1()
             En conséquence, alors que les importations de miel chinois ont diminué, les importations
             en provenance d&apos;autres pays, qui historiquement ne produisaient ni n&apos;exportaient de grandes
             quantités de miel, ont augmenté anormalement.
-            <br>
-            Une enquête fédérale a révélé le régime
         </p>
     </div>
 
@@ -980,8 +975,6 @@ function lauderingImportExportRow1()
             Thereafter, at the same time that Chinese honey imports decreased, imports from
             other countries, which historically did not produce or export large quantities
             of honey, increased abnormally.
-            <br>
-            A federal investigation revealed the scheme
         </p>
     </div>';
 }
@@ -990,7 +983,7 @@ function lauderingImportExportRow1()
 function lauderingImportExportRow2()
 {
     echo '<div class="padding-import-export es">
-    <p class="mb-6 font3 es">importación ilegal de miel china a través de países
+    <p class="mb-6 font3 es">Una investigación federal reveló el esquema de importación ilegal de miel china a través de países
         intermediarios (Rusia, India, Indonesia, Malasia, Mongolia, Filipinas, Corea
         del Sur, Taiwán y Tailandia) que permitió la evasión de 80 mdd de
         tarifa anti-dumping entre 2002 y 2008.
@@ -1003,7 +996,7 @@ function lauderingImportExportRow2()
 </div>
 
 <div class="padding-import-export fr">
-        <p class="mb-6 font3 fr">importation illégale de miel chinois via des pays intermédiaires
+        <p class="mb-6 font3 fr">Une enquête fédérale a révélé le régime importation illégale de miel chinois via des pays intermédiaires
             (Russie, Inde, Indonésie, Malaisie, Mongolie, Philippines, Corée du Sud, Taïwan et Thaïlande)
             qui ont permis l&apos;évasion de 80 millions de dollars de droits antidumping entre 2002 et 2008.
             <br>
@@ -1016,7 +1009,7 @@ function lauderingImportExportRow2()
     </div>
 
     <div class="padding-import-export en">
-        <p class="mb-6 font3 en">illegal importation of Chinese honey through intermediary
+        <p class="mb-6 font3 en">A federal investigation revealed the scheme illegal importation of Chinese honey through intermediary
             countries (Russia, India, Indonesia, Malaysia, Mongolia, the Philippines, South Korea,
             Taiwan and Thailand) that allowed the evasion of 80 million dollars of anti-dumping
             tariff between 2002 and 2008.
@@ -1029,6 +1022,76 @@ function lauderingImportExportRow2()
         </p>
     </div>';
 
+}
+
+
+function lauderingImportExportColumn()
+{
+    echo '<div class="padding-import-export es">
+    <p class="mb-6 font3 es">En el año 2000 E.U.A. impuso una tarifa anti-dumping
+        a la importación de miel china debido a prácticas comerciales desleales que
+        posibilitaban precios muy pordebajo del valor de mercado.
+        <br>
+        A partir de ello, al mismo tiempo que las importaciones de miel china
+        decrecían, las importaciones procedentes de otros páises, que históricamente
+        no producían o exportaban grandes cantidades de miel, aumentaban anormalmente.
+        <br>
+        Una investigación federal reveló el esquema de importación ilegal de miel china a través de países
+        intermediarios (Rusia, India, Indonesia, Malasia, Mongolia, Filipinas, Corea
+        del Sur, Taiwán y Tailandia) que permitió la evasión de 80 mdd de
+        tarifa anti-dumping entre 2002 y 2008.
+        <br> Como resultado de la investigación se acusó a seis compañías y once individuos
+        de conspiración global para la importación ilegal de miel china en E.U.A.
+        (Honey laundering).
+        <br> La tarifa anti-dumping se mantiene hasta la fecha.
+        <br><br><br><br>
+    </p>
+</div>
+
+<div class="padding-import-export fr">
+        <p class="mb-6 font3 fr">En l&apos;an 2000, E.U.A. a imposé un droit antidumping sur
+            l&apos;importation de miel chinois en raison de pratiques commerciales déloyales qui ont permis
+            que les prix soient bien inférieurs à la valeur marchande.
+            <br>
+            En conséquence, alors que les importations de miel chinois ont diminué, les importations
+            en provenance d&apos;autres pays, qui historiquement ne produisaient ni n&apos;exportaient de grandes
+            quantités de miel, ont augmenté anormalement.
+            <br>
+            Une enquête fédérale a révélé le régime importation illégale de miel chinois via des pays intermédiaires
+            (Russie, Inde, Indonésie, Malaisie, Mongolie, Philippines, Corée du Sud, Taïwan et Thaïlande)
+            qui ont permis l&apos;évasion de 80 millions de dollars de droits antidumping entre 2002 et 2008.
+            <br>
+            À la suite de l&apos;enquête, six entreprises et onze personnes ont été accusées
+            de complot mondial visant à importer illégalement du miel chinois aux États-Unis.
+            (Blanchiment du miel).
+            <br>
+            Le taux antidumping est maintenu à ce jour.
+            <br><br><br><br>
+        </p>
+    </div>
+
+    <div class="padding-import-export en">
+        <p class="mb-6 font3 en">In the year 2000 E.U.A. imposed an anti-dumping tariff
+            on the importation of Chinese honey due to unfair commercial practices that allowed
+            prices to be well below market value.
+            <br>
+            Thereafter, at the same time that Chinese honey imports decreased, imports from
+            other countries, which historically did not produce or export large quantities
+            of honey, increased abnormally.
+            <br>
+            A federal investigation revealed the scheme illegal importation of Chinese honey through intermediary
+            countries (Russia, India, Indonesia, Malaysia, Mongolia, the Philippines, South Korea,
+            Taiwan and Thailand) that allowed the evasion of 80 million dollars of anti-dumping
+            tariff between 2002 and 2008.
+            <br>
+            As a result of the investigation, six companies and eleven individuals were charged
+            with a global conspiracy to illegally import Chinese honey into the U.S.
+            (Honey laundering).
+            <br>
+            The anti-dumping rate is maintained to date.
+            <br><br><br><br>
+        </p>
+    </div>';
 }
 
 

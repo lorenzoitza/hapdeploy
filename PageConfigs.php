@@ -2,13 +2,14 @@
 require_once('PageSettings.php');
 
 $version = "?1.0";
-$cssAnimate = "css/animate.css"; // . $version;
-$cssBootstrapReboot = "css/bootstrap-reboot.min.css";// . $version;
-$cssBootstrapCSS = "css/bootstrap.css";// . $version;
-$cssFontAwesome = "css/font-awesome.min.css";// . $version;
-$cssStyleSheet = "css/style.css";// . $version;
-$cssMobile = "css/stylemobile.css";// . $version;
-$cssTablet = "css/styletablet.css";// . $version;
+$cssAnimate =           "css/animate.css"; // . $version;
+$cssBootstrapReboot =   "css/bootstrap-reboot.css";// . $version;
+$cssBootstrapCSS =      "css/bootstrap.css";// . $version;
+$cssFontAwesome =       "css/font-awesome.min.css";// . $version;
+$cssFullPage =          "css/fullpage.css";// . $version;
+$cssStyleSheet =        "css/style.css";// . $version;
+$cssMobile =            "css/stylemobile.css";// . $version;
+$cssTablet =            "css/styletablet.css";// . $version;
 
 // $version = "?3.2";
 // $cssAnimate = "css/animate.css" . $version;
@@ -68,11 +69,12 @@ function loadCssFiles()
 }
 function loadCssFilesMobile()
 {
-    echo '<script src="js/EventEmitter.min.js"></script>';
-    echo '<script src="js/lethargy.min.js"></script>';
-    echo '<script src="js/martscroll.min.js"></script>';
-    echo '<link rel="stylesheet" href="' . $GLOBALS['cssAnimate'] . '">';
-    echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapReboot'] . '">';
+    // echo '<script src="js/EventEmitter.min.js"></script>';
+    // echo '<script src="js/lethargy.min.js"></script>';
+    // echo '<script src="js/martscroll.min.js"></script>';
+    // echo '<link rel="stylesheet" href="' . $GLOBALS['cssAnimate'] . '">';
+    echo '<link rel="stylesheet" href="' . $GLOBALS['cssFullPage'] . '" />';
+    // echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapReboot'] . '">';
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapCSS'] . '">';
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssMobile'] . '">';
 
@@ -91,11 +93,11 @@ function loadCssFilesTable()
 
 function loadJsIndexFiles()
 {
-    echo '<script src="js/debounce.js"></script> ';
+    // echo '<script src="js/debounce.js"></script> ';
     echo '<script src="js/jquery-3.5.0.min.js "></script> ';
     echo '<script src="js/bootstrap.min.js "></script> ';
     echo '<script src="js/jquery.appear.js "></script> ';
-    echo '<script src="js/script.js "></script> ';
+    // echo '<script src="js/script.js "></script> ';
     echo '<script src="js/script-mobile.js "></script> ';
     echo '<script type="text/javascript" src="js/scrolloverflow.js"></script>';
     echo '<script type="text/javascript" src="js/fullpage.js"></script>';
@@ -111,14 +113,26 @@ function loadJsIndexFiles()
 
 
 }
+function loadJsMobile()
+{
+    // echo '<script src="js/debounce.js"></script> ';
+    echo '<script type="text/javascript" src="js/jquery-3.5.0.min.js "></script> ';
+    echo '<script type="text/javascript" src="js/bootstrap.min.js "></script> ';
+    echo '<script type="text/javascript" src="js/jquery.appear.js "></script> ';
+    echo '<script type="text/javascript" src="js/script-mobile.js "></script> ';
+    echo '<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script> ';
+    echo '<script type="text/javascript" src="js/fullpage.js"></script> ';
+    echo '<script type="text/javascript" src="js/fullpage.extensions.min.js"></script>';
+    echo '<script type="text/javascript" src="js/fullpage.parallax.min.js"></script> ';
+}
 
 
 function loadFooter()
 {
     echo '
-        <div class="row">
-            <div class="col-md-12 text-center  bg-import-export footerpage  ">
-                <div class="footer-social ">
+        <div class="row p-0 m-0">
+            <div class="col-md-12 text-center  bg-import-export footerpage p-0 m-0 ">
+                <div class="footer-social p-0 m-0">
                     <ul class="list-unstyled ">
                         <li>
                             <a class="animated  fadeInUp " href="' . $GLOBALS['facebookLink'] . '">

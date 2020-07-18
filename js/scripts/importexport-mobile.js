@@ -11,7 +11,7 @@ $(document).ready(function() {
         scrollingSpeed: 730,
         autoScrolling: true,
         fitToSection: false,
-        fitToSectionDelay: 720,
+        fitToSectionDelay: 1000,
         scrollBar: false,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
@@ -30,7 +30,7 @@ $(document).ready(function() {
         scrollOverflow: true,
         scrollOverflowReset: true,
         scrollOverflowOptions: null,
-        touchSensitivity: 25,
+        touchSensitivity: 5,
         bigSectionsDestination: 'top',
 
         //Accesibilidad

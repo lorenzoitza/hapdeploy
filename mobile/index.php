@@ -78,9 +78,9 @@ $detect = new Mobile_Detect;
         <div class=" section" id="section2">
             <div class="fp-bg"></div>
             <div class="container-fluid">
+                <div class="row ">
 
-                <div class="row prt">
-                    <div class="col-sm-12 ">
+                    <div class="col-sm-12 prt">
                         <div class="index-consecuence-item">
                             <?php fraudIndexEs();
                             ?>
@@ -91,30 +91,25 @@ $detect = new Mobile_Detect;
                             ?>
                         </div>
                     </div>
-                </div>
                 
-                <!-- Start landscape -->
+                    <!-- Start landscape -->
 
-
-                <div class="row lscp">
-                    <div class="col-sm-6  ">
+                    <div class="col-sm-6  lscp">
                         <div class="index-consecuence-item">
                         <?php fraudIndexEs();
                             btnLeerMasIndexEs("fraude.php");  
                             ?>
                         </div>
                     </div>
-                    <div class="col-sm-6  ">
+                    <div class="col-sm-6  lscp">
                         <div class="fraudMessage">
                             <?php fraudMessageIndexEs(); 
                             ?>
                         </div>
                     </div>
+                    
                 </div>
-
                 <!-- End landscape -->
-
-
             </div>
             <?php loadScrollDownWhite();
             ?>
@@ -128,8 +123,8 @@ $detect = new Mobile_Detect;
             <div class="container-fluid bgCrema  ">
                 
             
-            <div class="row prt">
-                    <div class="col-sm-12 bgYellow ">
+            <div class="row">
+                    <div class="col-sm-12 bgYellow prt">
                         <div class="index-consecuence-item ">
                             <?php
                             honeyFraudIndexEs();
@@ -137,22 +132,21 @@ $detect = new Mobile_Detect;
                             ?>
                         </div>
                     </div>
-                    <div class="col-sm-12 center-block justify-content-center align-items-center ">
-                        <div class="text-right pt-1 topmnews">
-                            <p class="p-0 m-0 "><img src="media/news1.png" class="newspaper-padding fx fadeInRight1" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/news2.png" class="newspaper-padding fx fadeInRight2" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/news3.png" class="newspaper-padding fx fadeInRight3" alt=""> </p>
-                            <p class="p-0 m-0 bottomnews"><img src="media/news4.png" class="newspaper-padding fx fadeInRight4" alt=""> </p>
+                    <!-- <div class="col-sm-12 center-block justify-content-center align-items-center prt">
+                        <div class="text-right item-newspaper">
+                        <div class="col-sm-6">
+                            <img src="media/news1.png" class="newspaper-padding-left fx fadeInRight1" alt="">
+                            <img src="media/news2.png" class="newspaper-padding-left fx fadeInRight2" alt="">
+                            </div>
+                        <div class="col-sm-6">
+                            <img src="media/news3.png" class="newspaper-padding-right fx fadeInRight3" alt=""> 
+                            <img src="media/news4.png" class="newspaper-padding-right bottomnews paper-padding fx fadeInRight4" alt=""> 
+                            </div>
                         </div>
-                    </div>
-
-                </div>
-
-           
+                    </div>            -->
 
                 <!-- Start landscape Section3 -->
-                <div class="row  lscp">
-                    <div class="col-sm-8 bgYellow ">
+                    <div class="col-sm-8 bgYellow lscp">
                         <div class="index-consecuence-item ">
                             <?php
                             honeyFraudIndexEs();
@@ -160,20 +154,18 @@ $detect = new Mobile_Detect;
                             ?>
                         </div>
                     </div>
-                    <div class="col-sm-4 center-block text-right justify-content-center align-items-center ">
+                    <div class="col-sm-4 center-block text-right justify-content-center align-items-center lscp">
                         <div class="text-center item-newspaper">
-                            <p class="p-0 m-0"><img src="media/news1.png" class="newspaper-padding fx fadeInRight1" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/news2.png" class="newspaper-padding fx fadeInRight2" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/news3.png" class="newspaper-padding fx fadeInRight3" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/news4.png" class="newspaper-padding fx fadeInRight4" alt=""> </p>
+                            <img src="media/news1.png" class="newspaper-padding-1 fx fadeInRight1" alt="">
+                            <img src="media/news2.png" class="newspaper-padding fx fadeInRight2" alt="">
+                            <img src="media/news3.png" class="newspaper-padding fx fadeInRight3" alt="">
+                            <img src="media/news4.png" class="newspaper-padding fx fadeInRight4" alt="">
                         </div>
                     </div>
                 </div>
-                <!-- End landscape -->
-
-                <?php loadFooter();
-                ?>
+                <!-- End landscape -->                
             </div>
+            <?php loadFooter(); ?>
         </div>
 
         <!-- End portrait Section3 - Section4 -->
@@ -182,9 +174,10 @@ $detect = new Mobile_Detect;
 
 
 
-
+        
     </div>
-    <?php loadJsIndexFiles(); ?> <script src="js/scripts/index-mobile.js ">
+    <?php loadJsMobile(); ?> 
+    <script src="js/scripts/index-mobile.js ">
     </script>
 </body>
 

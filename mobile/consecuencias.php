@@ -56,54 +56,32 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         </div>
 
 
-        <div class="section  fp-auto-height-responsive" id="section1-consecuence">
+        <div class="section " id="section1-consecuence">
             <div class="container-fluid">
 
                 <div class="row">
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                         <div class="testimonial-item-consecuence-page">
                             <?php
                             lowPricesAffectationsRow1();
-                            ?>
-                        </div>
-                    </div>
-                </div>
-                <?php loadScrollDownBlack();
-                ?>
-
-            </div>
-        </div>
-
-        <div class="section  fp-auto-height-responsive" id="section2-consecuence">
-            <div class="container-fluid">
-
-                <div class="row">
-
-                    <div class="col-sm-6">
-                        <div class="testimonial-item-consecuence-page">
-                            <?php
                             lowPricesAffectationsRow2();
                             ?>
                         </div>
                     </div>
                 </div>
-                <?php loadScrollDownBlack();
+                <?php //loadScrollDownBlack();
                 ?>
 
             </div>
         </div>
 
+        <div class="section prt" id="section1-consecuence-2">
+            <div class="container-fluid prt">
 
-        <div class="section  fp-auto-height-responsive" id="section3-consecuence">
-            <div class="container-fluid">
-                <div class="row">
-
+                <div class="row prt">
                     <div class="col-sm-12 bgYellow">
-                        <div class="testimonial-item22">
-
-                            <div class="row">
-
+                        <div class="testimonial-item2">
                                 <div class="col-sm-12 tabletconsecuencetext">
                                     <p class="text-consecuence font3 es">Precio de importación de la miel de origen chino como porcentaje del promedio del precio de la miel importada del resto del mundo</p>
                                     <p class="text-consecuence font3 fr">Prix ​​à l&apos;importation du miel d&apos;origine chinoise en pourcentage du prix moyen du miel importé du reste du monde</p>
@@ -115,8 +93,6 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                                     <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
 
                                 </div>
-                            </div>
-
                         </div>
                     </div>
 
@@ -128,25 +104,22 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             honeySpendsAffectationsEn();
                             ?>
                         </div>
-                        <?php loadScrollDownBlack();
-                        ?>
+
                     </div>
-
-
                 </div>
+                <?php loadScrollDownBlack();
+                ?>
+
             </div>
         </div>
 
-
-
-
-
-        <div class="section  fp-auto-height-responsive" id="section4-consecuence">
-
+         <div class="section" id="section2-consecuence">
+            
             <div class="container-fluid">
                 <div class="row bgGraph bg-dark">
-
-                    <div class="col-sm-12 sector">
+                    <!-- Start portrait -->
+                    <!-- <id="section4-consecuence"> -->
+                    <div class="col-sm-12 sector prt">
 
                         <div class="testimonial-item-graph item">
                             <img src="media/consecuencias/Sector3_1Page2-fr.svg" class="fr fxInDownC--delete " alt="">
@@ -155,7 +128,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
 
                     </div>
-                    <div class="col-sm-12 sector">
+                    <div class="col-sm-12 sector prt">
 
                         <div class="testimonial-item-graph graph1 item">
                             <img src="media/consecuencias/Sector3_2Page2-fr.svg" class="fr fxInUp--deleteC" alt="">
@@ -164,7 +137,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
 
                     </div>
-                    <div class="col-sm-12 sector">
+                    <div class="col-sm-12 sector prt">
 
                         <div class="testimonial-item-grap2 graph2 item ">
                             <img src="media/consecuencias/graph-3-section2-fr.svg" class="fr fxInLeftC--delete " alt="">
@@ -173,42 +146,61 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
 
                     </div>
+                    <!-- End Portrait -->
+                    
+                    <!-- Start Landscape -->
+                    <div class="col-sm-6">
+
+                        <div class="testimonial-item-graph lscp">
+                            <img src="media/consecuencias/Sector3_1Page2-fr.svg" class="fr fxInDownC-delete " alt="">
+                            <img src="media/consecuencias/Sector3_1Page2-en.svg" class="en fxInDownC-delete " alt="">
+                            <img src="media/consecuencias/Sector3_1Page2-es.svg" class="es fxInDownC-delete " alt="">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+
+                        <div class="testimonial-item-graph graph1 lscp">
+                            <img src="media/consecuencias/Sector3_2Page2-fr.svg" class="fr fxInUpC-delete" alt="">
+                            <img src="media/consecuencias/Sector3_2Page2-en.svg" class="en fxInUpC-delete" alt="">
+                            <img src="media/consecuencias/Sector3_2Page2-es.svg" class="es fxInUpC-delete" alt="">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 sector">
+
+                        <div class="testimonial-item-grap2 graph2 lscp">
+                            <img src="media/consecuencias/graph-3-section2-fr.svg" class="fr fxInLeftC-delete " alt="">
+                            <img src="media/consecuencias/graph-3-section2-en.svg" class="en fxInLeftC-delete " alt="">
+                            <img src="media/consecuencias/graph-3-section2-es.svg" class="es fxInLeftC-delete " alt="">
+                        </div>
+
+                    </div>
+
+                    <!-- End Landscape -->
 
                 </div>
 
-                <?php loadScrollDownWhite();
-                ?>
+                <?php loadScrollDownWhite(); ?>
 
             </div>
 
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="section fp-auto-height-responsive" id="section5-consecuence">
-
+        
+        <div class="section" id="section3-consecuence">
             <div class="container-fluid">
                 <div class="row ">
-
-                    <div class="col-sm-12  section3bg">
-                        <div class="item-consecuenciasbeekeeper">
+                    <!-- Start Portrait -->
+                    <!-- id="section5-consecuence"> -->
+                    <div class="col-sm-12 section3bg">
+                        <div class="item-consecuenciasbeekeeper prt">
 
                         </div>
                     </div>
 
-                    <div class="col-sm-12  p-0 bgOrange">
+                    <div class="col-sm-12 bgOrange prt">
                         <div class="item-consecuencias">
                             <?php
                             txtGuardiansEs();
@@ -217,7 +209,24 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             ?>
                         </div>
                     </div>
+                    <!-- End Portrait -->
+                    <!-- Start Landscape -->
+                    <div class="col-sm-4 section3bg lscp">
+                        <div class="item-consecuenciasbeekeeper">
 
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 bgOrange lscp">
+                        <div class="item-consecuencias">
+                            <?php
+                            txtGuardiansEs();
+                            txtGuardiansFr();
+                            txtGuardiansEn();
+                            ?>
+                        </div>
+                    </div>
+                    <!-- End Landscape -->
                 </div>
             </div>
             <?php loadFooter();
@@ -225,10 +234,8 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
         </div>
 
-
-
     </div>
-    <?php loadJsIndexFiles(); ?>
+    <?php loadJsMobile(); ?>
     <script src="js/scripts/consecuencias-mobile.js "></script>
 </body>
 

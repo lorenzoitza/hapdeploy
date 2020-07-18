@@ -14,8 +14,8 @@ $(document).ready(function() {
         css3: true,
         scrollingSpeed: 730,
         autoScrolling: true,
-        fitToSection: true,
-        fitToSectionDelay: 720,
+        fitToSection: false,
+        fitToSectionDelay: 1000,
         scrollBar: false,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
@@ -34,7 +34,7 @@ $(document).ready(function() {
         scrollOverflow: true,
         scrollOverflowReset: true,
         scrollOverflowOptions: null,
-        touchSensitivity: 25,
+        touchSensitivity: 5,
         bigSectionsDestination: 'top',
 
         //Accesibilidad
@@ -52,6 +52,7 @@ $(document).ready(function() {
 
 
         lazyLoading: true,
+        slideSelector: '.slide',
 
         //events
         onLeave: function(index, nextIndex, direction) {

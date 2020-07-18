@@ -2,8 +2,7 @@ $(document).ready(function() {
 
 
     $('#fullpage').fullpage({
-        // licenseKey: 'F33D191A-30EF449F-B9750C26-DE7A9366',
-        licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+        licenseKey: 'F33D191A-30EF449F-B9750C26-DE7A9366',
         lockAnchors: true,
         anchors: ['section0', 'section1', 'section2', 'section3'],
 
@@ -48,7 +47,7 @@ $(document).ready(function() {
         sectionSelector: '.section',
 
 
-        lazyLoading: true,
+        lazyLoading: false,
 
         //events
         onLeave: function(index, nextIndex, direction) {
