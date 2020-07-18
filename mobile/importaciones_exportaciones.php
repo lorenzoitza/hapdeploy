@@ -81,7 +81,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
         </div>
 
-        <div class="section" id="section1-io-2">
+        <div class="section fp-noscroll" id="section1-io-2">
             <div class="container-fluid">
                 <div class="row bgOrange ">
                     <div class="col-sm-12 prt">
@@ -128,7 +128,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         </div>
 
 
-        <div class="section  fp-auto-height-responsive" id="section2-io">
+        <div class="section  fp-noscroll" id="section2-io">
 
             <div class="container-fluid bg-import-export">
 

@@ -56,7 +56,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         </div>
 
 
-        <div class="section " id="section1-consecuence">
+        <div class="section fp-auto-height" id="section1-consecuence">
             <div class="container-fluid">
 
                 <div class="row">
@@ -76,7 +76,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
             </div>
         </div>
 
-        <div class="section prt" id="section1-consecuence-2">
+        <div class="section prt fp-noscroll" id="section1-consecuence-2">
             <div class="container-fluid prt">
 
                 <div class="row prt">
@@ -113,7 +113,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
             </div>
         </div>
 
-         <div class="section" id="section2-consecuence">
+         <div class="section fp-noscroll" id="section2-consecuence">
             
             <div class="container-fluid">
                 <div class="row bgGraph bg-dark">
@@ -189,7 +189,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
 
         
-        <div class="section" id="section3-consecuence">
+        <div class="section fp-noscroll" id="section3-consecuence">
             <div class="container-fluid">
                 <div class="row ">
                     <!-- Start Portrait -->

@@ -56,7 +56,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
 
         <div class="section fp-auto-height" id="section1-fraud">
-            <div class="container-fluid scrollable-content">
+            <div class="container-fluid">
                 <!-- start portrait -->
                 <div class="row bg-light prt ">
                     <div class="col-sm-12 ">
@@ -76,7 +76,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         </div>
 
 
-        <div class="section" id="section2-fraud">
+        <div class="section fp-noscroll" id="section2-fraud">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 bg-import-export">
@@ -96,7 +96,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
 
 
-        <div class="section" id="section2-fraud-2">
+        <div class="section fp-noscroll" id="section2-fraud-2">
             <div class="container-fluid">
 
 

@@ -66,7 +66,7 @@ $detect = new Mobile_Detect;
                         </div>
                     </div>
                     <div class="col-sm-6 p-0 center-block justify-content-center align-items-center m-0 bgOrange">
-                    <img src="media/colmena.svg" class="hive fx fadeInRight" alt="hive">
+                        <img src="media/colmena.svg" class="hive fx fadeInRight" alt="hive">
                     </div>
 
                 </div>
@@ -91,28 +91,28 @@ $detect = new Mobile_Detect;
                             ?>
                         </div>
                     </div>
-                
+
                     <!-- Start landscape -->
 
                     <div class="col-sm-6  lscp">
                         <div class="index-consecuence-item">
-                        <?php fraudIndexEs();
-                            btnLeerMasIndexEs("fraude.php");  
+                            <?php fraudIndexEs();
+                            btnLeerMasIndexEs("fraude.php");
                             ?>
                         </div>
                     </div>
                     <div class="col-sm-6  lscp">
                         <div class="fraudMessage">
-                            <?php fraudMessageIndexEs(); 
+                            <?php fraudMessageIndexEs();
                             ?>
                         </div>
                     </div>
-                    
+                    <?php loadScrollDownWhite(); ?>
                 </div>
                 <!-- End landscape -->
             </div>
-            <?php loadScrollDownWhite();
-            ?>
+
+
         </div>
 
 
@@ -121,9 +121,9 @@ $detect = new Mobile_Detect;
 
         <div class="section fp-auto-height-responsive" id="section3">
             <div class="container-fluid bgCrema  ">
-                
-            
-            <div class="row">
+
+
+                <div class="row">
                     <div class="col-sm-12 bgYellow prt">
                         <div class="index-consecuence-item ">
                             <?php
@@ -132,20 +132,8 @@ $detect = new Mobile_Detect;
                             ?>
                         </div>
                     </div>
-                    <!-- <div class="col-sm-12 center-block justify-content-center align-items-center prt">
-                        <div class="text-right item-newspaper">
-                        <div class="col-sm-6">
-                            <img src="media/news1.png" class="newspaper-padding-left fx fadeInRight1" alt="">
-                            <img src="media/news2.png" class="newspaper-padding-left fx fadeInRight2" alt="">
-                            </div>
-                        <div class="col-sm-6">
-                            <img src="media/news3.png" class="newspaper-padding-right fx fadeInRight3" alt=""> 
-                            <img src="media/news4.png" class="newspaper-padding-right bottomnews paper-padding fx fadeInRight4" alt=""> 
-                            </div>
-                        </div>
-                    </div>            -->
 
-                <!-- Start landscape Section3 -->
+                    <!-- Start landscape Section3 -->
                     <div class="col-sm-8 bgYellow lscp">
                         <div class="index-consecuence-item ">
                             <?php
@@ -163,20 +151,40 @@ $detect = new Mobile_Detect;
                         </div>
                     </div>
                 </div>
-                <!-- End landscape -->                
+                <!-- End landscape -->
+                <?php //loadScrollDownBlack(); ?>
             </div>
-            <?php loadFooter(); ?>
+                                                                                                    
         </div>
 
+        <!-- End portrait Section3 - Section4 -->
+
+        <!-- <div class="section prt" id="section3-2">
+            <div class="container-fluid bgCrema  prt">
+                <div class="row prt">
+
+                    <div class="col-sm-12 center-block justify-content-center align-items-center prt">
+                        <div class="text-center item-newspaper prt">
+                            <img src="media/news1.png" class="prt newspaper-padding fx fadeInRight1" alt="">
+                            <img src="media/news2.png" class="prt newspaper-padding fx fadeInRight2" alt="">
+                            <img src="media/news3.png" class="prt newspaper-padding fx fadeInRight3" alt="">
+                            <img src="media/news4.png" class="prt newspaper-padding bottomnews paper-padding fx fadeInRight4" alt="">
+                        </div>
+                    </div>
+                </div> 
+                
+            </div>
+            <?php //loadFooter(); ?>
+        </div> -->
         <!-- End portrait Section3 - Section4 -->
 
 
 
 
 
-        
+
     </div>
-    <?php loadJsMobile(); ?> 
+    <?php loadJsMobile(); ?>
     <script src="js/scripts/index-mobile.js ">
     </script>
 </body>
