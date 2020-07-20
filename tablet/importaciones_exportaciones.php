@@ -26,7 +26,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         <?php echo $TittlePageEs; ?>
     </title>
     <link rel="icon" href="media/favicon.ico">
-    <?php loadCssFilesMobile(); ?>
+    <?php loadCssFilesTable(); ?>
 </head>
 
 <body>
@@ -37,27 +37,27 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
     <div id="fullpage">
 
-        <div class="section" id="section0-io">
+        <div class="section fp-noscroll" id="section0-io">
             <div class="fp-bg"></div>
             <div class="fullscreen">
-                <div class="row align-items-center ">
-                    <div class="col-12 col-center text-center">
-                        <?php
-                        importExportEs();
-                        importExportFr();
-                        importExportEn();
-                        ?>
-                    </div>
+                <div class="content">
+                    <?php
+                    importExportEs();
+                    importExportFr();
+                    importExportEn();
+                    ?>
                 </div>
             </div>
-            <?php loadScrollDownBlack(); ?>
+            <?php loadScrollDownWhite(); ?>
         </div>
 
-        <div class="section  fp-auto-height-responsive" id="section1-io">
+
+
+
+        <div class="section" id="section1-io">
             <div class="container-fluid">
                 <div class="row">
-
-                    <div class="col-sm-12">
+                    <div class="col-md-12 col-md-8">
 
                         <div class="laudering">
                             <?php
@@ -67,93 +67,102 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             ?>
                         </div>
                         <?php
-                        lauderingImportExportRow1()
-                        ?>
-                    </div>
-                </div>
-
-                <?php loadScrollDownBlack();
-                ?>
-
-            </div>
-
-        </div>
-
-        <div class="section  fp-auto-height-responsive" id="section2-io">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <?php
+                        lauderingImportExportRow1();
                         lauderingImportExportRow2();
                         ?>
                     </div>
+                    <div class="col-md-4 bgOrange   prt">
+                        <div class="col-md-6 prt">
+                            <div class="message-import-export-sector2">
+                                <?php
+                                messageImportExportEs();
+                                messageImportExportFr();
+                                messageImportExportEn();
+                                ?>
+                            </div>
+                        </div>
+                        <div class="col-md-6 prt">
+                            <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
+                            <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
+                            <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 bgOrange  lscp">
+                        <div class="col-md-12  lscp">
+                            <div class="message-sector2 ">
+                                <?php
+                                messageImportExportEs();
+                                messageImportExportFr();
+                                messageImportExportEn();
+                                ?>
+                            </div>
+                        </div>
+                        <div class="col-md-12 lscp">
+                            <div class="message-sector2 ">
+                                <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
+                                <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
+                                <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
+                <!-- Start Landscape -->
+                <!-- End Landscape -->
             </div>
             <?php loadScrollDownBlack(); ?>
         </div>
 
-        <div class="section  fp-auto-height-responsive" id="section3-io">
-            <div class="container-fluid">
-                <div class="row bgOrange ">
-                    <div class="col-sm-12 message-import-export-sector2">
-                        <?php
-                        messageImportExportEs();
-                        messageImportExportFr();
-                        messageImportExportEn();
-                        ?>
-                    </div>
-                    <div class="col-sm-12">
-                        <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
-                        <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
-                        <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
-                    </div>
 
-                </div>
+        <div class="section" id="section2-io">
 
-            </div>
-            <?php loadScrollDownBlack();
-            ?>
+            <div class="container-fluid bg-import-export">
 
-        </div>
-
-
-
-
-
-
-        <div class="section  fp-auto-height-responsive" id="section4-io">
-
-            <div class="fullscren bg-import-export">
                 <div class="row">
-                    <div class="col-12  text-left fx-delete  fadeInDownBig-delete ">
+                    <div class="col-sm-12  text-left fx-delete  fadeInDownBig-delete ">
                         <?php
                         impactImportExportEs();
                         impactImportExportFr();
                         impactImportExportEn();
                         ?>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <div class="testimonial-item-graph">
+                    <div class="col-sm-12 text-center prt">
+                        <div class="testimonial-item-graph-v">
                             <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
                             <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
                             <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
                         </div>
                     </div>
-                    <div class="col-sm-12 text-center">
-                        <div class="testimonial-item-graph-2 ">
+                    <div class="col-sm-12 text-center prt">
+                        <div class="testimonial-item-graph-2-v ">
+                            <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
+                            <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
+                            <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
+                        </div>
+                    </div>
+
+                    <!-- Start Landscape -->
+                    <div class="col-sm-6 text-center lscp">
+                        <div class="testimonial-item-graph-h">
+                            <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
+                            <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
+                            <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 text-center lscp">
+                        <div class="testimonial-item-graph-2-h ">
                             <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
                             <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
                             <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
                         </div>
                     </div>
                 </div>
+                <!-- End Landscape -->
 
             </div>
-            <?php loadFooter();
-            ?>
+
+            <?php loadFooter(); ?>
         </div>
 
 
@@ -161,7 +170,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
     </div>
     <?php loadJsIndexFiles(); ?>
-    <script src="js/scripts/importexport-mobile.js "></script>
+    <script src="js/scripts/importexport-tablet.js "></script>
 </body>
 
 </html>
