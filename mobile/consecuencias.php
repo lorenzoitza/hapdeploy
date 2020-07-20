@@ -37,30 +37,24 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
     <div id="fullpage">
 
-        <div class="section" id="section0-consecuence">
+        <div class="section fp-noscroll" id="section0-consecuence">
             <div class="fp-bg"></div>
-            <div class="fullscreen center-block">
-                <div class="row align-items-center">
-                    <div class="col-xs-12 center-col bg-darky text-center">
-                        <?php
+            <div class="fullscreen">
+                <div class="bg-darky">
+                <?php
                         affectationsEs();
                         affectationsFr();
                         affectationsEn();
                         ?>
-                    </div>
                 </div>
             </div>
-
             <?php loadScrollDownWhite(); ?>
-
         </div>
 
 
-        <div class="section fp-auto-height" id="section1-consecuence">
+        <div class="section" id="section1-consecuence">
             <div class="container-fluid">
-
                 <div class="row">
-
                     <div class="col-sm-12">
                         <div class="testimonial-item-consecuence-page">
                             <?php
@@ -70,29 +64,25 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                     </div>
                 </div>
-                <?php //loadScrollDownBlack();
-                ?>
-
             </div>
+            <?php loadScrollDownBlack(); ?>
         </div>
 
-        <div class="section prt fp-noscroll" id="section1-consecuence-2">
-            <div class="container-fluid prt">
-
-                <div class="row prt">
+        <div class="section fp-noscroll" id="section1-consecuence-2">
+            <div class="container-fluid">
+                <div class="row">
                     <div class="col-sm-12 bgYellow">
                         <div class="testimonial-item2">
-                                <div class="col-sm-12 tabletconsecuencetext">
-                                    <p class="text-consecuence font3 es">Precio de importación de la miel de origen chino como porcentaje del promedio del precio de la miel importada del resto del mundo</p>
-                                    <p class="text-consecuence font3 fr">Prix ​​à l&apos;importation du miel d&apos;origine chinoise en pourcentage du prix moyen du miel importé du reste du monde</p>
-                                    <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
-                                </div>
-                                <div class="col-sm-12  img-consecuence">
-                                    <img src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
-                                    <img src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
-                                    <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
-
-                                </div>
+                            <div class="col-sm-12 tabletconsecuencetext">
+                                <p class="text-consecuence font3 es">Precio de importación de la miel de origen chino como porcentaje del promedio del precio de la miel importada del resto del mundo</p>
+                                <p class="text-consecuence font3 fr">Prix ​​à l&apos;importation du miel d&apos;origine chinoise en pourcentage du prix moyen du miel importé du reste du monde</p>
+                                <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
+                            </div>
+                            <div class="col-sm-12  img-consecuence">
+                                <img src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
+                                <img src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
+                                <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
+                            </div>
                         </div>
                     </div>
 
@@ -104,17 +94,15 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             honeySpendsAffectationsEn();
                             ?>
                         </div>
-
                     </div>
                 </div>
-                <?php loadScrollDownBlack();
-                ?>
-
+                
             </div>
+            <?php loadScrollDownBlack(); ?>
         </div>
 
-         <div class="section fp-noscroll" id="section2-consecuence">
-            
+        <div class="section fp-noscroll" id="section2-consecuence">
+
             <div class="container-fluid">
                 <div class="row bgGraph bg-dark">
                     <!-- Start portrait -->
@@ -147,7 +135,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
                     </div>
                     <!-- End Portrait -->
-                    
+
                     <!-- Start Landscape -->
                     <div class="col-sm-6">
 
@@ -181,21 +169,23 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
                 </div>
 
-                <?php loadScrollDownWhite(); ?>
+                
 
             </div>
+            <?php loadScrollDownWhite(); ?>
 
         </div>
 
 
-        
+
         <div class="section fp-noscroll" id="section3-consecuence">
-            <div class="container-fluid">
-                <div class="row ">
+            <div class="container-fluid ">
+                <div class="row bgOrange ">
                     <!-- Start Portrait -->
                     <!-- id="section5-consecuence"> -->
-                    <div class="col-sm-12 section3bg">
+                    <div class="col-sm-12 ">
                         <div class="item-consecuenciasbeekeeper prt">
+                        <img src="media/consecuencias/bg-sector3V.jpg" alt="">
 
                         </div>
                     </div>
@@ -229,11 +219,9 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- End Landscape -->
                 </div>
             </div>
-            <?php loadFooter();
-            ?>
-
+            <?php loadFooter(); ?>
         </div>
-
+       
     </div>
     <?php loadJsMobile(); ?>
     <script src="js/scripts/consecuencias-mobile.js "></script>

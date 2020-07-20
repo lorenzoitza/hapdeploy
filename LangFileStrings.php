@@ -359,8 +359,9 @@ function txtGuardiansEs()
     echo '<h2 class="font1 mb-5 es">Apicultores: guardianes de la biodiversidad.</h2>
             <p class="font2 es">Una serie de artículos científicos
                 demuestran que los apicultores se han convertido en actores clave para la
-                preservación del medio ambiente y la biodiversidad.
-                <br> La apicultura preserva la naturaleza, la agricultura, mantiene los medios de vida
+                preservación del medio ambiente y la biodiversidad.</p>
+                </p>
+                <p class="font2 es">ULa apicultura preserva la naturaleza, la agricultura, mantiene los medios de vida
                 y proporciona seguridad alimentaria. A pesar de estas importantes funciones de la
                 apicultura, los potenciales de la apicultura aparentemente no se explotan en las
                 actividades forestales. Los productos de abejas  proporcionan alimentos saludables y
@@ -373,8 +374,9 @@ function txtGuardiansFr()
     echo '<h2 class="font1 mb-5 fr">Apiculteurs: gardiens de la biodiversité.</h2>
             <p class="font2 fr">Une série d&apos;articles scientifiques démontrent 
             que les apiculteurs sont devenus des acteurs clés de la préservation de 
-            l&apos;environnement et de la biodiversité.
-                <br> L&apos;apiculture préserve la nature, l&apos;agriculture, maintient les 
+            l&apos;environnement et de la biodiversité.</p>
+
+                <p class="font2 fr">L&apos;apiculture préserve la nature, l&apos;agriculture, maintient les 
                 moyens de subsistance et assure la sécurité alimentaire. Malgré ces fonctions 
                 importantes de l&apos;apiculture, les potentiels apicoles ne sont apparemment 
                 pas exploités dans les activités forestières. Les produits apicoles fournissent 
@@ -387,7 +389,8 @@ function txtGuardiansEn()
     echo '<h2 class="font1 mb-5 en">Beekeepers: guardians of biodiversity.</h2>
             <p class="font2 en">A series of scientific articles demonstrate that beekeepers 
                 have become key actors in preserving the environment and biodiversity.
-                <br> Beekeeping preserves nature, agriculture, maintains livelihoods and provides food 
+                
+                <p class="font2 en">Beekeeping preserves nature, agriculture, maintains livelihoods and provides food 
                 security. Despite these important functions of beekeeping, beekeeping potentials are 
                 apparently not exploited in forestry activities. Bee products provide healthy, 
                 nutrient-rich foods, safe medications (apitherapy), and raw materials for industries.
@@ -946,33 +949,33 @@ function lauderingImportExportEn()
 function lauderingImportExportRow1()
 {
     echo '<div class="padding-import-export es">
-    <p class="mb-6 font3 es">En el año 2000 E.U.A. impuso una tarifa anti-dumping
+    <p class="font3 es">En el año 2000 E.U.A. impuso una tarifa anti-dumping
         a la importación de miel china debido a prácticas comerciales desleales que
-        posibilitaban precios muy pordebajo del valor de mercado.
-        <br>
-        A partir de ello, al mismo tiempo que las importaciones de miel china
+        posibilitaban precios muy pordebajo del valor de mercado.</p>
+        
+        <p class="font3 es">A partir de ello, al mismo tiempo que las importaciones de miel china
         decrecían, las importaciones procedentes de otros páises, que históricamente
         no producían o exportaban grandes cantidades de miel, aumentaban anormalmente.
     </p>
 </div>
 
 <div class="padding-import-export fr">
-        <p class="mb-6 font3 fr">En l&apos;an 2000, E.U.A. a imposé un droit antidumping sur
+        <p class="font3 fr">En l&apos;an 2000, E.U.A. a imposé un droit antidumping sur
             l&apos;importation de miel chinois en raison de pratiques commerciales déloyales qui ont permis
-            que les prix soient bien inférieurs à la valeur marchande.
-            <br>
-            En conséquence, alors que les importations de miel chinois ont diminué, les importations
+            que les prix soient bien inférieurs à la valeur marchande.</p>
+            
+            <p class="font3 fr">En conséquence, alors que les importations de miel chinois ont diminué, les importations
             en provenance d&apos;autres pays, qui historiquement ne produisaient ni n&apos;exportaient de grandes
             quantités de miel, ont augmenté anormalement.
         </p>
     </div>
 
     <div class="padding-import-export en">
-        <p class="mb-6 font3 en">In the year 2000 E.U.A. imposed an anti-dumping tariff
+        <p class="font3 en">In the year 2000 E.U.A. imposed an anti-dumping tariff
             on the importation of Chinese honey due to unfair commercial practices that allowed
-            prices to be well below market value.
-            <br>
-            Thereafter, at the same time that Chinese honey imports decreased, imports from
+            prices to be well below market value.</p>
+            
+            <p class="font3 en">Thereafter, at the same time that Chinese honey imports decreased, imports from
             other countries, which historically did not produce or export large quantities
             of honey, increased abnormally.
         </p>
@@ -983,42 +986,44 @@ function lauderingImportExportRow1()
 function lauderingImportExportRow2()
 {
     echo '<div class="padding-import-export es">
-    <p class="mb-6 font3 es">Una investigación federal reveló el esquema de importación ilegal de miel china a través de países
+    <p class="font3 es">Una investigación federal reveló el esquema de importación ilegal de miel china a través de países
         intermediarios (Rusia, India, Indonesia, Malasia, Mongolia, Filipinas, Corea
         del Sur, Taiwán y Tailandia) que permitió la evasión de 80 mdd de
-        tarifa anti-dumping entre 2002 y 2008.
-        <br> Como resultado de la investigación se acusó a seis compañías y once individuos
+        tarifa anti-dumping entre 2002 y 2008.</p>
+         
+        <p class="font3 es">Como resultado de la investigación se acusó a seis compañías y once individuos
         de conspiración global para la importación ilegal de miel china en E.U.A.
-        (Honey laundering).
-        <br> La tarifa anti-dumping se mantiene hasta la fecha.
+        (Honey laundering).</p>
+        
+        <p class="font3 es">La tarifa anti-dumping se mantiene hasta la fecha.
 
     </p>
 </div>
 
 <div class="padding-import-export fr">
-        <p class="mb-6 font3 fr">Une enquête fédérale a révélé le régime importation illégale de miel chinois via des pays intermédiaires
+        <p class="font3 fr">Une enquête fédérale a révélé le régime importation illégale de miel chinois via des pays intermédiaires
             (Russie, Inde, Indonésie, Malaisie, Mongolie, Philippines, Corée du Sud, Taïwan et Thaïlande)
-            qui ont permis l&apos;évasion de 80 millions de dollars de droits antidumping entre 2002 et 2008.
-            <br>
-            À la suite de l&apos;enquête, six entreprises et onze personnes ont été accusées
+            qui ont permis l&apos;évasion de 80 millions de dollars de droits antidumping entre 2002 et 2008.</p>
+            
+            <p class="font3 fr">À la suite de l&apos;enquête, six entreprises et onze personnes ont été accusées
             de complot mondial visant à importer illégalement du miel chinois aux États-Unis.
-            (Blanchiment du miel).
-            <br>
-            Le taux antidumping est maintenu à ce jour.
+            (Blanchiment du miel).</p>
+            
+            <p class="font3 fr">Le taux antidumping est maintenu à ce jour.
         </p>
     </div>
 
     <div class="padding-import-export en">
-        <p class="mb-6 font3 en">A federal investigation revealed the scheme illegal importation of Chinese honey through intermediary
+        <p class="font3 en">A federal investigation revealed the scheme illegal importation of Chinese honey through intermediary
             countries (Russia, India, Indonesia, Malaysia, Mongolia, the Philippines, South Korea,
             Taiwan and Thailand) that allowed the evasion of 80 million dollars of anti-dumping
-            tariff between 2002 and 2008.
-            <br>
-            As a result of the investigation, six companies and eleven individuals were charged
+            tariff between 2002 and 2008.</p>
+            
+            <p class="font3 en">As a result of the investigation, six companies and eleven individuals were charged
             with a global conspiracy to illegally import Chinese honey into the U.S.
-            (Honey laundering).
-            <br>
-            The anti-dumping rate is maintained to date.
+            (Honey laundering).</p>
+            </p>
+            <p class="font3 en">The anti-dumping rate is maintained to date.
         </p>
     </div>';
 

@@ -37,20 +37,18 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
     <div id="fullpage">
 
-        <div class="section" id="section0-io">
+        <div class="section fp-noscroll" id="section0-io">
             <div class="fp-bg"></div>
             <div class="fullscreen">
-               <div class="row align-items-center ">
-                    <div class="col-12 col-center text-center">
-                        <?php
+                <div class="content">
+                <?php
                         importExportEs();
                         importExportFr();
                         importExportEn();
                         ?>
-                    </div>
                 </div>
             </div>
-            <?php loadScrollDownBlack(); ?>
+            <?php loadScrollDownWhite(); ?>
         </div>
 
 
@@ -61,7 +59,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                 <div class="row">
                     <div class="col-sm-12">
 
-                        <div class="laudering prt lsc">
+                        <div class="laudering">
                             <?php
                             lauderingHeaderImportExportEs();
                             lauderingHeaderImportExportFr();
@@ -76,12 +74,11 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                 </div>
                 <!-- Start Landscape -->
                 <!-- End Landscape -->
-                <?php loadScrollDownBlack();?>
             </div>
-
+            <?php loadScrollDownBlack();?>
         </div>
 
-        <div class="section fp-noscroll" id="section1-io-2">
+        <div class="section" id="section1-io-2">
             <div class="container-fluid">
                 <div class="row bgOrange ">
                     <div class="col-sm-12 prt">
@@ -120,15 +117,12 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
                 <!-- Start Landscape -->
                 <!-- End Landscape -->
-
-                <?php loadScrollDownBlack();?>
- 
             </div>
-
+            <?php loadScrollDownBlack();?>
         </div>
 
 
-        <div class="section  fp-noscroll" id="section2-io">
+        <div class="section" id="section2-io">
 
             <div class="container-fluid bg-import-export">
 
@@ -142,14 +136,14 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     </div>
                 
                     <div class="col-sm-12 text-center prt">
-                        <div class="testimonial-item-graph">
+                        <div class="testimonial-item-graph-v">
                             <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
                             <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
                             <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
                         </div>
                     </div>
                     <div class="col-sm-12 text-center prt">
-                        <div class="testimonial-item-graph-2 ">
+                        <div class="testimonial-item-graph-2-v ">
                             <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
                             <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
                             <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
@@ -158,14 +152,14 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
                 <!-- Start Landscape -->                
                     <div class="col-sm-6 text-center lscp">
-                        <div class="testimonial-item-graph">
+                        <div class="testimonial-item-graph-h">
                             <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
                             <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
                             <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
                         </div>
                     </div>
                     <div class="col-sm-6 text-center lscp">
-                        <div class="testimonial-item-graph-2 ">
+                        <div class="testimonial-item-graph-2-h ">
                             <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
                             <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
                             <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">

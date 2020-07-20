@@ -22,7 +22,7 @@ $(document).ready(function() {
         continuousHorizontal: false,
         scrollHorizontally: false,
         interlockedSlides: false,
-        dragAndMove: true,
+        dragAndMove: false,
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,

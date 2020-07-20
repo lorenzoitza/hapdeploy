@@ -31,7 +31,8 @@
 }
 
 .header-appear .navbar-side .logo {
-  transform: scale(0) !important;
+  -webkit-transform: scale(0) !important;
+          transform: scale(0) !important;
   transform: scale(0) !important;
 }
 .header-appear .navbar-side .sidemenu_btn span {
@@ -76,7 +77,6 @@
   border: none;
   display: inline-table;
   width: 290px;
-  -webkit-border-radius: 0;
   border-radius: 0;
   position: fixed;
   top: 0;
@@ -90,9 +90,6 @@
 .navbar.navbar-right .navbar-nav {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
@@ -121,7 +118,6 @@
 
 .sidemenu_btn {
   -webkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
   transition: all .3s linear;
   width: 3%;
   padding: 0.2% 0.5% 0% 0.5%;
@@ -139,7 +135,6 @@
 
 .sidemenu_btn.with_bg {
   -webkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
   transition: all .3s linear;
   width: 3%;
   padding: 0% 0.5% 0% 0.5%;
@@ -164,10 +159,16 @@
 .sidemenu_btn_inner {
   height: 70px;
   width: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   float: left;
 }
 .sidemenu_btn_inner .animated-element {
@@ -196,9 +197,7 @@
   transform: translate3d(100%, 0, 0);
   -webkit-transition: -webkit-transform .5s ease;
   transition: -webkit-transform .5s ease;
-  -o-transition: -o-transform .5s ease;
   transition: transform .5s ease;
-  transition: transform .5s ease, -webkit-transform .5s ease, -o-transform .5s ease;
   transition: transform .5s ease, -webkit-transform .5s ease;
   overflow: hidden;
 }
@@ -235,14 +234,10 @@
 }
 .side-menu .btn-close:before {
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .side-menu .btn-close:after {
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 .side-menu .inner-wrapper {
@@ -252,17 +247,12 @@
   position: relative;
   overflow-y: auto;
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   text-align: left;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -298,8 +288,6 @@
 }
 .side-menu.side-menu-active .side-nav .navbar-nav .nav-item {
   -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
 }
@@ -324,56 +312,44 @@
   padding: 0 !important;
   opacity: 0;
   -webkit-transition: all 0.8s ease 500ms;
-  -o-transition: all 0.8s ease 500ms;
   transition: all 0.8s ease 500ms;
   -webkit-transform: translateY(30px);
-  -ms-transform: translateY(30px);
-  -o-transform: translateY(30px);
   transform: translateY(30px);
 }
 .side-nav .navbar-nav .nav-item:first-child {
   -webkit-transition-delay: .1s;
-  -o-transition-delay: .1s;
   transition-delay: .1s;
 }
 .side-nav .navbar-nav .nav-item:nth-child(2) {
   -webkit-transition-delay: .2s;
-  -o-transition-delay: .2s;
   transition-delay: .2s;
 }
 .side-nav .navbar-nav .nav-item:nth-child(3) {
   -webkit-transition-delay: .3s;
-  -o-transition-delay: .3s;
   transition-delay: .3s;
 }
 .side-nav .navbar-nav .nav-item:nth-child(4) {
   -webkit-transition-delay: .4s;
-  -o-transition-delay: .4s;
   transition-delay: .4s;
 }
 .side-nav .navbar-nav .nav-item:nth-child(5) {
   -webkit-transition-delay: .5s;
-  -o-transition-delay: .5s;
   transition-delay: .5s;
 }
 .side-nav .navbar-nav .nav-item:nth-child(6) {
   -webkit-transition-delay: .6s;
-  -o-transition-delay: .6s;
   transition-delay: .6s;
 }
 .side-nav .navbar-nav .nav-item:nth-child(7) {
   -webkit-transition-delay: .7s;
-  -o-transition-delay: .7s;
   transition-delay: .7s;
 }
 .side-nav .navbar-nav .nav-item:nth-child(8) {
   -webkit-transition-delay: .8s;
-  -o-transition-delay: .8s;
   transition-delay: .8s;
 }
 .side-nav .navbar-nav .nav-item:nth-child(9) {
   -webkit-transition-delay: .9s;
-  -o-transition-delay: .9s;
   transition-delay: .9s;
 }
 .side-nav .navbar-nav .nav-link {
@@ -384,7 +360,6 @@
   font-weight: 300;
   line-height: normal;
   position: relative;
-  -webkit-border-radius: 0;
   border-radius: 0;
 }
 .side-nav .navbar-nav .nav-link:hover {
@@ -395,7 +370,6 @@
   font-weight: 300;
   line-height: normal;
   position: relative;
-  -webkit-border-radius: 0;
   border-radius: 0;
 }
 .side-nav .navbar-nav .nav-link:hover::after {
@@ -413,7 +387,6 @@
   left: 0;
   overflow: hidden;
   -webkit-transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
-  -o-transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
   transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
 }
 .side-nav .navbar-nav .nav-link:focus::after {
@@ -437,10 +410,11 @@
 
 .nav-icon .navbar-nav {
   position: relative;
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -523,8 +497,6 @@
 }
 
 .nav-box-round .navbar-nav .nav-link {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
   border-radius: 20px;
 }
 
@@ -536,7 +508,6 @@
   width: 100%;
   background-color: #000;
   -webkit-transition: opacity 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  -o-transition: opacity 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
   transition: opacity 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
   display: none;
   z-index: 1031;
@@ -578,9 +549,12 @@ button:active {
   width: auto;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition: all 0.3s !important;
   transition: all 0.3s !important;
-  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
 .btn:active.focus {
   outline: none;
@@ -605,8 +579,6 @@ button:active {
   position: absolute;
   left: 0;
   -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
 .contenedorBtnLeer img.top:hover {
@@ -621,7 +593,10 @@ button:active {
 
 .btn.btn-gradient {
   color: #ffffff;
-  flex: 1 1 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   background-size: 200% auto;
   background-color: #d88100;
@@ -638,7 +613,8 @@ button:active {
   position: absolute;
   z-index: 1;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   bottom: 1%;
   color: #fff !important;
 }
@@ -658,7 +634,8 @@ button:active {
   position: absolute;
   z-index: 1;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   bottom: 1%;
   color: #2D2521 !important;
 }
@@ -782,7 +759,7 @@ header a.logo {
   margin: 0 0 0 20%;
 }
 header a.logo img {
-  margin-top: 70%;
+  margin-top: 20%;
   max-height: 85%;
   max-width: 85%;
   vertical-align: sub;
@@ -802,7 +779,6 @@ header.header-appear nav .logo .logo-light {
   width: 0;
   transition-duration: 0.5s;
   -webkit-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 header.header-appear nav .logo .logo-dark {
@@ -852,9 +828,9 @@ header.header-appear nav.header-light .logo .logo-light {
   visibility: hidden;
   opacity: 0;
   width: 0;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   -webkit-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
@@ -908,9 +884,6 @@ header.header-appear nav.header-light .logo .logo-light {
   border: 1px solid transparent;
   border-radius: 50%;
   -webkit-transition: background-color .2s ease-in-out;
-  -moz-transition: background-color .2s ease-in-out;
-  -ms-transition: background-color .2s ease-in-out;
-  -o-transition: background-color .2s ease-in-out;
   transition: background-color .2s ease-in-out;
   color: #f3f3f3;
 }
@@ -936,12 +909,10 @@ header.header-appear nav.header-light .logo .logo-light {
   width: 25px;
   height: 25px;
   -webkit-transition: background-color .5s ease;
-  -o-transition: background-color .5s ease;
   transition: background-color .5s ease;
   color: #f3f3f3;
   border: 1px solid transparent;
   text-align: center;
-  -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 .social-icons-simple li a:hover {
@@ -968,23 +939,13 @@ header.header-appear nav.header-light .logo .logo-light {
 
 .animated {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 01s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 /* Fade In */
 @-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-o-keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -1002,7 +963,6 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 .fadeIn.animated {
   -webkit-animation-name: fadeIn;
-  -o-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 
@@ -1019,17 +979,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInDown {
   from {
     opacity: 0;
@@ -1039,13 +988,11 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInDown.animated {
   -webkit-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
@@ -1062,17 +1009,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1082,13 +1018,11 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInUp.animated {
   -webkit-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
@@ -1105,17 +1039,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInRight {
   from {
     opacity: 0;
@@ -1125,21 +1048,32 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInRight.animated {
   -webkit-animation-name: fadeInRight;
-  -o-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
 
 .fadeInRight1.animated {
   -webkit-animation-name: fadeInRight1;
-  -o-animation-name: fadeInRight1;
   animation-name: fadeInRight1;
-  animation-delay: 0.1s !important;
+  -webkit-animation-delay: 0.1s !important;
+          animation-delay: 0.1s !important;
+}
+
+@-webkit-keyframes fadeInRight1 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 @keyframes fadeInRight1 {
@@ -1151,15 +1085,27 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInRight2.animated {
   -webkit-animation-name: fadeInRight2;
-  -o-animation-name: fadeInRight2;
   animation-name: fadeInRight2;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+@-webkit-keyframes fadeInRight2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 @keyframes fadeInRight2 {
@@ -1171,15 +1117,27 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInRight3.animated {
   -webkit-animation-name: fadeInRight3;
-  -o-animation-name: fadeInRight3;
   animation-name: fadeInRight3;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+@-webkit-keyframes fadeInRight3 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 @keyframes fadeInRight3 {
@@ -1191,15 +1149,27 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInRight4.animated {
   -webkit-animation-name: fadeInRight4;
-  -o-animation-name: fadeInRight4;
   animation-name: fadeInRight4;
-  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+@-webkit-keyframes fadeInRight4 {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 @keyframes fadeInRight4 {
@@ -1211,16 +1181,13 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .animated {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
@@ -1236,17 +1203,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1256,13 +1212,11 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInUp.animated {
   -webkit-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
@@ -1278,17 +1232,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInDown {
   from {
     opacity: 0;
@@ -1298,25 +1241,15 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInDown.animated {
   -webkit-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
 @-webkit-keyframes fadeInC {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-o-keyframes fadeInC {
   from {
     opacity: 0;
   }
@@ -1334,7 +1267,6 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 .fadeInC.animated {
   -webkit-animation-name: fadeIn;
-  -o-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 
@@ -1350,17 +1282,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInDownBig {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -2000px, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInDownBig {
   from {
     opacity: 0;
@@ -1370,13 +1291,11 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInDownBig.animated {
   -webkit-animation-name: fadeInDownBig;
-  -o-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
 }
 
@@ -1392,17 +1311,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInRight {
   from {
     opacity: 0;
@@ -1412,13 +1320,11 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInRight.animated {
   -webkit-animation-name: fadeInRight;
-  -o-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
 
@@ -1434,17 +1340,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInDown {
   from {
     opacity: 0;
@@ -1454,13 +1349,11 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInDown.animated {
   -webkit-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
@@ -1476,17 +1369,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1496,13 +1378,11 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInUp.animated {
   -webkit-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
@@ -1518,17 +1398,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translate3d(-100%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -1538,13 +1407,11 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInLeft.animated {
   -webkit-animation-name: fadeInLeft;
-  -o-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
 }
 
@@ -1560,17 +1427,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInUpC {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInUpC {
   from {
     opacity: 0;
@@ -1580,19 +1436,15 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInUpC {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInUpC;
-  -o-animation-name: fadeInUpC;
   animation-name: fadeInUpC;
 }
 
@@ -1608,17 +1460,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInDownC {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInDownC {
   from {
     opacity: 0;
@@ -1628,31 +1469,19 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInDownC {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDownC;
-  -o-animation-name: fadeInDownC;
   animation-name: fadeInDownC;
 }
 
 @-webkit-keyframes fadeInC {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@-o-keyframes fadeInC {
   from {
     opacity: 0;
   }
@@ -1670,13 +1499,10 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 .fadeInC {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInC;
-  -o-animation-name: fadeInC;
   animation-name: fadeInC;
 }
 
@@ -1692,17 +1518,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInLeftC {
-  from {
-    opacity: 0;
-    transform: translate3d(-100%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInLeftC {
   from {
     opacity: 0;
@@ -1712,19 +1527,15 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInLeftC {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInLeftC;
-  -o-animation-name: fadeInLeftC;
   animation-name: fadeInLeftC;
 }
 
@@ -1740,17 +1551,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInRightC {
-  from {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInRightC {
   from {
     opacity: 0;
@@ -1760,19 +1560,15 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInRightC {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInRightC;
-  -o-animation-name: fadeInRightC;
   animation-name: fadeInRightC;
 }
 
@@ -1788,17 +1584,6 @@ header.header-appear nav.header-light .logo .logo-light {
     transform: none;
   }
 }
-@-o-keyframes fadeInRightCC {
-  from {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
-  to {
-    opacity: 1;
-    -o-transform: none;
-    transform: none;
-  }
-}
 @keyframes fadeInRightCC {
   from {
     opacity: 0;
@@ -1808,19 +1593,15 @@ header.header-appear nav.header-light .logo .logo-light {
   to {
     opacity: 1;
     -webkit-transform: none;
-    -o-transform: none;
     transform: none;
   }
 }
 .fadeInRightCC {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInRightCC;
-  -o-animation-name: fadeInRightCC;
   animation-name: fadeInRightCC;
   /* padding: 0 0 0px 0;
   margin: 0px 0px 0 -17px; */
@@ -2056,58 +1837,46 @@ header.header-appear nav.header-light .logo .logo-light {
 } */
 .animated {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .fadeInUp.animated {
   -webkit-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
-  -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
 
 .fadeInDown.animated {
   -webkit-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
   -webkit-animation-name: fadeInDown;
-  -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
 .fadeIn.animated {
   -webkit-animation-name: fadeIn;
-  -o-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 
 .fadeInDownBig.animated {
   -webkit-animation-name: fadeInDownBig;
-  -o-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
 }
 
 .fadeInRight.animated {
   -webkit-animation-name: fadeInRight;
-  -o-animation-name: fadeInRight;
   animation-name: fadeInRight;
 }
 
 .fadeInRightF {
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInRightF;
-  -o-animation-name: fadeInRightF;
   animation-name: fadeInRightF;
 }
 
@@ -2148,7 +1917,6 @@ header.header-appear nav.header-light .logo .logo-light {
   padding: 3% 1%;
   background: #fff;
   letter-spacing: .7px;
-  -webkit-border-radius: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -2157,7 +1925,6 @@ header.header-appear nav.header-light .logo .logo-light {
   font-size: 1.31rem;
   position: relative;
   -webkit-transition: border .9s ease;
-  -o-transition: border .9s ease;
   transition: border .9s ease;
 }
 .contact-form textarea {
@@ -2166,6 +1933,21 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 .contact-form .form-group {
   margin-bottom: 6.65%;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #e2e2e2;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #e2e2e2;
+  opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #e2e2e2;
+  opacity: 1;
 }
 
 .form-control::placeholder {
@@ -2198,7 +1980,6 @@ header.header-appear nav.header-light .logo .logo-light {
 
 .translateFr {
   -webkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
   transition: all .3s linear;
   width: 3.3%;
   padding: 0.2% 0.5% 0% 0.5%;
@@ -2210,7 +1991,6 @@ header.header-appear nav.header-light .logo .logo-light {
 
 .translateEn {
   -webkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
   transition: all .3s linear;
   width: 3.3%;
   padding: 0.2% 0.5% 0% 0.5%;
@@ -2222,7 +2002,6 @@ header.header-appear nav.header-light .logo .logo-light {
 
 .translateEs {
   -webkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
   transition: all .3s linear;
   width: 3.3%;
   padding: 0.2% 0.5% 0% 0.5%;
@@ -2234,9 +2013,12 @@ header.header-appear nav.header-light .logo .logo-light {
 
 .opacity03 {
   opacity: 0.4;
-  filter: grayscale(100%) !important;
-  filter: opacity(80%) !important;
-  filter: brightness(20%) !important;
+  -webkit-filter: grayscale(100%) !important;
+          filter: grayscale(100%) !important;
+  -webkit-filter: opacity(80%) !important;
+          filter: opacity(80%) !important;
+  -webkit-filter: brightness(20%) !important;
+          filter: brightness(20%) !important;
 }
 
 .opacity1 {
@@ -2244,10 +2026,14 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 
 .imgZoom img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
   transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
 }
 .imgZoom:hover img {
-  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 #indexlogo {
@@ -2264,16 +2050,12 @@ header.header-appear nav.header-light .logo .logo-light {
   margin-left: -2.2%;
   padding-left: 30px;
   -webkit-animation-duration: 1s;
-  -o-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDownBg;
-  -o-animation-name: fadeInDownBg;
   animation-name: fadeInDownBg;
   -webkit-box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.54);
-  -moz-box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.54);
   box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.54);
   border-radius: 0px 0px 10px 0px;
   -moz-border-radius: 0px 0px 10px 0px;
@@ -2291,25 +2073,16 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 #section0-consecuence .fullscreen {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -2548,25 +2321,16 @@ header.header-appear nav.header-light .logo .logo-light {
 
 .fullscreen {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -2798,25 +2562,16 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 #section0-io .fullscreen {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -3005,25 +2760,16 @@ header.header-appear nav.header-light .logo .logo-light {
 }
 #section0 .fullscreen {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -3064,7 +2810,8 @@ header.header-appear nav.header-light .logo .logo-light {
 #section0 .tarros {
   width: 35vw;
   height: auto;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   margin: auto;
 }
 
@@ -3307,7 +3054,8 @@ img {
   background-size: cover;
   background-position: centered;
   background-repeat: no-repeat;
-  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -3323,25 +3071,16 @@ img {
 /**** Background End ****/
 .center-block {
   display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -moz-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-align: center;
-  -webkit-align-items: center;
-  -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }

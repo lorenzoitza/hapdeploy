@@ -1,45 +1,5 @@
 $ = jQuery.noConflict();
 
-// $(window).on("orientationchange", function(event) {
-//     if (event.orientation = 'landscape') {
-//         (".lscp").css('visibility', 'visible');
-//         $(".prt").css('display', 'none');
-//     } else if (event.orientation = 'portrait') {
-//         $(".lscp").css('display', 'none');
-//         $(".prt").css('visibility', 'visible');
-//     }
-// });
-
-
-// // You can also manually force this event to fire.
-// $(window).orientationchange();
-
-// $(function() {
-//     if (window.innerHeight > window.innerWidth) {
-//         $(".lscp").css('display', 'none');
-//         $(".prt").css('visibility', 'visible');
-//     }
-//     if (window.innerWidth > window.innerHeight) {
-//         (".lscp").css('visibility', 'visible');
-//         $(".prt").css('display', 'none');
-//     }
-// })
-
-
-///////////////// fixed menu on scroll for desktop
-// if ($(window).width() > 992) {
-//     $(window).scroll(function() {
-//         if ($(this).scrollTop() > 40) {
-//             $('#navbar_top').addClass("fixed-top");
-//             // add padding top to show content behind navbar
-//             $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
-//         } else {
-//             $('#navbar_top').removeClass("fixed-top");
-//             // remove padding top from body
-//             $('body').css('padding-top', '0');
-//         }
-//     });
-// } // end if
 
 $('a#btn_ClicEs').on('click', function() {
 
@@ -175,42 +135,42 @@ $('a#btn_ClicEn').on('click', function() {
 });
 
 
-if ($("#sidemenu_toggle").length) {
-    $("#sidemenu_toggle").mouseenter(function() {
-            $(".pushwrap").toggleClass("active");
-            $(".side-menu").addClass("side-menu-active"),
-                $("#close_side_menu").fadeIn(700);
-            $(".fxInUpMenu").addClass("fadeInUpFooter");
-            $(".fxInDownMenu").addClass("fadeInDownFooter");
-            $(".fxInMenu").addClass("fadeInFooter")
-        }),
-        $("#close_side_menu").on("clic", function() {
-            $(".side-menu").removeClass("side-menu-active"),
-                $(this).fadeOut(200),
-                $(".pushwrap").removeClass("active");
-            $(".fxInUpMenu").removeClass("fadeInUpFooter");
-            $(".fxInDownMenu").removeClass("fadeInDownFooter");
-            $(".fxInMenu").removeClass("fadeInFooter")
-        }),
-        $(".side-nav .navbar-nav .nav-link").on("click", function() {
-            $(".side-menu").removeClass("side-menu-active"),
-                $("#close_side_menu").fadeOut(200),
-                $(".pushwrap").removeClass("active");
-            $(".fxInUpMenu").removeClass("fadeInUpFooter");
-            $(".fxInDownMenu").removeClass("fadeInDownFooter");
-            $(".fxInMenu").removeClass("fadeInFooter")
-        }),
-        $(".side-menu").mouseleave(function() {
-            $(".side-menu").removeClass("side-menu-active"),
-                $("#close_side_menu").fadeOut(200),
-                $(".pushwrap").removeClass("active");
-            $(".fxInUpMenu").removeClass("fadeInUpFooter");
-            $(".fxInDownMenu").removeClass("fadeInDownFooter");
-            $(".fxInMenu").removeClass("fadeInFooter")
-        });
+// if ($("#sidemenu_toggle").length) {
+//     $("#sidemenu_toggle").mouseenter(function() {
+//             $(".pushwrap").toggleClass("active");
+//             $(".side-menu").addClass("side-menu-active"),
+//                 $("#close_side_menu").fadeIn(700);
+//             $(".fxInUpMenu").addClass("fadeInUpFooter");
+//             $(".fxInDownMenu").addClass("fadeInDownFooter");
+//             $(".fxInMenu").addClass("fadeInFooter")
+//         }),
+//         $("#close_side_menu").on("clic", function() {
+//             $(".side-menu").removeClass("side-menu-active"),
+//                 $(this).fadeOut(200),
+//                 $(".pushwrap").removeClass("active");
+//             $(".fxInUpMenu").removeClass("fadeInUpFooter");
+//             $(".fxInDownMenu").removeClass("fadeInDownFooter");
+//             $(".fxInMenu").removeClass("fadeInFooter")
+//         }),
+//         $(".side-nav .navbar-nav .nav-link").on("click", function() {
+//             $(".side-menu").removeClass("side-menu-active"),
+//                 $("#close_side_menu").fadeOut(200),
+//                 $(".pushwrap").removeClass("active");
+//             $(".fxInUpMenu").removeClass("fadeInUpFooter");
+//             $(".fxInDownMenu").removeClass("fadeInDownFooter");
+//             $(".fxInMenu").removeClass("fadeInFooter")
+//         }),
+//         $(".side-menu").mouseleave(function() {
+//             $(".side-menu").removeClass("side-menu-active"),
+//                 $("#close_side_menu").fadeOut(200),
+//                 $(".pushwrap").removeClass("active");
+//             $(".fxInUpMenu").removeClass("fadeInUpFooter");
+//             $(".fxInDownMenu").removeClass("fadeInDownFooter");
+//             $(".fxInMenu").removeClass("fadeInFooter")
+//         });
 
 
-}
+// }
 
 if ($("#sidemenu_toggle").length) {
     $("#sidemenu_toggle").on("click", function() {

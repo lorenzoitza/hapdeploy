@@ -29,7 +29,7 @@ $(document).ready(function() {
         continuousHorizontal: false,
         scrollHorizontally: false,
         interlockedSlides: true,
-        dragAndMove: true,
+        dragAndMove: false,
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,
@@ -69,6 +69,7 @@ $(document).ready(function() {
                 $(".fx").addClass("animated");
                 $("default").addClass(" fxFadeOut");
                 $("default").removeClass(" fxFadeIn");
+                window.scrollTo(1, 0)
 
                 //alert(loadedSection.index + " " + direction);
 
@@ -78,6 +79,7 @@ $(document).ready(function() {
                 $("#indexlogo").attr("src", "media/Logo_HAP.png");
                 $(".navbar").removeClass("navbar-dark");
                 $(".fx").removeClass("animated");
+                window.scrollTo(0, 0)
 
                 //alert(loadedSection.index + " " + direction);
 

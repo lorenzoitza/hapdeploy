@@ -32,35 +32,24 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 <body>
 
     <?php loadPopUp(); ?>
-    <header>
-        <?php LoadMenuHeaderBlack(); ?>
-    </header>
+    <header> <?php LoadMenuHeaderBlack(); ?> </header>
 
     <div id="fullpage">
 
-        <div class="section" id="section0-fraud">
+        <div class="section fp-noscroll" id="section0-fraud">
             <div class="fp-bg"></div>
-            <div class="fullscreen center-block">
-                <div class="row align-items-center ">
-                    <div class="col-xs-12 text-center center-col shadowText">
-                        <?php
-                        fraudHome()
-                        ?>
-                    </div>
+            <div class="fullscreen ">
+                <div class="content">
+                <?php fraudHome(); ?>
                 </div>
             </div>
             <?php loadScrollDownWhite(); ?>
         </div>
 
-
-
-
         <div class="section fp-auto-height" id="section1-fraud">
             <div class="container-fluid">
-                <!-- start portrait -->
-                <div class="row bg-light prt ">
-                    <div class="col-sm-12 ">
-                        
+                <div class="row bg-light">
+                    <div class="col-sm-12 ">                        
                         <div class="item-fraud-page ">
                             <?php
                             factorsCol1Row1();
@@ -71,10 +60,9 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div> 
                     </div>
                 </div>
-                <?php loadScrollDownBlack(); ?>
             </div>
+            <?php loadScrollDownBlack(); ?>
         </div>
-
 
         <div class="section fp-noscroll" id="section2-fraud">
             <div class="container-fluid">
@@ -89,23 +77,15 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                     </div>
                 </div>
-                <?php loadScrollDownWhite(); ?>
             </div>
+            <?php loadScrollDownWhite(); ?>
         </div>
 
-
-
-
-        <div class="section fp-noscroll" id="section2-fraud-2">
+        <div class="section" id="section2-fraud-2">
             <div class="container-fluid">
-
-
                 <div class="row">
-
-
                     <!-- start portrait -->
-
-                    <div class="col-sm-12 bgYellow prt">
+                    <div class="col-sm-12 bgYellow-v prt">
                         <div class="testimonial-item-graph prt">
                             <img src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight--delete">
                             <img src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight--delete ">
@@ -114,7 +94,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                     </div>
 
-                    <div class="col-sm-12 bg-fraud2 prt">
+                    <div class="col-sm-12 bg-fraud-v prt">
                         <div class="testimonial-item-graph-2 prt">
                             <img src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
                             <img src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
@@ -124,7 +104,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- end portrait -->
 
                     <!-- start landscape -->
-                        <div class="col-sm-6 bgYellow lscp">
+                        <div class="col-sm-6 bgYellow-h lscp">
                             <div class="testimonial-item-graph lscp">
                                 <img src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight">
                                 <img src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight">
@@ -132,7 +112,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             </div>
                         </div>
 
-                        <div class="col-sm-6 bg-fraud lscp">
+                        <div class="col-sm-6 bg-fraud-h lscp">
                             <div class="testimonial-item-graph estimonial-item-graph-2  lscp">
                                 <img src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
                                 <img src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
@@ -141,21 +121,11 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                 </div>
                 <!-- end landscape -->
-
             </div>
-
             <?php loadFooter(); ?>
         </div>
-
-
-
-
-
-
     </div>
     <?php loadJsMobile(); ?>
     <script src="js/scripts/fraude-mobile.js "></script>
-
 </body>
-
 </html>

@@ -22,7 +22,7 @@ $(document).ready(function() {
         continuousHorizontal: false,
         scrollHorizontally: false,
         interlockedSlides: false,
-        dragAndMove: true,
+        dragAndMove: false,
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,
@@ -101,11 +101,8 @@ $(document).ready(function() {
                 $(".fx").removeClass("animated");
                 $("#indexlogo").attr("src", "media/Logo_HAP.png");
                 $(".navbar").removeClass("navbar-dark");
-                $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
-                $(".navbar").addClass("navbar-dark");
                 $(".logoScrollTop").removeClass("logo-bg");
                 $(".bg-div").removeClass("bg-arena");
-
 
 
 
@@ -141,12 +138,11 @@ $(document).ready(function() {
                 $(".fxInLeftC").addClass("fadeInLeftC");
 
             } else if (loadedSection.index == 4 && direction == 'up') {
-                $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
-                $(".navbar").addClass("navbar-dark");
-                // $(".logoScrollTop").addClass("logo-bg");
-                // $(".bg-div").addClass("bg-arena");
-                $(".fx").addClass("animated");
-                $(".fxInRightCC").addClass("fadeInRightCC");
+                $(".fx").removeClass("animated");
+                $("#indexlogo").attr("src", "media/Logo_HAP.png");
+                $(".navbar").removeClass("navbar-dark");
+                $(".logoScrollTop").removeClass("logo-bg");
+                $(".bg-div").removeClass("bg-arena");
 
 
 

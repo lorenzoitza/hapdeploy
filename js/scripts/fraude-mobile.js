@@ -98,10 +98,9 @@ $(document).ready(function() {
                 // $(".bg-div").addClass("bg-arena");
 
             } else if (loadedSection.index == 1 && direction == 'down') {
-                $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
-                $(".navbar").addClass("navbar-dark");
-                // $(".logoScrollTop").removeClass("logo-bg");
-                // $(".bg-div").removeClass("bg-arena");
+                $("#indexlogo").attr("src", "media/Logo_HAP.png");
+                $(".navbar").removeClass("navbar-dark");
+                $(".fx").addClass("animated");
 
 
             } else if (loadedSection.index == 1 && direction == 'up') {
@@ -112,19 +111,16 @@ $(document).ready(function() {
                 $(".fx").addClass("animated");
 
             } else if (loadedSection.index == 2 && direction == 'down') {
-                // $("#indexlogo").attr("src", "media/Logo_HAP.png");
-                // $(".navbar").removeClass("navbar-dark");
+                $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
+                $(".navbar").addClass("navbar-dark");
                 // $(".logoScrollTop").removeClass("logo-bg");
                 // $(".bg-div").removeClass("bg-arena");
-                $(".fxInUp").addClass("fadeInUpFooter");
-                $(".fxInDown").addClass("fadeInDownFooter");
-                $(".fxIn").addClass("fadeInFooter");
+                $(".fx").addClass("animated");
 
             } else if (loadedSection.index == 2 && direction == 'up') {
                 $("#indexlogo").attr("src", "media/Logo_HAP_Dark.png");
                 $(".navbar").addClass("navbar-dark");
                 $(".fx").addClass("animated");
-
 
 
 
@@ -134,11 +130,9 @@ $(document).ready(function() {
                 $(".fx").addClass("animated");
 
             } else if (loadedSection.index == 3 && direction == 'up') {
-                $(".navbar").addClass("navbar-dark");
+                $("#indexlogo").attr("src", "media/Logo_HAP.png");
+                $(".navbar").removeClass("navbar-dark");
                 $(".fx").addClass("animated");
-                $(".fxInUp").removeClass("fadeInUpFooter");
-                $(".fxInDown").removeClass("fadeInDownFooter");
-                $(".fxIn").removeClass("fadeInFooter");
 
             } else if (loadedSection.index == 4 && direction == 'down') {
                 $("#indexlogo").attr("src", "media/Logo_HAP.png");
