@@ -237,8 +237,7 @@ function lowPricesAffectationsEn()
 function lowPricesAffectationsRow1()
 {
 echo '<h2 class="font1 es">Bajos precios, principal, amenaza para las abejas </h2>
-    <p class="font2 es">Un estudio
-        <spam class="SpamYellow">publicado en 2015</spam> demuestra que los bajos precios de la
+    <p class="font2 es">Un estudio publicado en 2015 demuestra que los bajos precios de la
         miel son la principal ameza para las abejas melíferas, incluso por encima de los
         plaguicidas y las plagas, ya que aunque los apicultores pierdan
         colmenas a causa de plaguicidas u otras amenazas, si la miel tiene buen precio,
@@ -251,7 +250,7 @@ echo '<h2 class="font1 es">Bajos precios, principal, amenaza para las abejas </h
 
     <h2 class="font1 fr">Prix ​​bas, principale menace pour les abeilles</h2>
     <p class="font2 fr">
-        Une étude <spam class="SpamYellow">publiée en 2015 </spam> montre que les bas prix du miel sont la
+        Une étude publiée en 2015 montre que les bas prix du miel sont la
         principale menace pour les abeilles, même au-dessus des pesticides et des ravageurs, car même si les
         apiculteurs perdent des ruches à cause des pesticides ou d&apos;autres menaces, si le miel Ils ont un
         bon prix, ils travaillent dur et récupèrent les ruches perdues.
@@ -263,7 +262,7 @@ echo '<h2 class="font1 es">Bajos precios, principal, amenaza para las abejas </h
 
     <h2 class="font1 en">Low prices, main threat to bees </h2>
     <p class="font2 en">
-        A study <spam class="SpamYellow">published in 2015</spam> shows that low honey prices are the main
+        A study published in 2015 shows that low honey prices are the main
         threat to honey bees, even above pesticides and pests, because although beekeepers lose hives due
         to pesticides or other threats, if honey They have a good price, they work hard and they recover
         the lost hives.
