@@ -55,7 +55,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         <div class="section" id="section1-consecuence">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12 prt">
+                    <div class="col-md-12 prt">
                         <div class="testimonial-item-consecuence-page prt">
                             <?php
                             lowPricesAffectationsRow1();
@@ -63,14 +63,14 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             ?>
                         </div>
                     </div>
-                    <div class="col-sm-8 bgYellow prt">
-                        <div class="testimonial-item2 prt">
-                            <div class="col-sm-4 tabletconsecuencetext prt">
+                    <div class="col-md-8 bgYellow prt">
+                        <div class="testimonial-item2 ">
+                            <div class="col-md-4 tabletconsecuencetext">
                                 <p class="text-consecuence font3 es">Precio de importación de la miel de origen chino como porcentaje del promedio del precio de la miel importada del resto del mundo</p>
                                 <p class="text-consecuence font3 fr">Prix ​​à l&apos;importation du miel d&apos;origine chinoise en pourcentage du prix moyen du miel importé du reste du monde</p>
                                 <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
                             </div>
-                            <div class="col-sm-4  img-consecuence prt">
+                            <div class="col-md-4  img-consecuence">
                                 <img src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
                                 <img src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
                                 <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
@@ -78,8 +78,8 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                     </div>
 
-                    <div class="col-sm-4 bgCrema prt">
-                        <div class="long item2prt">
+                    <div class="col-md-4 bgCrema prt">
+                        <div class="long">
                             <?php
                             honeySpendsAffectationsEs();
                             honeySpendsAffectationsFr();
@@ -98,7 +98,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     </div>
                     <div class="col-md-4 bgYellow lscp">
                         <div class="testimonial-item2 lscp">
-                            <div class="col-dm-12 tabletconsecuencetext lscp">
+                            <div class="col-md-12 tabletconsecuencetext lscp">
                                 <p class="text-consecuence font3 es">Precio de importación de la miel de origen chino como porcentaje del promedio del precio de la miel importada del resto del mundo</p>
                                 <p class="text-consecuence font3 fr">Prix ​​à l&apos;importation du miel d&apos;origine chinoise en pourcentage du prix moyen du miel importé du reste du monde</p>
                                 <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
@@ -110,7 +110,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             </div>
                         </div>
                         <div class="col-sm-12 bgCrema lscp">
-                            <div class="long item2 lscp">
+                            <div class="long lscp">
                                 <?php
                                 honeySpendsAffectationsEs();
                                 honeySpendsAffectationsFr();
@@ -210,14 +210,14 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                 <div class="row bgOrange ">
                     <!-- Start Portrait -->
                     <!-- id="section5-consecuence"> -->
-                    <div class="col-sm-12 ">
+                    <div class="col-md-12 ">
                         <div class="item-consecuenciasbeekeeper prt">
                             <img src="media/consecuencias/bg-sector3V.jpg" alt="">
 
                         </div>
                     </div>
 
-                    <div class="col-sm-12 bgOrange prt">
+                    <div class="col-md-12 bgOrange prt">
                         <div class="item-consecuencias">
                             <?php
                             txtGuardiansEs();

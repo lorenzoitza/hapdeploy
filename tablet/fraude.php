@@ -80,7 +80,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- start portrait -->
                     <div class="col-md-12 prt">
                         <div class="col-md-6 bgYellow-v prt">
-                            <div class="testimonial-item-graph prt">
+                            <div class="testimonial-item-graph">
                                 <img src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight--delete">
                                 <img src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight--delete ">
                                 <img src="media/fraude/Recurso_14_1-es.svg" alt="" class="es  fxInRight--delete ">
@@ -89,7 +89,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
 
                         <div class="col-md-6 bg-fraud-v prt">
-                            <div class="testimonial-item-graph-2 prt">
+                            <div class="testimonial-item-graph-2">
                                 <img src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
                                 <img src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
                                 <img src="media/fraude/Recurso_14_2-es.svg" alt="" class="es  fxInRight ">

@@ -54,10 +54,10 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
 
 
-        <div class="section" id="section1-io">
+        <div class="section fp-noscroll" id="section1-io">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12 col-md-8">
+                    <div class="col-md-12">
 
                         <div class="laudering">
                             <?php
@@ -71,8 +71,8 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         lauderingImportExportRow2();
                         ?>
                     </div>
-                    <div class="col-md-4 bgOrange   prt">
-                        <div class="col-md-6 prt">
+                    <div class="col-md-12 bgOrange   prt">
+                        <div class="col-md-6">
                             <div class="message-import-export-sector2">
                                 <?php
                                 messageImportExportEs();
@@ -81,13 +81,15 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                                 ?>
                             </div>
                         </div>
-                        <div class="col-md-6 prt">
+                        <div class="col-md-6">
                             <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
                             <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
                             <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4 bgOrange  lscp">
+
+
+                    <div class="col-sm-12 bgOrange  lscp">
                         <div class="col-md-12  lscp">
                             <div class="message-sector2 ">
                                 <?php
@@ -114,7 +116,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         </div>
 
 
-        <div class="section" id="section2-io">
+        <div class="section fp-noscroll" id="section2-io">
 
             <div class="container-fluid bg-import-export">
 
