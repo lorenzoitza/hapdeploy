@@ -122,7 +122,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                 </div>
                 <!-- end landscape -->
             </div>
-            <?php loadFooter(); ?>
+            <?php loadFooterMobile(); ?>
         </div>
     </div>
     <?php loadJsMobile(); ?>

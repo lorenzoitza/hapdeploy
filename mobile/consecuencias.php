@@ -219,7 +219,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- End Landscape -->
                 </div>
             </div>
-            <?php loadFooter(); ?>
+            <?php loadFooterMobile(); ?>
         </div>
        
     </div>

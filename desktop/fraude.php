@@ -95,7 +95,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
                     <div class="col-md-6">
 
-                        <div class="col-12 bgYellow">
+                        <div class="col-md-12 bgYellow">
                             <div class="testimonial-item-graph">
                                 <img src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight ">
                                 <img src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight ">
@@ -104,8 +104,8 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             </div>
                         </div>
 
-                        <div class="col-12 bg-fraud2">
-                            <div class="testimonial-item-graph">
+                        <div class="col-md-12 bg-fraud2">
+                            <div class="testimonial-item-graph-2">
                                 <img src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
                                 <img src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
                                 <img src="media/fraude/Recurso_14_2-es.svg" alt="" class="es  fxInRight ">

@@ -123,19 +123,19 @@ if (!isset($_SESSION)) {
                    
                         <div class="col-md-6">
                             <div class="testimonial-item-graph">
-                                <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown "
+                                <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx-delete fadeInDown-delete-delete "
                                     alt="">
-                                    <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown "
+                                    <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx-delete fadeInDown-delete-delete "
                                     alt="">
-                                    <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown "
+                                    <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx-delete fadeInDown-delete-delete "
                                     alt="">
                             </div>
                         </div>
                         <div class="col-md-6 align-items-riht">
                             <div class="testimonial-item-graph ">
-                                <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
-                                <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
-                                <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
+                                <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx-delete fadeInUp-delete " alt="">
+                                <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx-delete fadeInUp-delete " alt="">
+                                <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx-delete fadeInUp-delete " alt="">
                             </div>
                         </div>
                     </div>

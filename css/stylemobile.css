@@ -207,23 +207,21 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
   .translateFr { -webkit-transition: all .3s linear; transition: all .3s linear; width: 5.6%; padding: 0.2% 0.5% 0% 0.5%; position: absolute; right: 1%; display: inline-block; margin-right: 21%; }
   .translateEn { -webkit-transition: all .3s linear; transition: all .3s linear; width: 5.6%; padding: 0.2% 0.5% 0% 0.5%; position: absolute; right: 1%; display: inline-block; margin-right: 15%; }
   .translateEs { -webkit-transition: all .3s linear; transition: all .3s linear; width: 5.6%; padding: 0.2% 0.5% 0% 0.5%; position: absolute; right: 1%; display: inline-block; margin-right: 8%; } }
-.footerpage { position: absolute; width: 100%; bottom: 0; height: 8%; padding-top: 2%; padding-bottom: 1%; background-color: #2D2521; text-align: center; }
+.footerpage { position: absolute; width: 100%; bottom: 0; height: 3%; padding: 1% 0% 1% 0%; margin: 0% 0% 0% 0%; background-color: #2D2521; text-align: center; }
 .footerpage p { color: #fff; }
+.footerpage .footer-social ul { width: 100%; margin-top: 0; margin-bottom: 0.3%; display: inline-block; }
+.footerpage .footer-social ul li { margin: 0 2%; display: inline-block; }
+.footerpage .footer-social ul li a { border: 1px solid transparent; position: relative; z-index: 1; overflow: hidden; width: 25px; height: 25px; -webkit-transition: background-color .2s ease-in-out; transition: background-color .2s ease-in-out; color: #f3f3f3; border-radius: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
+.footerpage .footer-social ul li a:hover { background-color: #f49600; color: #fff; }
+.footerpage .footer-social ul li a img { height: 16px; width: auto; }
 
 .company-about { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 0.62rem; text-align: center; padding-top: 0; }
 
-.footer-social ul { width: 100%; margin-top: 0; margin-bottom: 0.3%; display: inline-block; }
-.footer-social ul li { margin: 0 2%; display: inline-block; }
-.footer-social ul li a { text-align: center; margin: 0% 0% 0% 0%; padding: 0% 0% 0% 0%; width: 25px; height: 25px; border: 1px solid transparent; border-radius: 50%; -webkit-transition: background-color .2s ease-in-out; transition: background-color .2s ease-in-out; }
-.footer-social ul li a:hover { background-color: #f49600; color: #fff; }
-.footer-social ul li a .socialicon svg { height: 15px; width: 15px; }
-
 .social-icons-simple { text-align: center; margin-bottom: 0; margin-left: 0%; padding-left: 0; }
-.social-icons-simple li { display: inline-block; }
-.social-icons-simple li a { display: block; border: 1px solid transparent; position: relative; z-index: 1; overflow: hidden; width: 25px; height: 25px; -webkit-transition: background-color .5s ease; transition: background-color .5s ease; color: #f3f3f3; border: 1px solid transparent; text-align: center; border-radius: 50%; }
+.social-icons-simple li { margin: 0 0.3%; display: inline-block; }
+.social-icons-simple li a { display: inline-block; border: 1px solid transparent; position: relative; z-index: 1; overflow: hidden; width: 26px; height: 26px; -webkit-transition: background-color .5s ease; transition: background-color .5s ease; color: #f3f3f3; border-radius: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; }
 .social-icons-simple li a:hover { background-color: #f49600; }
-.social-icons-simple li a .socialicon svg { height: 15px; width: 15px; }
-.social-icons-simple li.animated-wrap a:hover { background-color: transparent; color: #fff; }
+.social-icons-simple li a img { height: 13px; width: auto; }
 
 @media (orientation: landscape) { .footerpage { position: absolute; width: 100%; bottom: 0; height: 9%; padding-top: 0%; padding-bottom: 0%; background-color: #2D2521; text-align: center; }
   .footerpage p { color: #fff; }
@@ -273,7 +271,7 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-grap2 { max-width: 80%; margin-top: 2%; margin-right: 2%; margin-left: 2%; text-align: left; padding-top: 0%; padding-right: 0%; padding-left: 0%; padding-bottom: 0%; margin-bottom: 13%; }
 #section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-graph2.graph2 { margin-top: 4%; }
 
-#section3-consecuence .container-fluid { height: 100%; width: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
+#section3-consecuence .container-fluid { height: 100%; width: 100%; padding: 0 0 0 0; margin: 0 0 0 0; background-color: #d88100; }
 #section3-consecuence .container-fluid .row { padding: 0 0 0 0; margin: 0 0 0 0; }
 #section3-consecuence .container-fluid .row .lscp { display: none; }
 #section3-consecuence .container-fluid .row .prt { display: block; }
@@ -284,7 +282,7 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section3-consecuence .container-fluid .row .col-sm-12 .item-consecuencias { max-width: 100%; margin: 2% 3% 5% 3%; text-align: left; padding: 0 0 0% 0; }
 #section3-consecuence .container-fluid .row .col-sm-12 .item-consecuencias .font1 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 1rem; color: #2D2521; margin-bottom: 4% !important; }
 #section3-consecuence .container-fluid .row .col-sm-12 .item-consecuencias .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 0.93rem; color: #FFF8DC; }
-#section3-consecuence .container-fluid .row .bgOrange { background-color: #d88100; background-size: cover; height: 100%; }
+#section3-consecuence .container-fluid .row .bgOrange { background-color: #d88100; background-size: cover; }
 #section3-consecuence .container-fluid .row .fp-bg { background-image: url("../media/consecuencias/bg-sector3V.jpg"); background-size: cover; }
 #section3-consecuence .container-fluid .row .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
 
@@ -319,15 +317,15 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section2-fraud .testimonial-item-fraud-page-col-1 { max-width: 100%; margin-right: 1%; margin-left: 5%; text-align: left; padding-top: 0; padding-right: 1%; padding-left: 1%; padding-bottom: 0.5%; margin-bottom: 0%; margin-top: 20%; }
 #section2-fraud .testimonial-item-fraud-page-col-2 { max-width: 100%; margin-right: 1%; margin-left: 5%; text-align: left; padding-top: 0; padding-right: 1%; padding-left: 1%; padding-bottom: 0.5%; margin-bottom: 0%; margin-top: 27%; }
 
-#section2-fraud-2 .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
+#section2-fraud-2 .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; height: 100vh; }
 #section2-fraud-2 .container-fluid .row { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
 #section2-fraud-2 .container-fluid .row .lscp { display: none; }
 #section2-fraud-2 .container-fluid .row .prt { display: block; }
 #section2-fraud-2 .container-fluid .row .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
 #section2-fraud-2 .container-fluid .row .bgYellow-v { background-color: #ffdd00; background-size: cover; height: 50vh !important; }
 #section2-fraud-2 .container-fluid .row .bgYellow-v .testimonial-item-graph { max-width: 100%; margin-top: 20%; margin-right: 6%; margin-left: 4%; margin-bottom: 5%; padding: 0% 0 0% 0; }
-#section2-fraud-2 .container-fluid .row .bg-fraud-v { background-color: #DDD5CA; background-size: cover; height: 39vh !important; }
-#section2-fraud-2 .container-fluid .row .bg-fraud-v .testimonial-item-graph-2 { max-width: 100%; margin-top: -5%; margin-right: 6%; margin-left: 4%; margin-bottom: 0%; padding: 0% 0 0% 0; }
+#section2-fraud-2 .container-fluid .row .bg-fraud-v { background-color: #DDD5CA; background-size: cover; height: 50vh !important; }
+#section2-fraud-2 .container-fluid .row .bg-fraud-v .testimonial-item-graph-2 { max-width: 100%; margin-top: 10%; margin-right: 6%; margin-left: 4%; margin-bottom: 0%; padding: 0% 0 0% 0; }
 
 .cover-img { max-width: 100%; }
 
@@ -381,7 +379,7 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section1-io-2 .bgOrange .img86 { width: 85% !important; height: auto; margin-left: 4%; margin-top: 0%; margin-bottom: 0%; }
 
 /*** Start section 2 ***/
-#section2-io .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; height: 100%; }
+#section2-io .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; min-height: 100vh; }
 #section2-io .container-fluid .row { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
 #section2-io .container-fluid .row .lscp { display: none; }
 #section2-io .container-fluid .row .prt { display: block; }
@@ -425,8 +423,9 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section2 .container-fluid .row .col-sm-12 .index-consecuence-item .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.31rem; color: #FECE00; text-shadow: 1px 1px 0.3px #2D2521; }
 #section2 .container-fluid .row .col-sm-12 .index-consecuence-item .font3 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.18rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
 #section2 .container-fluid .row .col-sm-12 .fraudMessage { max-width: 100%; text-align: left; margin-left: 4%; margin-top: 0%; margin-right: 3%; margin-bottom: 3%; padding-top: 13%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; }
-#section2 .container-fluid .row .col-sm-12 .fraudMessage .font4 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.51rem; color: #FECE00; text-shadow: 1px 1px 0.3px #2D2521; }
-#section2 .container-fluid .row .col-sm-12 .fraudMessage .font5 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.51rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
+#section2 .container-fluid .row .col-sm-12 .fraudMessage .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.31rem; color: #FECE00; text-shadow: 1px 1px 0.3px #2D2521; }
+#section2 .container-fluid .row .col-sm-12 .fraudMessage .font4 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.31rem; color: #FECE00; text-shadow: 1px 1px 0.3px #2D2521; }
+#section2 .container-fluid .row .col-sm-12 .fraudMessage .font5 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.31rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
 #section2 .container-fluid .row .col-sm-12 .fraudMessage .buttom-left.es { position: relative; bottom: 0%; right: 0%; margin-left: 0%; }
 #section2 .container-fluid .row .col-sm-12 .fraudMessage .buttom-left.en { position: relative; bottom: 0%; right: 0%; margin-left: 0%; }
 #section2 .container-fluid .row .col-sm-12 .fraudMessage .buttom-left.fr { position: relative; bottom: 0%; right: 0%; margin-left: 0%; }

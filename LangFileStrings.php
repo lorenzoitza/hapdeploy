@@ -10,56 +10,9 @@ $aboutTxt = "© 2020 Honey Authenticity";
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
-// function indexMain()
-// {
-//     $imgTarroSrc = "media/tarro.png";
-
-//     echo '
-//         <h2 class="toph2index text-center es"><spam class="font1 es">Un tercio de la miel comerciada internacionalmente es</spam></h2>
-//         <h2 class="text-center es"><spam class="font2 es">adulterada o 100% falsa</spam></h2>
-//         <img src="' .  $imgTarroSrc . '" alt="" class="tarros es">
-//         <h2 class="text-center font1 es">¡Actuemos!</h2>
-
-//         <h2 class="toph2index text-center fr"><spam class="font1 fr">Un tiers du miel commercialisé à l&apos;international est</spam></h2>
-//         <h2 class="text-center fr"><spam class="font2 fr">falsifié ou 100% faux</spam></h2>
-//         <img src="' .  $imgTarroSrc . '" alt="" class="tarros fr">
-//         <h2 class="text-center font1 fr"> Agissons!</h2>
-
-    
-//         <h2 class="toph2index text-center en">
-//         <h2 class="text-center en"><spam class="font1 en">A third of internationally traded honey is</spam></h2>
-//         <h2 class="text-center en"><spam class="font1 en">adulterated or 100% false</spam></h2>
-//         <img src="' .  $imgTarroSrc . '" alt="" class="tarros en">
-//         <h2 class="text-center font1 en">Let&apos;s act!</h2>';
-// }
-
-
-// function indexMain()
-// {
-//     $imgTarroSrc = "media/tarro.png";
-
-//     echo '
-//         <h2 class="toph2index text-center es"><spam class="font1 es">Un tercio de la miel comerciada internacionalmente es</spam></h2>
-//         <h2 class="text-center es"><spam class="font2 es">adulterada o 100% falsa</spam></h2>
-//         <img src="' .  $imgTarroSrc . '" alt="" class="tarros es">
-//         <h2 class="text-center font1 es">¡Actuemos!</h2>
-
-//         <h2 class="toph2index text-center fr"><spam class="font1 fr">Un tiers du miel commercialisé à l&apos;international est</spam></h2>
-//         <h2 class="text-center fr"><spam class="font2 fr">falsifié ou 100% faux</spam></h2>
-//         <img src="' .  $imgTarroSrc . '" alt="" class="tarros fr">
-//         <h2 class="text-center font1 fr"> Agissons!</h2>
-
-    
-//         <h2 class="toph2index text-center en"><spam class="font1 en">A third of internationally traded honey is</spam></h2>
-//         <h2 class="text-center en"><spam class="font2 en">adulterated or 100% false</spam></h2>
-//         <img src="' .  $imgTarroSrc . '" alt="" class="tarros en">
-//         <h2 class="text-center font1 en">Let&apos;s act!</h2>';
-// }
-
-
 function indexMain()
 {
-    $imgTarroSrc = "media/tarro.png";
+    $imgTarroSrc = "media/index/tarro.png";
 
     echo '<h2 class="toph2index text-center es"><spam class="font1 es">Un tercio de la miel comerciada internacionalmente es</spam></h2>
     <h2 class="toph2index text-center fr"><spam class="font1 fr">Un tiers du miel commercialisé à l&apos;international est</spam></h2>
@@ -119,15 +72,15 @@ function fraudIndexEs()
 
 function fraudMessageIndexEs()
 {
-    echo '<h3 class="font4 bg-darkTrasparent-1rem buttom-left es">
+    echo '<h3 class="font2 bg-darkTrasparent-1rem buttom-left es">
         <spam>...sino en fábricas asiáticas,<br> lo cual es un </spam> <span class="font5"> crimen</span>
         </h3>';
     /* FR */
-    echo '<h3 class="font4 bg-darkTrasparent-1rem buttom-left fr">
+    echo '<h3 class="font2 bg-darkTrasparent-1rem buttom-left fr">
         <spam>... mais dans les usines asiatiques, <br> qui est un </spam> <span class="font5"> crime</span>
     </h3>';
     /* EN */
-    echo '<h3 class="font4 bg-darkTrasparent-1rem buttom-left en">
+    echo '<h3 class="font2 bg-darkTrasparent-1rem buttom-left en">
         <spam>... but in Asian factories, <br> which is a </spam> <span class="font5"> crime</span>
     </h3>';
 }

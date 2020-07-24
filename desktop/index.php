@@ -66,12 +66,12 @@ $detect = new Mobile_Detect;
                         <div class="index-consecuence-item">
                             <?php
                             consequenceIndexEs();
-                            btnLeerMasIndexEs("consecuencias.php");
+                            btnLeer("consecuencias.php");
                             ?>
                         </div>
                     </div>
                     <div class="col-md-6 p-0 center-block justify-content-center align-items-center m-0 bgOrange">
-                        <img src="media/colmena.svg" class="hive fx fadeInRight" alt="">
+                        <img src="media/index/colmena.svg" class="hive fx fadeInRight" alt="">
 
                     </div>
 
@@ -88,7 +88,7 @@ $detect = new Mobile_Detect;
                     <div class="col-md-6">
                         <div class="index-consecuence-item">
                             <?php fraudIndexEs();
-                            btnLeerMasIndexEs("fraude.php");  ?>
+                            btnLeer("fraude.php");  ?>
                         </div>
                     </div>
                     <div class="col-md-6 position-relative ">
@@ -108,16 +108,16 @@ $detect = new Mobile_Detect;
                         <div class="index-consecuence-item ">
                             <?php
                             honeyFraudIndexEs();
-                            btnLeerMasIndexEs("importaciones_exportaciones.php");
+                            btnLeer("importaciones_exportaciones.php");
                             ?>
                         </div>
                     </div>
                     <div class="col-md-6 center-block text-right justify-content-center align-items-center ">
                         <div class="text-right pt-1">
-                            <p class="p-0 m-0 "><img src="media/news1.png" class="newspaper-padding fx fadeInRight1" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/news2.png" class="newspaper-padding fx fadeInRight2" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/news3.png" class="newspaper-padding fx fadeInRight3" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/news4.png" class="newspaper-padding fx fadeInRight4" alt=""> </p>
+                            <p class="p-0 m-0 "><img src="media/index/news1.png" class="newspaper-padding fx fadeInRight1" alt=""> </p>
+                            <p class="p-0 m-0"><img src="media/index/news2.png" class="newspaper-padding fx fadeInRight2" alt=""> </p>
+                            <p class="p-0 m-0"><img src="media/index/news3.png" class="newspaper-padding fx fadeInRight3" alt=""> </p>
+                            <p class="p-0 m-0"><img src="media/index/news4.png" class="newspaper-padding fx fadeInRight4" alt=""> </p>
                         </div>
                     </div>
                 </div>

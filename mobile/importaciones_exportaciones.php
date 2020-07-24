@@ -170,7 +170,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                 
             </div>
             
-            <?php loadFooter();?>
+            <?php loadFooterMobile(); ?>
         </div>
 
 
