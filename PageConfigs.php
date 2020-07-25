@@ -55,6 +55,14 @@ function loadScrollDownBlack(){
     echo '<a class="scroll-down-black scroll-down-section" href="javascript:void(0)"> <i>'. file_get_contents("css/chevron_down.svg") .'</i></a>';
 }
 
+function loadScrollUpWhite(){
+    echo '<a class="scroll-up scroll-up-section" href="javascript:void(0)"> <i>'. file_get_contents("css/chevron_up.svg") .'</i></a>';
+}
+
+function loadScrollUpBlack(){
+    echo '<a class="scroll-up-black scroll-up-section" href="javascript:void(0)"> <i>'. file_get_contents("css/chevron_up.svg") .'</i></a>';
+}
+
     
 function loadCssFiles()
 {
@@ -81,7 +89,7 @@ function loadCssFilesMobile()
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssMobile'] . '">';
 
 }
-function loadCssFilesTable()
+function loadCssFilesTablet()
 {
     echo '<script src="js/EventEmitter.min.js"></script>';
     echo '<script src="js/lethargy.min.js"></script>';

@@ -199,6 +199,10 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 
 .translateEs { -webkit-transition: all .3s linear; transition: all .3s linear; width: 10%; padding: 0.2% 0.5% 0% 0.5%; position: absolute; right: 1%; display: inline-block; margin-right: 15%; }
 
+.opacity03 { opacity: 0.4; -webkit-filter: grayscale(100%) !important; filter: grayscale(100%) !important; -webkit-filter: opacity(80%) !important; filter: opacity(80%) !important; -webkit-filter: brightness(20%) !important; filter: brightness(20%) !important; }
+
+.opacity1 { opacity: 1; }
+
 .imgZoom img { -webkit-transition: -webkit-transform .5s ease; transition: -webkit-transform .5s ease; transition: transform .5s ease; transition: transform .5s ease, -webkit-transform .5s ease; }
 .imgZoom:hover img { -webkit-transform: scale(1.5); transform: scale(1.5); }
 
@@ -222,7 +226,7 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 .social-icons-simple li a:hover { background-color: #f49600; }
 .social-icons-simple li a img { height: 13px; width: auto; }
 
-@media (orientation: landscape) { .footerpage { position: absolute; width: 100%; bottom: 0; height: 3%; padding: 0.5% 0% 0.5% 0%; margin: 0% 0% 0% 0%; background-color: #2D2521; text-align: center; }
+@media (orientation: landscape) { .footerpage { height: 4%; padding: 0.6% 0% 2% 0%; margin: 0% 0% 0% 0%; background-color: #2D2521; text-align: center; }
   .footerpage p { color: #fff; }
   .company-about { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 0.55rem; text-align: center; padding-top: 0; text-align: center; }
   .footer-social ul { width: 100%; margin-top: 0; margin-bottom: 0%; display: inline-block; }
@@ -254,7 +258,7 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 { max-width: 100%; margin-top: 21; margin-right: 3%; margin-left: 4%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 0%; padding-bottom: 0; position: relative; }
 #section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 .tabletconsecuencetext { max-width: 100%; margin-top: 20%; margin-right: 1%; margin-left: 0%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 0%; padding-bottom: 0; }
 #section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 .tabletconsecuencetext .font3 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 0.93rem; color: #2D2521; }
-#section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 .img-consecuence { max-width: 75%; margin-top: 0%; margin-right: 11%; margin-left: 10%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 5%; padding-bottom: 0; text-align: center; }
+#section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 .img-consecuence { max-width: 75%; margin-top: 0%; margin-right: 11%; margin-left: 10%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 5%; padding-bottom: 0; text-align: center; margin: auto; }
 #section1-consecuence-2 .container-fluid .row .bgCrema .long { max-width: 100%; margin-top: 2%; margin-right: 0%; margin-left: 4%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 5%; padding-bottom: 0; }
 #section1-consecuence-2 .container-fluid .row .bgCrema .long .font4 { font-family: "Fira Sans", sans-serif; font-weight: 100; font-style: normal; font-size: 1.18rem; color: #2D2521; margin-bottom: 0.3rem; }
 #section1-consecuence-2 .container-fluid .row .bgCrema .long .font5 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 0.93rem; color: #f49600; margin-bottom: 0rem; }
@@ -265,9 +269,9 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section2-consecuence .container-fluid .row { padding: 0 0 0 0; margin: 0 0 0 0; }
 #section2-consecuence .container-fluid .row .lscp { display: none; }
 #section2-consecuence .container-fluid .row .prt { display: block; }
-#section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-graph { max-width: 85%; margin-top: 25%; margin-right: 5%; margin-bottom: 0%; padding: 0% 0 0% 0; }
+#section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-graph { max-width: 85%; margin: 25% auto auto auto; /* margin-right: 5%; */ margin-bottom: 0%; padding: 0% 0 0% 0; }
 #section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-graph.graph1 { margin-top: 4%; }
-#section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-grap2 { max-width: 85%; margin-top: 2%; margin-right: 2%; margin-left: 2%; text-align: left; padding-top: 0%; padding-right: 0%; padding-left: 0%; padding-bottom: 0%; margin-bottom: 13%; }
+#section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-grap2 { max-width: 85%; margin: 2% auto auto auto; /* margin-right: 2%; */ /* margin-left: 2%; */ text-align: left; padding-top: 0%; padding-right: 0%; padding-left: 0%; padding-bottom: 0%; margin-bottom: 13%; }
 #section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-graph2.graph2 { margin-top: 4%; }
 
 #section3-consecuence .container-fluid { height: 100%; width: 100%; padding: 0 0 0 0; margin: 0 0 0 0; background-color: #d88100; }
@@ -322,9 +326,11 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section2-fraud-2 .container-fluid .row .prt { display: block; }
 #section2-fraud-2 .container-fluid .row .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
 #section2-fraud-2 .container-fluid .row .bgYellow-v { background-color: #ffdd00; background-size: cover; height: 50vh !important; }
-#section2-fraud-2 .container-fluid .row .bgYellow-v .testimonial-item-graph { max-width: 100%; margin-top: 20%; margin-right: 6%; margin-left: 4%; margin-bottom: 5%; padding: 0% 0 0% 0; }
+#section2-fraud-2 .container-fluid .row .bgYellow-v .testimonial-item-graph { max-width: 100%; margin-top: 0%; margin-right: 0%; margin-left: 0%; margin-bottom: 0%; padding: 0% 0 0% 0; }
+#section2-fraud-2 .container-fluid .row .bgYellow-v .testimonial-item-graph img { margin-top: 20%; margin-left: 1%; width: 95%; position: absolute; }
 #section2-fraud-2 .container-fluid .row .bg-fraud-v { background-color: #DDD5CA; background-size: cover; height: 50vh !important; }
-#section2-fraud-2 .container-fluid .row .bg-fraud-v .testimonial-item-graph-2 { max-width: 100%; margin-top: 10%; margin-right: 6%; margin-left: 4%; margin-bottom: 0%; padding: 0% 0 0% 0; }
+#section2-fraud-2 .container-fluid .row .bg-fraud-v .testimonial-item-graph-2 { max-width: 100%; margin-top: 0%; margin-right: 6%; margin-left: 0%; margin-bottom: 0%; padding: 0% 0 0% 0; }
+#section2-fraud-2 .container-fluid .row .bg-fraud-v .testimonial-item-graph-2 img { margin-top: 5%; width: 95%; position: absolute; margin-left: 1; }
 
 .cover-img { max-width: 100%; }
 
@@ -417,7 +423,7 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
 #section2 .container-fluid .row .lscp { display: none; }
 #section2 .container-fluid .row .prt { display: block; }
 #section2 .container-fluid .row .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
-#section2 .container-fluid .row .col-sm-12 .index-consecuence-item { max-width: 100%; text-align: left; margin-left: 4%; margin-top: 5%; margin-right: 3%; margin-bottom: 3%; padding-top: 0%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; }
+#section2 .container-fluid .row .col-sm-12 .index-consecuence-item { max-width: 100%; text-align: left; margin-left: 4%; margin-top: 20%; margin-right: 3%; margin-bottom: 3%; padding-top: 0%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; }
 #section2 .container-fluid .row .col-sm-12 .index-consecuence-item .font1 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.31rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
 #section2 .container-fluid .row .col-sm-12 .index-consecuence-item .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.31rem; color: #FECE00; text-shadow: 1px 1px 0.3px #2D2521; }
 #section2 .container-fluid .row .col-sm-12 .index-consecuence-item .font3 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.18rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
@@ -464,32 +470,32 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
   #section1-consecuence-2 .container-fluid .row .prt { display: block; }
   #section1-consecuence-2 .container-fluid .row .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section1-consecuence-2 .container-fluid .row .bgYellow { -webkit-box-flex: 0; -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; height: 100%; }
-  #section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 { max-width: 100%; margin-top: 20%; margin-right: 0%; margin-left: 0%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 0%; padding-bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: end; }
+  #section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 { max-width: 100%; margin-top: 15%; margin-right: 0%; margin-left: 0%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 0%; padding-bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: end; }
   #section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 .tabletconsecuencetext { max-width: 100%; margin-top: 23%; margin-right: 1%; margin-left: 0%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 0%; padding-bottom: 0; }
   #section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 .tabletconsecuencetext .font3 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 0.93rem; color: #2D2521; }
   #section1-consecuence-2 .container-fluid .row .bgYellow .testimonial-item2 .img-consecuence { max-width: 100%; margin-top: 15%; margin-right: 0%; margin-left: 0%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 0%; padding-bottom: 0; /* text-align: center; */ width: 100%; }
   #section1-consecuence-2 .container-fluid .row .bgCrema { -webkit-box-flex: 0; -ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%; }
   #section1-consecuence-2 .container-fluid .row .bgCrema .long { max-width: 100%; margin-top: 23%; margin-right: 5%; margin-left: 4%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 0%; padding-bottom: 0; }
-  #section1-consecuence-2 .container-fluid .row .bgCrema .long .font4 { font-family: "Fira Sans", sans-serif; font-weight: 100; font-style: normal; font-size: 1.18rem; color: #2D2521; margin-bottom: 1rem; }
-  #section1-consecuence-2 .container-fluid .row .bgCrema .long .font5 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 1rem; color: #f49600; margin-bottom: 1rem; }
-  #section1-consecuence-2 .container-fluid .row .bgCrema .long .font6 { font-family: "Fira Sans", sans-serif; font-weight: 400; font-style: normal; font-size: 1rem; color: #f49600; margin-bottom: 1rem; }
+  #section1-consecuence-2 .container-fluid .row .bgCrema .long .font4 { font-family: "Fira Sans", sans-serif; font-weight: 100; font-style: normal; font-size: 1.18rem; color: #2D2521; margin-bottom: 0%; }
+  #section1-consecuence-2 .container-fluid .row .bgCrema .long .font5 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 1rem; color: #f49600; margin-bottom: 0%; }
+  #section1-consecuence-2 .container-fluid .row .bgCrema .long .font6 { font-family: "Fira Sans", sans-serif; font-weight: 400; font-style: normal; font-size: 1rem; color: #f49600; margin-bottom: 0%; }
   #section2-consecuence .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section2-consecuence .container-fluid .bg-dark { height: 100%; }
   #section2-consecuence .container-fluid .row { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section2-consecuence .container-fluid .row .lscp { display: block; }
   #section2-consecuence .container-fluid .row .prt { display: none; }
   #section2-consecuence .container-fluid .row .col-sm-6 { padding: 0 0 0 0; margin: 0 0 0 0; }
-  #section2-consecuence .container-fluid .row .col-sm-6 .testimonial-item-graph { max-width: 60%; margin-top: 23%; margin-left: 5%; margin-bottom: 0%; padding: 0% 0 0% 0; }
-  #section2-consecuence .container-fluid .row .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
-  #section2-consecuence .container-fluid .row .col-sm-12 .testimonial-item-grap2.graph2 { max-width: 35% !important; margin-top: 2% !important; margin-right: 2% !important; margin-left: 2% !important; text-align: center !important; padding-top: 0% !important; padding-right: 0% !important; padding-left: 0% !important; padding-bottom: 0% !important; margin-bottom: 13% !important; }
-  #section2-consecuence .container-fluid .row .scroll-down { position: absolute; z-index: 1; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); bottom: 15%; color: #fff !important; }
+  #section2-consecuence .container-fluid .row .col-sm-6 .testimonial-item-graph-h { max-width: 70%; margin-top: 23%; margin-left: 5%; margin-bottom: 0%; padding: 0% 0 0% 0; }
+  #section2-consecuence .container-fluid .row .col-sm-6 .testimonial-item-grap2-h.graph2 { max-width: 70%; margin-top: 23% !important; margin-right: 0%; margin-left: 5%; text-align: center; padding-top: 0%; padding-right: 0%; padding-left: 0%; padding-bottom: 0%; margin-bottom: 0; }
+  #section2-consecuence .container-fluid .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
+  #section2-consecuence .container-fluid .col-sm-12 .testimonial-item-graph-h { max-width: 33%; margin-top: 0%; margin-left: 2%; margin-bottom: 0%; padding: 0% 0 0% 0; }
   #section3-consecuence .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section3-consecuence .container-fluid .row { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section3-consecuence .container-fluid .row .lscp { display: block; }
   #section3-consecuence .container-fluid .row .prt { display: none; }
   #section3-consecuence .container-fluid .row .col-sm-4 { padding: 0 0 0 0; margin: 0 0 0 0; height: 85vh; }
   #section3-consecuence .container-fluid .row .col-sm-4 .item-consecuenciasbeekeeper { max-width: 100%; margin-top: 0%; }
-  #section3-consecuence .container-fluid .row .section3bg { background-image: url("../../media/consecuencias/bg-sector3H.jpg"), url("../media/consecuencias/bg-sector3H.jpg"), url("media/consecuencias/bg-sector3H.jpg"); background-size: cover; }
+  #section3-consecuence .container-fluid .row .section3bg { background-image: url("../media/consecuencias/bg-sector3H.jpg"); background-size: cover; }
   #section3-consecuence .container-fluid .row .section3bg .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
   #section3-consecuence .container-fluid .row .col-sm-8 { padding: 0 0 0 0; margin: 0 0 0 0; height: 85vh; }
   #section3-consecuence .container-fluid .row .bgOrange { background-color: #d88100; }
@@ -593,12 +599,12 @@ header.header-appear nav.header-light .logo .logo-light { visibility: hidden; op
   #section2 .container-fluid .row .prt { display: none; }
   #section2 .container-fluid .row .col-sm-8.bgYellow { height: 100%; }
   #section2 .container-fluid .row .col-sm-6 { padding: 0 0 0 0; margin: 0 0 0 0; }
-  #section2 .container-fluid .row .col-sm-6 .index-consecuence-item { max-width: 100%; text-align: left; margin-left: 4%; margin-top: 13%; margin-right: 3%; margin-bottom: 3%; padding-top: 0%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; }
+  #section2 .container-fluid .row .col-sm-6 .index-consecuence-item { max-width: 100%; text-align: left; margin-left: 4%; margin-top: 23%; margin-right: 3%; margin-bottom: 3%; padding-top: 0%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; }
   #section2 .container-fluid .row .col-sm-6 .index-consecuence-item .font1 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.18rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
   #section2 .container-fluid .row .col-sm-6 .index-consecuence-item .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.18rem; color: #FECE00; text-shadow: 1px 1px 0.3px #2D2521; }
   #section2 .container-fluid .row .col-sm-6 .index-consecuence-item .font3 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 0.93rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
-  #section2 .container-fluid .row .col-sm-6 .contenedorBtnLeer { position: absolute; height: 15%; width: 15%; margin: 21% 0% 0% 5%; }
-  #section2 .container-fluid .row .col-sm-6 .fraudMessage { max-width: 100%; text-align: left; margin-left: 0%; margin-top: 0%; margin-right: 3%; margin-bottom: 3%; padding-top: 13%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; margin-top: 60%; padding-top: 0%; margin-right: 0%; }
+  #section2 .container-fluid .row .col-sm-6 .contenedorBtnLeer { position: absolute; height: 15%; width: 15%; margin: 30% 0% 0% 5%; }
+  #section2 .container-fluid .row .col-sm-6 .fraudMessage { max-width: 100%; text-align: left; margin-left: 0%; margin-top: 0%; margin-right: 3%; margin-bottom: 3%; padding-top: 13%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; margin-top: 57%; padding-top: 0%; margin-right: 0%; }
   #section2 .container-fluid .row .col-sm-6 .fraudMessage .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.18rem; color: #FECE00; text-shadow: 1px 1px 0.3px #2D2521; }
   #section2 .container-fluid .row .col-sm-6 .fraudMessage .font4 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.18rem; color: #FECE00; text-shadow: 1px 1px 0.3px #2D2521; }
   #section2 .container-fluid .row .col-sm-6 .fraudMessage .font5 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.18rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }

@@ -188,6 +188,17 @@ header.header-appear {
     margin-right: 15%;
 }
 
+.opacity03 {
+    opacity: 0.4;
+    filter: grayscale(100%) !important;
+    filter: opacity(80%) !important;
+    filter: brightness(20%) !important;
+}
+
+.opacity1 {
+    opacity: 1;
+}
+
 .imgZoom {
     img {
         transition: transform .5s ease;

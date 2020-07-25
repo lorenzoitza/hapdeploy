@@ -62,6 +62,7 @@ if (!isset($_SESSION)) {
 
             <div class="section  fp-noscroll" id="section1-io">
                 <div class="container-fluid">
+                <?php loadScrollUpBlack(); ?>
                     <div class="row">
 
                         <div class="col-md-8">
@@ -112,6 +113,7 @@ if (!isset($_SESSION)) {
             <div class="bg-import-export section  fp-noscroll" id="section2-io">
 
                 <div class="container-fluid">
+                <?php loadScrollUpWhite(); ?>
                     <div class="row  ">
                         <div class="col-12  text-center fx fadeInDownBig">
                             <?php 

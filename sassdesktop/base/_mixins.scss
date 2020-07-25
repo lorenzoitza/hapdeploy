@@ -46,6 +46,24 @@
     }
 }
 
+@mixin arrow-position-up {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1%;
+}
+
+@mixin arrow-position-i-up {
+    padding-left: $arrow-padding-left;
+    fill: color-darky;
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+    svg {
+        @include arrow-size;
+    }
+}
+
 @mixin center-block-property {
     display: -webkit-box;
     display: -webkit-flex;

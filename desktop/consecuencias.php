@@ -58,7 +58,7 @@ if (!isset($_SESSION)) {
 
         <div class="section  fp-noscroll" id="section1-consecuence">
                 <div class="container-fluid">
-
+                <?php loadScrollUpBlack(); ?>
                     <div class="row">
 
                         <div class="col-md-6">
@@ -120,6 +120,7 @@ if (!isset($_SESSION)) {
         <div class="section  fp-noscroll" id="section2-consecuence">
 
                 <div class="container-fluid">
+                <?php loadScrollUpWhite(); ?>
                     <div class="row bgGraph bg-dark">
 
                         <div class="col-md-6 sector">
@@ -161,6 +162,7 @@ if (!isset($_SESSION)) {
         <div class="section  fp-noscroll" id="section3-consecuence">
 
                 <div class="container-fluid">
+                <?php loadScrollUpWhite(); ?>
                     <div class="row">
 
                         <div class="col-md-6 section3bg">

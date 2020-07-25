@@ -52,6 +52,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
         <div class="section fp-noscroll" id="section1-fraud">
             <div class="container-fluid">
+            <?php loadScrollUpBlack(); ?>
                 <div class="row bg-light">
 
                     <div class="col-md-6 ">
@@ -81,6 +82,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
         <div class="section  fp-noscroll" id="section2-fraud">
             <div class="container-fluid">
+            <?php loadScrollUpWhite(); ?>
                 <div class="row">
 
                     <div class="col-md-6 bg-import-export">
@@ -97,18 +99,18 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
                         <div class="col-md-12 bgYellow">
                             <div class="testimonial-item-graph">
-                                <img src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight ">
-                                <img src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight ">
-                                <img src="media/fraude/Recurso_14_1-es.svg" alt="" class="es  fxInRight ">
+                                <img src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fx InRight ">
+                                <img src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fx InRight ">
+                                <img src="media/fraude/Recurso_14_1-es.svg" alt="" class="es  fx InRight ">
 
                             </div>
                         </div>
 
                         <div class="col-md-12 bg-fraud2">
                             <div class="testimonial-item-graph-2">
-                                <img src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
-                                <img src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
-                                <img src="media/fraude/Recurso_14_2-es.svg" alt="" class="es  fxInRight ">
+                                <img src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fx InRight ">
+                                <img src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fx InRight ">
+                                <img src="media/fraude/Recurso_14_2-es.svg" alt="" class="es  fx InRight ">
                             </div>
                         </div>
 

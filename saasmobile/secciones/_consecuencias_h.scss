@@ -93,7 +93,7 @@
                     height: 100%;
                     .testimonial-item2 {
                         max-width: 100%;
-                        margin-top: 20%;
+                        margin-top: 15%;
                         margin-right: 0%;
                         margin-left: 0%;
                         text-align: left;
@@ -157,19 +157,19 @@
                             @include font-fira-sans-thin;
                             font-size: $font-size-19px;
                             color: $color-darky;
-                            margin-bottom: $line-height-base;
+                            margin-bottom: 0%;
                         }
                         .font5 {
                             @include font-fira-sans-extra-bold;
                             font-size: $font-size-16px;
                             color: $color-orange;
-                            margin-bottom: $line-height-base;
+                            margin-bottom: 0%;
                         }
                         .font6 {
                             @include font-fira-sans-regular;
                             font-size: $font-size-16px;
                             color: $color-orange;
-                            margin-bottom: $line-height-base;
+                            margin-bottom: 0%;
                         }
                     }
                 }
@@ -192,36 +192,35 @@
                 }
                 .col-sm-6 {
                     @include pm-0;
-                    .testimonial-item-graph {
-                        max-width: 60%;
+                    .testimonial-item-graph-h {
+                        max-width: 70%;
                         margin-top: 23%;
                         margin-left: 5%;
                         margin-bottom: 0%;
                         padding: 0% 0 0% 0;
                     }
-                }
-                .col-sm-12 {
-                    @include pm-0;
-                    .testimonial-item-grap2.graph2 {
-                        max-width: 35% !important;
-                        margin-top: 2% !important;
-                        margin-right: 2% !important;
-                        margin-left: 2% !important;
-                        text-align: center !important;
-                        padding-top: 0% !important;
-                        padding-right: 0% !important;
-                        padding-left: 0% !important;
-                        padding-bottom: 0% !important;
-                        margin-bottom: 13% !important;
+                    .testimonial-item-grap2-h.graph2 {
+                        max-width: 70%;
+                        margin-top: 23% !important;
+                        margin-right: 0%;
+                        margin-left: 5%;
+                        text-align: center;
+                        padding-top: 0%;
+                        padding-right: 0%;
+                        padding-left: 0%;
+                        padding-bottom: 0%;
+                        margin-bottom: 0;
                     }
                 }
-                .scroll-down {
-                    position: absolute;
-                    z-index: 1;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    bottom: 15%;
-                    color: #fff !important;
+            }
+            .col-sm-12 {
+                @include pm-0;
+                .testimonial-item-graph-h {
+                    max-width: 33%;
+                    margin-top: 0%;
+                    margin-left: 2%;
+                    margin-bottom: 0%;
+                    padding: 0% 0 0% 0;
                 }
             }
         }
@@ -246,7 +245,7 @@
                     }
                 }
                 .section3bg {
-                    background-image: url('../../media/consecuencias/bg-sector3H.jpg'), url('../media/consecuencias/bg-sector3H.jpg'), url('media/consecuencias/bg-sector3H.jpg');
+                    background-image: url('../media/consecuencias/bg-sector3H.jpg');
                     .fp-bg {
                         &:before {
                             content: '';

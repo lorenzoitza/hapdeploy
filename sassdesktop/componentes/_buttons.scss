@@ -115,3 +115,21 @@ button {
         fill: $color-darky;
     }
 }
+
+.scroll-up {
+    @include arrow-position-up;
+    color: $color-white !important;
+    i {
+        @include arrow-position-i-up;
+        fill: $color-white;
+    }
+}
+
+.scroll-up-black {
+    @include arrow-position-up;
+    color: $color-darky !important;
+    i {
+        @include arrow-position-i-up;
+        fill: $color-darky;
+    }
+}

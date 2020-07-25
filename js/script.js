@@ -225,6 +225,12 @@ $(document).on('click', '.scroll-down-section', function() {
 
 });
 
+$(document).on('click', '.scroll-up-section', function() {
+
+    fullpage_api.moveSectionDown();
+
+});
+
 $(document).on('click', '.logoScrollTop', function() {
 
     fullpage_api.moveTo(1);

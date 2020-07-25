@@ -61,6 +61,7 @@ $detect = new Mobile_Detect;
 
         <div class="section fp-noscroll" id="section1">
             <div class="container-fluid">
+            <?php loadScrollUpBlack(); ?>
                 <div class="row">
                     <div class="col-md-6 bg-light">
                         <div class="index-consecuence-item">
@@ -84,6 +85,7 @@ $detect = new Mobile_Detect;
         <div class="section fp-noscroll" id="section2">
             <div class="fp-bg"></div>
             <div class="container-fluid">
+            <?php loadScrollUpWhite(); ?>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="index-consecuence-item">
@@ -103,6 +105,7 @@ $detect = new Mobile_Detect;
 
         <div class="section fp-noscroll" id="section3">
             <div class="container-fluid bgCrema">
+            <?php loadScrollUpBlack(); ?>
                 <div class="row">
                     <div class="col-md-6 bgYellow ">
                         <div class="index-consecuence-item ">

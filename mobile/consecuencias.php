@@ -41,11 +41,11 @@ if (!isset($_SESSION['varHTML_Lang'])) {
             <div class="fp-bg"></div>
             <div class="fullscreen">
                 <div class="bg-darky">
-                <?php
-                        affectationsEs();
-                        affectationsFr();
-                        affectationsEn();
-                        ?>
+                    <?php
+                    affectationsEs();
+                    affectationsFr();
+                    affectationsEn();
+                    ?>
                 </div>
             </div>
             <?php loadScrollDownWhite(); ?>
@@ -74,18 +74,18 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <div class="col-sm-12 bgYellow">
                         <div class="testimonial-item2">
                             <div class="col-sm-6">
-                            <div class="tabletconsecuencetext">
-                                <p class="text-consecuence font3 es">Precio de importación de la miel de origen chino como porcentaje del promedio del precio de la miel importada del resto del mundo</p>
-                                <p class="text-consecuence font3 fr">Prix ​​à l&apos;importation du miel d&apos;origine chinoise en pourcentage du prix moyen du miel importé du reste du monde</p>
-                                <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
+                                <div class="tabletconsecuencetext">
+                                    <p class="text-consecuence font3 es">Precio de importación de la miel de origen chino como porcentaje del promedio del precio de la miel importada del resto del mundo</p>
+                                    <p class="text-consecuence font3 fr">Prix ​​à l&apos;importation du miel d&apos;origine chinoise en pourcentage du prix moyen du miel importé du reste du monde</p>
+                                    <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                            <div class="img-consecuence">
-                                <img src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
-                                <img src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
-                                <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
-                            </div>
+                                <div class="img-consecuence">
+                                    <img src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
+                                    <img src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
+                                    <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <?php loadScrollDownBlack(); ?>
         </div>
@@ -143,7 +143,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- Start Landscape -->
                     <div class="col-sm-6">
 
-                        <div class="testimonial-item-graph lscp">
+                        <div class="testimonial-item-graph-h lscp">
                             <img src="media/consecuencias/Sector3_1Page2-fr.svg" class="fr fxInDownC-delete " alt="">
                             <img src="media/consecuencias/Sector3_1Page2-en.svg" class="en fxInDownC-delete " alt="">
                             <img src="media/consecuencias/Sector3_1Page2-es.svg" class="es fxInDownC-delete " alt="">
@@ -152,19 +152,19 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     </div>
                     <div class="col-sm-6">
 
-                        <div class="testimonial-item-graph graph1 lscp">
-                            <img src="media/consecuencias/Sector3_2Page2-fr.svg" class="fr fxInUpC-delete" alt="">
-                            <img src="media/consecuencias/Sector3_2Page2-en.svg" class="en fxInUpC-delete" alt="">
-                            <img src="media/consecuencias/Sector3_2Page2-es.svg" class="es fxInUpC-delete" alt="">
+                        <div class="testimonial-item-grap2-h graph2 lscp">
+                            <img src="media/consecuencias/graph-3-section2-fr.svg" class="fr fxInLeftC-delete " alt="">
+                            <img src="media/consecuencias/graph-3-section2-en.svg" class="en fxInLeftC-delete " alt="">
+                            <img src="media/consecuencias/graph-3-section2-es.svg" class="es fxInLeftC-delete " alt="">
                         </div>
 
                     </div>
                     <div class="col-sm-12 sector">
 
-                        <div class="testimonial-item-grap2 graph2 lscp">
-                            <img src="media/consecuencias/graph-3-section2-fr.svg" class="fr fxInLeftC-delete " alt="">
-                            <img src="media/consecuencias/graph-3-section2-en.svg" class="en fxInLeftC-delete " alt="">
-                            <img src="media/consecuencias/graph-3-section2-es.svg" class="es fxInLeftC-delete " alt="">
+                        <div class="testimonial-item-graph-h graph1 lscp">
+                            <img src="media/consecuencias/Sector3_2Page2-fr.svg" class="fr fxInUpC-delete" alt="">
+                            <img src="media/consecuencias/Sector3_2Page2-en.svg" class="en fxInUpC-delete" alt="">
+                            <img src="media/consecuencias/Sector3_2Page2-es.svg" class="es fxInUpC-delete" alt="">
                         </div>
 
                     </div>
@@ -173,10 +173,8 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
                 </div>
                 <?php loadScrollDownWhite(); ?>
-                
-
             </div>
-            
+
 
         </div>
 
@@ -189,7 +187,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- id="section5-consecuence"> -->
                     <div class="col-sm-12 ">
                         <div class="item-consecuenciasbeekeeper prt">
-                        <img src="media/consecuencias/bg-sector3V.jpg" alt="">
+                            <img src="media/consecuencias/bg-sector3V.jpg" alt="">
 
                         </div>
                     </div>
@@ -225,7 +223,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
             </div>
             <?php loadFooterMobile(); ?>
         </div>
-       
+
     </div>
     <?php loadJsMobile(); ?>
     <script src="js/scripts/consecuencias-mobile.js "></script>
