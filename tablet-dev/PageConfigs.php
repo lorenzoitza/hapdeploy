@@ -2,13 +2,14 @@
 require_once('PageSettings.php');
 
 $version = "?1.0";
-$cssAnimate = "css/animate.css"; // . $version;
-$cssBootstrapReboot = "css/bootstrap-reboot.min.css";// . $version;
-$cssBootstrapCSS = "css/bootstrap.css";// . $version;
-$cssFontAwesome = "css/font-awesome.min.css";// . $version;
-$cssStyleSheet = "css/style.css";// . $version;
-$cssCustomFont = "css/font-style.css";// . $version;
-$cssViewPorts = "css/viewports.css";// . $version;
+$cssAnimate =           "css/animate.css"; // . $version;
+$cssBootstrapReboot =   "css/bootstrap-reboot.css";// . $version;
+$cssBootstrapCSS =      "css/bootstrap.css";// . $version;
+$cssFontAwesome =       "css/font-awesome.min.css";// . $version;
+$cssFullPage =          "css/fullpage.css";// . $version;
+$cssStyleSheet =        "css/style.css";// . $version;
+$cssMobile =            "css/stylemobile.css";// . $version;
+$cssTablet =            "css/styletablet.css";// . $version;
 
 // $version = "?3.2";
 // $cssAnimate = "css/animate.css" . $version;
@@ -68,6 +69,30 @@ function loadCssFiles()
     // echo '<link rel="stylesheet" href="' . $GLOBALS['cssCustomFont'] . '">';
 }
 
+function loadCssFilesMobile()
+{
+    // echo '<script src="js/EventEmitter.min.js"></script>';
+    // echo '<script src="js/lethargy.min.js"></script>';
+    // echo '<script src="js/martscroll.min.js"></script>';
+    // echo '<link rel="stylesheet" href="' . $GLOBALS['cssAnimate'] . '">';
+    echo '<link rel="stylesheet" href="' . $GLOBALS['cssFullPage'] . '" />';
+    // echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapReboot'] . '">';
+    echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapCSS'] . '">';
+    echo '<link rel="stylesheet" href="' . $GLOBALS['cssMobile'] . '">';
+
+}
+function loadCssFilesTablet()
+{
+    echo '<script src="js/EventEmitter.min.js"></script>';
+    echo '<script src="js/lethargy.min.js"></script>';
+    echo '<script src="js/martscroll.min.js"></script>';
+    echo '<link rel="stylesheet" href="' . $GLOBALS['cssAnimate'] . '">';
+    echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapReboot'] . '">';
+    echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapCSS'] . '">';
+    echo '<link rel="stylesheet" href="' . $GLOBALS['cssTablet'] . '">';
+
+}
+
 function loadJsIndexFiles()
 {
     echo '<script src="js/debounce.js"></script> ';
@@ -89,6 +114,20 @@ function loadJsIndexFiles()
 
 
 }
+
+function loadJsMobile()
+{
+    // echo '<script src="js/debounce.js"></script> ';
+    echo '<script type="text/javascript" src="js/jquery-3.5.0.min.js "></script> ';
+    echo '<script type="text/javascript" src="js/bootstrap.min.js "></script> ';
+    echo '<script type="text/javascript" src="js/jquery.appear.js "></script> ';
+    echo '<script type="text/javascript" src="js/script-mobile.js "></script> ';
+    echo '<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script> ';
+    echo '<script type="text/javascript" src="js/fullpage.js"></script> ';
+    echo '<script type="text/javascript" src="js/fullpage.extensions.min.js"></script>';
+    echo '<script type="text/javascript" src="js/fullpage.parallax.min.js"></script> ';
+}
+
 
 function loadFooter()
 {
@@ -130,6 +169,14 @@ function loadFooter()
                 <p class="company-about animated   fadeIn ">' . $GLOBALS['aboutTxt'] . '</p>
             </div>';
 }
+
+function loadFooterMobile()
+{
+    echo '<div class="footerpage">
+                <p class="company-about animated   fadeIn ">' . $GLOBALS['aboutTxt'] . '</p>
+            </div>';
+}
+
 
 
 
