@@ -94,11 +94,13 @@ $detect = new Mobile_Detect;
                     <div class="col-sm-6  lscp">
                         <div class="index-consecuence-item">
                             <?php fraudIndexEs();
-                            btnLeer("fraude.php");
                             ?>
                         </div>
                     </div>
                     <div class="col-sm-6  lscp">
+                    <?php 
+                            btnLeer("fraude.php");
+                            ?>
                         <div class="fraudMessage">
                             <?php fraudMessageIndexEs();
                             ?>

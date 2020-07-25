@@ -73,15 +73,19 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                 <div class="row">
                     <div class="col-sm-12 bgYellow">
                         <div class="testimonial-item2">
-                            <div class="col-sm-12 tabletconsecuencetext">
+                            <div class="col-sm-6">
+                            <div class="tabletconsecuencetext">
                                 <p class="text-consecuence font3 es">Precio de importación de la miel de origen chino como porcentaje del promedio del precio de la miel importada del resto del mundo</p>
                                 <p class="text-consecuence font3 fr">Prix ​​à l&apos;importation du miel d&apos;origine chinoise en pourcentage du prix moyen du miel importé du reste du monde</p>
                                 <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
+                                </div>
                             </div>
-                            <div class="col-sm-12  img-consecuence">
+                            <div class="col-sm-6">
+                            <div class="img-consecuence">
                                 <img src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
                                 <img src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
                                 <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -168,11 +172,11 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- End Landscape -->
 
                 </div>
-
+                <?php loadScrollDownWhite(); ?>
                 
 
             </div>
-            <?php loadScrollDownWhite(); ?>
+            
 
         </div>
 

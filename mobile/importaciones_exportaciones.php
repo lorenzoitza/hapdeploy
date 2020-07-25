@@ -122,7 +122,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         </div>
 
 
-        <div class="section" id="section2-io">
+        <div class="section fp-noscroll" id="section2-io">
 
             <div class="container-fluid bg-import-export">
 
@@ -167,17 +167,17 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     </div>
                 </div>
                 <!-- End Landscape -->
-                
+                <?php loadFooterMobile(); ?>
             </div>
             
-            <?php loadFooterMobile(); ?>
+            
         </div>
 
 
 
 
     </div>
-    <?php loadJsIndexFiles(); ?>
+    <?php loadJsMobile(); ?>
     <script src="js/scripts/importexport-mobile.js "></script>
 </body>
 

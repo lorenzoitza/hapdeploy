@@ -81,7 +81,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
             <?php loadScrollDownWhite(); ?>
         </div>
 
-        <div class="section" id="section2-fraud-2">
+        <div class="section  fp-noscroll" id="section2-fraud-2">
             <div class="container-fluid">
                 <div class="row">
                     <!-- start portrait -->
