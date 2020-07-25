@@ -7,7 +7,7 @@ $detect = new Mobile_Detect;
 if( $detect->isMobile() && !$detect->isTablet() ){
     include $GLOBALS['srcMobileImportaciones_exportaciones'];
 }elseif( $detect->isTablet() ){
-    include $GLOBALS['srTabletImportaciones_exportaciones'];
+    include $GLOBALS['srcTabletImportaciones_exportaciones'];
 }else{
     include $GLOBALS['srcDesktopImportaciones_exportaciones'];
 }

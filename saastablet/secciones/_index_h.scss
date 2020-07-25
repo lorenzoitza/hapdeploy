@@ -104,9 +104,7 @@
                     @include bt-0;
                     @include fullhw;
                 }
-                background-image: url('../../media/index/bg-index-section2landscape.jpg'),
-                url('../media/index/bg-index-section2landscape.jpg'),
-                url('media/index/bg-index-section2landscape.jpg');
+                background-image: url('../media/index/bg-index-section2landscape.jpg');
                 background-size:cover;
             }
             .container-fluid {
@@ -159,6 +157,12 @@
                             margin-top: 100%;
                             padding-top: 0%;
                             margin-right: 0%;
+                            .font2 {
+                                @include font-fira-sans-light;
+                                font-size: $font-size-31px;
+                                color: $color-egg;
+                                text-shadow: 1px 1px 0.3px $color-darky;
+                            }
                             .font4 {
                                 @include font-fira-sans-light;
                                 font-size: $font-size-31px;

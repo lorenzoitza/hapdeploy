@@ -30,7 +30,7 @@ $detect = new Mobile_Detect;
         <?php echo $TittlePageEs; ?>
     </title>
     <link rel="icon" href="media/favicon.ico">
-    <?php loadCssFilesTable(); ?>
+    <?php loadCssFilesTablet(); ?>
 
 </head>
 
@@ -60,12 +60,12 @@ $detect = new Mobile_Detect;
                         <div class="index-consecuence-item prt">
                             <?php
                             consequenceIndexEs();
-                            btnLeerMasIndexEs("consecuencias.php");
+                            btnLeer("consecuencias.php");
                             ?>
                         </div>
                     </div>
                     <div class="col-sm-12 p-0 center-block justify-content-center align-items-center m-0 bgOrange prt">
-                        <img src="media/colmena.svg" class="hive fx fadeInRight" alt="hive">
+                        <img src="media/index/colmena.svg" class="hive fx fadeInRight" alt="hive">
                     </div>
 
                 
@@ -73,12 +73,12 @@ $detect = new Mobile_Detect;
                         <div class="index-consecuence-item lscp">
                             <?php
                             consequenceIndexEs();
-                            btnLeerMasIndexEs("consecuencias.php");
+                            btnLeer("consecuencias.php");
                             ?>
                         </div>
                     </div>
                     <div class="col-md-6 center-block justify-content-center align-items-center bgOrange lscp">
-                        <img src="media/colmena.svg" class="hive fx fadeInRight" alt="hive">
+                        <img src="media/index/colmena.svg" class="hive fx fadeInRight" alt="hive">
                     </div>
 
                 </div>
@@ -99,7 +99,7 @@ $detect = new Mobile_Detect;
                         </div>
                         <div class="fraudMessage">
                             <?php fraudMessageIndexEs();
-                            btnLeerMasIndexEs("fraude.php");
+                            btnLeer("fraude.php");
                             ?>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ $detect = new Mobile_Detect;
                     <div class="col-sm-6  lscp">
                         <div class="index-consecuence-item">
                             <?php fraudIndexEs();
-                            btnLeerMasIndexEs("fraude.php");
+                            btnLeer("fraude.php");
                             ?>
                         </div>
                     </div>
@@ -138,21 +138,21 @@ $detect = new Mobile_Detect;
                         <div class="index-consecuence-item-v">
                             <?php
                             honeyFraudIndexEs();
-                            btnLeerMasIndexEs("importaciones_exportaciones.php");
+                            btnLeer("importaciones_exportaciones.php");
                             ?>
                         </div>
                     </div>
                     <div class="bgCrema-v  col-sm-12  prt">
                         <div class="col-sm-6">
                             <div class="text-center item-newspaper-left-v prt">
-                                <img src="media/news1.png" class="prt newspaper-padding fx fadeInRight1" alt="">
-                                <img src="media/news2.png" class="prt newspaper-padding fx fadeInRight2" alt="">
+                                <img src="media/index/news1.png" class="prt newspaper-padding fx fadeInRight1" alt="">
+                                <img src="media/index/news2.png" class="prt newspaper-padding fx fadeInRight2" alt="">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="text-center item-newspaper-right-v prt">
-                                <img src="media/news3.png" class="prt newspaper-padding fx fadeInRight3" alt="">
-                                <img src="media/news4.png" class="prt newspaper-padding bottomnews paper-padding fx fadeInRight4" alt="">
+                                <img src="media/index/news3.png" class="prt newspaper-padding fx fadeInRight3" alt="">
+                                <img src="media/index/news4.png" class="prt newspaper-padding bottomnews paper-padding fx fadeInRight4" alt="">
                             </div>
                         </div>
                     </div>
@@ -162,16 +162,16 @@ $detect = new Mobile_Detect;
                         <div class="index-consecuence-item-h ">
                             <?php
                             honeyFraudIndexEs();
-                            btnLeerMasIndexEs("importaciones_exportaciones.php");
+                            btnLeer("importaciones_exportaciones.php");
                             ?>
                         </div>
                     </div>
                     <div class="bgCrema-h col-sm-4 center-block text-right justify-content-center align-items-center lscp">
                         <div class="text-center item-newspaper-v item-newspaper-h">
-                            <img src="media/news1.png" class="newspaper-padding-1 fx fadeInRight1" alt="">
-                            <img src="media/news2.png" class="newspaper-padding fx fadeInRight2" alt="">
-                            <img src="media/news3.png" class="newspaper-padding fx fadeInRight3" alt="">
-                            <img src="media/news4.png" class="newspaper-padding fx fadeInRight4" alt="">
+                            <img src="media/index/news1.png" class="newspaper-padding-1 fx fadeInRight1" alt="">
+                            <img src="media/index/news2.png" class="newspaper-padding fx fadeInRight2" alt="">
+                            <img src="media/index/news3.png" class="newspaper-padding fx fadeInRight3" alt="">
+                            <img src="media/index/news4.png" class="newspaper-padding fx fadeInRight4" alt="">
                         </div>
                     </div>
                     <?php loadFooter(); ?>

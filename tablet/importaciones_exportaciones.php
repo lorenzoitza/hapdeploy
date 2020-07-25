@@ -26,7 +26,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
         <?php echo $TittlePageEs; ?>
     </title>
     <link rel="icon" href="media/favicon.ico">
-    <?php loadCssFilesTable(); ?>
+    <?php loadCssFilesTablet(); ?>
 </head>
 
 <body>

@@ -156,6 +156,12 @@
                         padding-right: 0%;
                         padding-bottom: 0%;
                         padding-left: 0%;
+                        .font2 {
+                            @include font-fira-sans-light;
+                            font-size: $font-size-31px;
+                            color: $color-egg;
+                            text-shadow: 1px 1px 0.3px $color-darky;
+                        }
                         .font4 {
                             @include font-fira-sans-light;
                             font-size: $font-size-31px;
