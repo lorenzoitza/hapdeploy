@@ -1,0 +1,260 @@
+    #section0 {
+        .fp-bg {
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                background: $color-gray-trasparent;
+                @include bt-0;
+                @include fullhw;
+            }
+            background-image: url('../media/index/mapaindexportrait.svg');
+        }
+        .fullscreen {
+            @include fullpage-home;
+            .font1 {
+                @include font-fira-sans-extra-light;
+                font-size: $font-size-35px;
+                color: $color-white;
+                margin: 0% 1%;
+            }
+            .font2 {
+                @include font-fira-sans-bold;
+                font-size: $font-size-33px;
+                color: $color-white;
+            }
+            .font3 {
+                @include font-fira-sans-thin;
+                font-size: $font-size-33px;
+                color: $color-white;
+            }
+            .tarros {
+                width: 50%;
+                height: auto;
+                padding-top: 4%;
+                margin: auto;
+                display: block;
+            }
+        }
+    }
+    
+    #section1 {
+        .portraitmobile {
+            display: none;
+        }
+        .landscapemobile {
+            display: visible;
+        }
+        .font1 {
+            @include font-fira-sans-bold;
+            font-size: $font-size-26px;
+            color: $color-darky;
+        }
+        .font2 {
+            @include font-fira-sans-thin;
+            font-size: $font-size-21px;
+            color: $color-darky
+        }
+        .container-fluid {
+            .lscp {
+                @include hide-element;
+            }
+            .prt {
+                @include visible-element;
+            }
+            height: 100%;
+            .row {
+                height: 100%;
+                background-color: $color-orange-bg;
+            }
+            .index-consecuence-item {
+                max-width: 100%;
+                text-align: left;
+                margin-left: 4%;
+                margin-top: 25%;
+                margin-right: 3%;
+                margin-bottom: 15%;
+                padding-top: 0%;
+                padding-right: 0%;
+                padding-bottom: 0%;
+                padding-left: 0%;
+            }
+            .hive {
+                max-width: 52%;
+                padding-bottom: 3%;
+                margin-top: 0%;
+                padding-top: 0%;
+                margin-left: 20%;
+            }
+        }
+    }
+    
+    #section2 {
+        .fp-bg {
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                background: $color-gray-trasparent;
+                @include bt-0;
+                @include fullhw;
+            }
+            background-image: url('../media/index/bg-index-section2portrait.jpg');
+            background-size:cover;
+        }
+        .container-fluid {
+            @include pm-0;
+            .row {
+                height: $height-100vh;
+                @include pm-0;
+                .lscp {
+                    @include hide-element;
+                }
+                .prt {
+                    @include visible-element;
+                }
+                .col-sm-12 {
+                    @include pm-0;
+                    .index-consecuence-item {
+                        max-width: 100%;
+                        text-align: left;
+                        margin-left: 4%;
+                        margin-top: 15%;
+                        margin-right: 3%;
+                        margin-bottom: 3%;
+                        padding-top: 0%;
+                        padding-right: 0%;
+                        padding-bottom: 0%;
+                        padding-left: 0%;
+                        .font1 {
+                            @include font-fira-sans-bold;
+                            font-size: $font-size-31px;
+                            color: $color-white;
+                            text-shadow: 1px 1px 0.3px $color-darky;
+                        }
+                        .font2 {
+                            @include font-fira-sans-light;
+                            font-size: $font-size-31px;
+                            color: $color-egg;
+                            text-shadow: 1px 1px 0.3px $color-darky;
+                        }
+                        .font3 {
+                            @include font-fira-sans-light;
+                            font-size: $font-size-26px;
+                            color: $color-white;
+                            text-shadow: 1px 1px 0.3px $color-darky;
+                        }
+                    }
+                    .fraudMessage {
+                        max-width: 100%;
+                        text-align: left;
+                        margin-left: 4%;
+                        margin-top: 0%;
+                        margin-right: 3%;
+                        margin-bottom: 3%;
+                        padding-top: 15%;
+                        padding-right: 0%;
+                        padding-bottom: 0%;
+                        padding-left: 0%;
+                        .font4 {
+                            @include font-fira-sans-light;
+                            font-size: $font-size-31px;
+                            color: $color-egg;
+                            text-shadow: 1px 1px 0.3px $color-darky;
+                        }
+                        .font5 {
+                            @include font-fira-sans-light;
+                            font-size: $font-size-31px;
+                            color: $color-white;
+                            text-shadow: 1px 1px 0.3px $color-darky;
+                        }
+                        .buttom-left.es {
+                            @include buttom-left-position-portrait;
+                        }
+                        .buttom-left.en {
+                            @include buttom-left-position-portrait;
+                        }
+                        .buttom-left.fr {
+                            @include buttom-left-position-portrait;
+                        }
+                    }
+                }
+                .col-sm-6 {
+                    @include pm-0;
+                }
+            }
+        }
+    }
+    
+    #section3 {
+        .container-fluid {
+            @include pm-0;
+            height: 100%;
+            .row {
+                height: 100%;
+                @include pm-0;
+                .lscp {
+                    @include hide-element
+                }
+                .prt {
+                    @include visible-element;
+                }
+                .bgYellow-v {
+                    background-color: $color-yellow;
+                    background-size: cover;
+                    height: 55%;
+                    .index-consecuence-item-v {
+                        max-width: 100%;
+                        margin: 15% 3% 0% 4%;
+                        text-align: left;
+                        padding: 0% 0% 0% 0%;
+                        .font1 {
+                            @include font-fira-sans-bold;
+                            font-size: $font-size-26px;
+                            color: $color-darky;
+                        }
+                        .font2 {
+                            @include font-fira-sans-thin;
+                            font-size: $font-size-21px;
+                            color: $color-darky;
+                        }
+                    }
+                    .contenedorBtnLeer {
+                        margin: 4% auto;
+                    }
+                }
+                .bgCrema-v {
+                    background-color: $color-crema;
+                    height: 45%;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: space-around;
+                    .item-newspaper-left-v {
+                        padding: 0% 0% 0% 0%;
+                        margin: 0% 0% 35% 0%;
+                        .newspaper-padding {
+                            position: relative;
+                            margin-top: 0%;
+                            width: 100%;
+                            margin-left: 4%;
+                            margin-right: 4%;
+                        }
+                    }
+                    .item-newspaper-right-v {
+                        padding: 0% 0% 0% 0%;
+                        margin: 0% 0% 35% 0%;
+                        .newspaper-padding {
+                            position: relative;
+                            margin-top: 0%;
+                            width: 100%;
+                            margin-left: 4%;
+                            margin-right: 4%;
+                        }
+                    }
+                }
+                .col-sm-12 {
+                    @include pm-0;
+                }
+            }
+        }
+    }

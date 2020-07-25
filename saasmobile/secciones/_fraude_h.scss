@@ -1,0 +1,150 @@
+@media (orientation: landscape) {
+    #section0-fraud {
+        .fp-bg {
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                background: $color-gray-trasparent;
+                @include bt-0;
+                @include fullhw;
+            }
+            background-image: url('../media/fraude/bg-sector0.jpg');
+        }
+        .fullscreen {
+            @include fullpage-home;
+            .font1 {
+                @include font-fira-sans-extra-light;
+                font-size: $font-size-31px;
+                color: $color-white;
+                text-shadow: 1px 1px 0.3px $color-darky;
+            }
+            .font2 {
+                @include font-fira-sans-bold;
+                font-size: $font-size-31px;
+                color: $color-white;
+                text-shadow: 1px 1px 0.3px $color-darky;
+            }
+        }
+    }
+    #section1-fraud {
+        .container-fluid {
+            @include pm-0;
+            .row {
+                @include pm-0;
+                .col-sm-12 {
+                    @include pm-0;
+                    .item-fraud-page {
+                        max-width: 100%;
+                        margin: 13% 5% 5% 4%;
+                        text-align: left;
+                        padding: 0 0;
+                        .font1 {
+                            @include font-fira-sans-bold;
+                            font-size: $font-size-14px;
+                            color: $color-darky;
+                        }
+                        .font2 {
+                            @include font-fira-sans-bold;
+                            font-size: $font-size-14px;
+                            color: $color-darky;
+                            margin-top: 0.5rem;
+                            margin-bottom: 0.5rem;
+                        }
+                        .font3 {
+                            @include font-fira-sans-light;
+                            font-size: $font-size-14px;
+                            color: $color-darky;
+                            margin-bottom: 0.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #section2-fraud {
+        .container-fluid {
+            @include fullhw;
+            @include pm-0;
+            .row {
+                @include pm-0;
+                .lscp {
+                    @include visible-element;
+                }
+                .prt {
+                    @include hide-element
+                }
+                .col-sm-12 {
+                    height: $height-100vh;
+                    @include pm-0;
+                    .testimonial-item-Fraud-Page {
+                        max-width: 100%;
+                        margin: 10% 5% 0% 3.2%;
+                        text-align: left;
+                        padding: 0 0;
+                        .font1 {
+                            @include font-fira-sans-bold;
+                            font-size: $font-size-15px;
+                            color: $color-egg;
+                            margin-bottom: 0.5rem;
+                        }
+                        .font2 {
+                            @include font-fira-sans-light;
+                            font-size: $font-size-14px;
+                            color: $color-crema;
+                            margin-bottom: 0.3rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #section2-fraud-2 {
+        .container-fluid {
+            height: 90vh;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            .row {
+                height: 100vh;
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+                .lscp {
+                    @include visible-element;
+                }
+                .prt {
+                    @include hide-element
+                }
+                .col-sm-6 {
+                    // height: 100%;
+                    @include pm-0;
+                }
+                .bgYellow-h {
+                    background-color: $color-yellow;
+                    background-size: cover;
+                    height: 100vh;
+                    .testimonial-item-graph {
+                        max-width: 100%;
+                        margin-top: 20%;
+                        margin-right: 6%;
+                        margin-left: 4%;
+                        margin-bottom: 0%;
+                        padding: 0% 0 0% 0;
+                    }
+                }
+                .bg-fraud-h {
+                    height: 100vh;
+                    background-color: $color-beige;
+                    background-size: cover;
+                    .testimonial-item-graph {
+                        max-width: 100%;
+                        margin-top: 20%;
+                        margin-right: 6%;
+                        margin-left: 4%;
+                        margin-bottom: 0%;
+                        padding: 0% 0 0% 0;
+                    }
+                }
+            }
+        }
+    }
+}

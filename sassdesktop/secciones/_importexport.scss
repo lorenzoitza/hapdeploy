@@ -1,0 +1,189 @@
+#section0-io {
+    .container-fluid {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        .row {
+            height: $height-100vh;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            .col-md-6 {
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+            }
+        }
+    }
+    .fp-bg {
+        &:before {
+            @include fp-bg-before;
+            @include bt-0;
+            @include fullhw;
+            background-image: url('../media/importexport/bg-sector0.png');
+            background-size: cover;
+        }
+    }
+    .font1 {
+        @include font-fira-sans-extra-light;
+        font-size: $font-size-53px;
+        color: $color-white;
+    }
+    .font2 {
+        @include font-fira-sans-medium;
+        font-size: $font-size-53px;
+        color: $color-yellow;
+        text-shadow: 1px 1px 0.3px $color-darky;
+    }
+    .font3 {
+        @include font-fira-sans-medium;
+        font-size: $font-size-53px;
+        color: $color-orange;
+        text-shadow: 1px 1px 0.3px $color-darky;
+    }
+    .font4 {
+        @include font-fira-sans-medium;
+        font-size: $font-size-53px;
+        color: $color-orange;
+    }
+    .font5 {
+        @include font-fira-sans-light;
+        font-size: $font-size-53px;
+        color: $color-white;
+    }
+    .fullscreen {
+        @include center-block;
+    }
+}
+
+#section1-io {
+    .container-fluid {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        .row {
+            height: $height-100vh;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            .col-md-6 {
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+            }
+            .col-md-8 {
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+            }
+        }
+    }
+    .font1 {
+        @include font-fira-sans-bold;
+        font-size: $font-size-30px;
+        color: $color-darky;
+    }
+    .font2 {
+        @include font-fira-sans-thin;
+        font-size: $font-size-30px;
+        color: $color-darky;
+    }
+    .font3 {
+        @include font-fira-sans-thin;
+        font-size: $font-size-16px;
+        line-height: $txt-space-line;
+        color: $color-darky;
+        margin-left: 3%;
+    }
+    .font4 {
+        @include font-fira-sans-thin;
+        font-size: $font-size-21px;
+        // color: $color-beige;
+        color: $color-white;
+    }
+    .laudering {
+        @include page-item;
+        margin-top: 20%;
+        margin-right: auto;
+        margin-bottom: 0%;
+        padding: 0% 0 3% 0;
+        margin-left: 5%;
+    }
+    .bgOrange {
+        background-color: $color-orange-bg;
+    }
+    .container-fluid {
+        @include height-100vh;
+        .row {
+            @include height-100vh;
+        }
+    }
+    .img86 {
+        width: 90% !important;
+        height: auto;
+        margin-top: 12%;
+        margin-bottom: 32%;
+    }
+}
+
+#section2-io {
+    .container-fluid {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        .row {
+            height: $height-100vh;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            .col-md-6 {
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+            }
+        }
+    }
+    .font1 {
+        @include font-fira-sans-bold;
+        font-size: $font-size-48px;
+        color: $color-white;
+        @include txt-TopImportExport;
+    }
+    .font2 {
+        @include font-fira-sans-thin;
+        font-size: $font-size-40px;
+        color: $color-white;
+    }
+    .fullscreen {
+        @include height-100vh;
+        .row {
+            margin: 0;
+        }
+    }
+    .row {
+        margin-left: 0% !important;
+    }
+}
+
+.message-import-export-sector2 {
+    @include page-item;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 35%;
+    margin-right: auto;
+    margin-bottom: 0%;
+    padding: 0% 10% 0% 0.5%;
+}
+
+.padding-import-export-left {
+    padding-bottom: 16%;
+    margin-bottom: 16%;
+}
+
+.padding-import-export {
+    padding-right: 1%;
+    padding-left: 7%;
+}
+
+.testimonial-item-graph {
+    @include page-item;
+    max-width: 100%;
+    margin-top: 3%;
+    margin-right: 6%;
+    margin-bottom: 15%;
+    padding: 0% 0 0% 0;
+}
+
+.img85 {
+    width: 80% !important;
+}

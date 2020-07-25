@@ -1,0 +1,220 @@
+$color-black: #000;
+$color-black-transparent:rgba(0, 0, 0, .3);
+$color-white: #fff;
+$color-white-gray: #f3f3f3;
+$color-crema: #FFF8DC;
+$color-beige: #DDD5CA;
+$color-darky: #2D2521;
+$color-yellow: #ffdd00;
+$color-egg:#FECE00;
+$color-orange: #f49600;
+$color-orange-bg:#d88100;
+$color-gray-trasparent:rgba(173, 173, 173, 0.2);
+$color-gray-white: #e2e2e2;
+$color-bg-sidemenu_btn: #FFFFFF;
+
+/*** widht - height  ***/
+
+$max-width-55: 55%;
+$height-100vh: 100%;
+$height-50vh: 50%;
+$width-100vh: 100%;
+$width-50vh: 50%;
+$width-side-menu: 60%;
+$height-side-menu: 70%;
+$width-side-menu-h: 45%;
+$height-side-menu-h: 100%;
+
+/*** widht - height end ***/
+
+@mixin effect-duration-logo {
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+@mixin components-logo-0 {
+    visibility: hidden;
+    opacity: 0;
+    width: 0;
+}
+
+@mixin txt-TopImportExport {
+    margin-top: 20%;
+}
+
+@mixin components-logo-1 {
+    visibility: visible;
+    opacity: 1;
+    width: auto;
+}
+
+@mixin translate-flag {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    width: 10%;
+    padding: 0.2% 0.5% 0% 0.5%;
+    position: absolute;
+    right: 1%;
+    display: inline-block;
+}
+
+@mixin translate-flag-mobile {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    width: 5.6%;
+    padding: 0.2% 0.5% 0% 0.5%;
+    position: absolute;
+    right: 1%;
+    display: inline-block;
+}
+
+// $bg-mapa:;
+@mixin arrow-position {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1%;
+}
+
+@mixin arrow-position-mobile {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1%;
+}
+
+@mixin fp-bg-before {
+    content: '';
+    position: absolute;
+    display: block;
+    // background: $color-gray-trasparent;
+}
+
+@mixin fp-bg-config {
+    background-size: cover;
+    background-position: centered;
+    background-repeat: no-repeat;
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+$arrow-padding-left:40%;
+$arrow-padding-left-h:46.5%;
+@mixin arrow-size {
+    height: 15%;
+    width: 15%;
+}
+
+@mixin arrow-size-mobile {
+    height: 7%;
+    width: 7%;
+}
+
+@mixin fullhw {
+    height: 100%;
+    width: 100%;
+}
+
+@mixin center-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@mixin height-100vh {
+    height: 100%;
+}
+
+@mixin bt-0 {
+    top: 0;
+    bottom: 0;
+}
+
+@mixin p-1 {
+    padding: 1% 1% 1% 1%;
+}
+
+@mixin mpb-0 {
+    margin: 0 0;
+    padding: 0 0;
+    border: 0 0;
+}
+
+@mixin text-decoration-outline {
+    outline: none;
+    text-decoration: none;
+}
+
+// %margin-l-3{
+//}
+@mixin page-item {
+    max-width: 100%;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    padding-top: 13%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+
+@mixin page-item-min {
+    max-width: 100%;
+    text-align: left;
+    margin-left: 4%;
+}
+
+@mixin buttom-left-position {
+    position: relative;
+    bottom: -140%;
+    right: -15px;
+    margin-left: 45%;
+}
+
+@mixin buttom-left-position-portrait {
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    margin-left: 0%;
+}
+
+@mixin testimonial-item-fraud-config {
+    max-width: 100%;
+    margin-right: 1%;
+    margin-left: 5%;
+    text-align: left;
+    padding-top: 0;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0%;
+}

@@ -1,0 +1,88 @@
+.footerpage {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 6.5%;
+    padding: 0.2% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    background-color: $color-darky;
+    text-align: center;
+    p {
+        color: $color-white;
+    }
+    .footer-social {
+        ul {
+            width: 100%;
+            margin: 0% 0% 0% 0%;
+            display: inline-block;
+            li {
+                margin: 0 0.3%;
+                display: inline-block;
+                a {
+                    border: 1px solid transparent;
+                    position: relative;
+                    z-index: 1;
+                    overflow: hidden;
+                    width: 32px;
+                    height: 32px;
+                    transition: background-color .2s ease-in-out;
+                    color: $color-white-gray;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    &:hover {
+                        background-color: $color-orange;
+                        color: $color-white;
+                    }
+                    img {
+                        height: 16px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.company-about {
+    @include font-fira-sans-extra-light;
+    font-size: $font-size-principal;
+    text-align: center;
+    padding-top: 0%;
+    color: $color-white;
+}
+
+.social-icons-simple {
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 0%;
+    padding-left: 0;
+    li {
+        margin: 0 0%;
+        display: inline-block;
+        a {
+            display: inline-block;
+            border: 1px solid transparent;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            width: 30px;
+            height: 30px;
+            transition: background-color .5s ease;
+            color: $color-white-gray;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            &:hover {
+                background-color: $color-orange;
+                color: $color-white;
+            }
+            img {
+                height: 15px;
+                width: auto;
+            }
+        }
+    }
+}

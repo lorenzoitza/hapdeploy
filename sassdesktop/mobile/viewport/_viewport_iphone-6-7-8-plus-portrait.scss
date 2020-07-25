@@ -1,0 +1,174 @@
+/*  iPhone 6, 7, & 8 Plus in portrait */
+
+
+/* logo change */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    #indexlogo {
+        width: 30% !important;
+        height: 30% !important;
+        margin-top: 18% !important;
+    }
+    header {
+        .logo {
+            .logo-dark {
+                width: 30%;
+            }
+            .logo-light {
+                width: 30%;
+            }
+            .logo-dark.default {
+                width: 30%;
+            }
+            .logo-light.default {
+                width: 30%;
+            }
+        }
+        a.logo {
+            line-height: 0;
+            margin: 0% auto 0 0%;
+            img {
+                margin-top: -2.5%;
+                max-height: auto;
+                max-width: 30%;
+                vertical-align: sub;
+            }
+        }
+    }
+    header.header-appear {
+        nav {
+            .logo {
+                .logo-light {
+                    width: 30%;
+                }
+                .logo-dark {
+                    width: 30%;
+                }
+            }
+        }
+        nav.header-dark {
+            .logo {
+                .logo-light {
+                    width: 30%;
+                }
+                .logo-dark {
+                    width: 30%;
+                }
+            }
+        }
+    }
+    .navbar.navbar-right {
+        a.logo {
+            display: block;
+            width: 30%;
+            text-align: center;
+            margin-bottom: 4%;
+        }
+    }
+    .navbar-side {
+        height: 6% !important;
+    }
+    .translateFr {
+        padding: 0.5% 0.5% 0.5% 1.5%;
+        width: 10.5%;
+        margin-right: 36%;
+    }
+    .translateEn {
+        padding: 0.5% 0.5% 0.5% 1.5%;
+        width: 10.5%;
+        margin-right: 25%;
+    }
+    .translateEs {
+        padding: 0.5% 0.5% 0.5% 1.5%;
+        width: 10.5%;
+        margin-right: 14%;
+    }
+    .sidemenu_btn {
+        width: 10%;
+        padding: 0.5% 0.5% 1% 0.5%;
+    }
+    .menu-ico {
+        svg {
+            height: 3.5%;
+            width: 8%;
+            height: auto;
+            width: 75%;
+        }
+    }
+    .scroll-down {
+        bottom: -44%;
+        i {
+            padding-left: 40%;
+        }
+    }
+    .side-menu {
+        width: 57%;
+        height: 100%;
+        p {
+            font-size: 0.78rem;
+            margin-top: 0.5%;
+            margin-bottom: 0;
+        }
+        .inner-wrapper {
+            padding: 10% 6%;
+        }
+    }
+    .side-nav {
+        .navbar-nav {
+            .nav-link {
+                font-size: 1.2rem;
+                &:hover {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .scroll-down-black {
+        i {
+            padding-left: 40%;
+        }
+    }
+    .social-icons-simple {
+        li {
+            a {
+                font-size: 0.8rem;
+                height: auto;
+                line-height: 1.5rem;
+                width: 100%;
+                padding: 0 20%;
+            }
+        }
+        margin-bottom: 5%;
+        margin-left: 7%;
+    }
+    .contenedorBtnLeer {
+        position: relative;
+        height: 12%;
+        width: 16%;
+        margin: 6% auto;
+    }
+    .company-about {
+        font-size: 1rem;
+        padding-top: 0% !important;
+        margin-top: -5% !important;
+    }
+    .footer-social {
+        a {
+            width: 8%;
+            height: 0%;
+            line-height: 1.5rem;
+            font-size: 0.8rem;
+            margin: 1% 0%;
+            padding: 0% 25%;
+        }
+    }
+    .list-unstyled {
+        margin-top: 0;
+        margin-bottom: 3%;
+    }
+    .footerpage {
+        bottom: 0;
+        padding-top: 5%;
+        height: 9%;
+    }
+}

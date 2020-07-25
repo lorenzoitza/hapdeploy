@@ -1,0 +1,105 @@
+// Base
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/fonts';
+// Componentes
+@import 'componentes/menu';
+@import 'componentes/buttons';
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'componentes/effects';
+@import 'componentes/form';
+@import 'componentes/bg-colors';
+@import 'componentes/flags';
+@import 'componentes/logo';
+// Secciones
+@import 'secciones/consecuencias';
+@import 'secciones/fraude';
+@import 'secciones/importexport';
+@import 'secciones/index';
+// Viewports
+// @import 'mobile/consecuencias';
+// @import 'mobile/fraude';
+// @import 'mobile/importexport';
+// @import 'mobile/index/index_iphone-6-7-8-plus-portrait';
+// @import 'mobile/index/index_iphone-6-7-8-plus-landscape';
+// @import 'mobile/viewport/viewport_iphone-6-7-8-plus-portrait';
+// @import 'mobile/viewport/viewport_iphone-6-7-8-plus-landscape';
+
+/*======= Scroll Down ======*/
+
+
+/***=======  Contact Form ============**/
+
+html {
+    overflow: hidden !important;
+    max-height: 100%;
+}
+
+body {
+    overflow: hidden !important;
+    max-height: 100%;
+    // >div {
+    //     &:nth-child(13) {
+    //         opacity: 0 !important;
+    //     }
+    // }
+}
+
+a {
+    &:hover {
+        color: $color-white;
+        text-decoration: none;
+    }
+    &:active {
+        color: $color-white;
+        @include text-decoration-outline;
+    }
+    &:focus {
+        @include text-decoration-outline;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+.fp-bg {
+    @include fp-bg-config;
+}
+
+.fullscreen {
+    @include fullhw;
+    @include mpb-0;
+}
+
+
+/**** Background End ****/
+
+.center-block {
+    @include center-block-property;
+}
+
+
+/*** show hide text lang ***/
+
+.es {
+    display: none;
+    &:lang(es) {
+        display: block;
+    }
+}
+
+.fr {
+    display: none;
+    &:lang(fr) {
+        display: block;
+    }
+}
+
+.en {
+    display: none;
+    &:lang(en) {
+        display: block;
+    }
+}

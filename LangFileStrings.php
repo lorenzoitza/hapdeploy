@@ -714,12 +714,11 @@ function backgroundFraudEs()
 {
     echo '<h2 class="font1 es">Antecedentes del fraude</h2>
             <p class="font2 es">Aun con un entorno adverso que compromete la
-                producción y una demanda en constante alza, sorpresivamente los precios caen
-                (Gráf. 1).</p>
+                producción y una demanda en constante alza, sorpresivamente los precios caen.</p>
                 
-                <p class="font2 es">A diferencia de lo que ocurre en América (Gráf. 2), en algunos países
+                <p class="font2 es">A diferencia de lo que ocurre en América, en algunos países
                 de Asia se presenta una relación acentuadamente anormal entre el incremento de colmenas
-                y el crecimiento de las exportaciones (Gráf. 3).</p>
+                y el crecimiento de las exportaciones.</p>
                 
                 <p class="font2 es">El precio de la “miel” china está a la midad del valor internacional, lo que 
                 contradice la racionalidad del mercado.</p>
@@ -732,12 +731,11 @@ function backgroundFraudFr()
 {
     echo '<h2 class="font1 fr">Contexte de fraude</h2>
             <p class="font2 fr">Même avec un environnement défavorable qui compromet 
-                la production et une demande en constante augmentation, les prix baissent de manière surprenante 
-                (graphique 1).</p>
+                la production et une demande en constante augmentation, les prix baissent de manière surprenante.</p>
                 
-                <p class="font2 fr">Contrairement à ce qui se passe en Amérique (graphique 2), dans certains pays asiatiques, 
+                <p class="font2 fr">Contrairement à ce qui se passe en Amérique, dans certains pays asiatiques, 
                 il existe une relation nettement anormale entre l&apos;augmentation des ruches et la croissance des 
-                exportations (graphique 3).</p>
+                exportations.</p>
                 
                 <p class="font2 fr">Le prix du «miel» chinois représente la moitié de la valeur internationale, ce qui 
                 contredit la rationalité du marché.</p>
@@ -750,10 +748,10 @@ function backgroundFraudEn()
 {
     echo '<h2 class="font1 en">Fraud Background</h2>
             <p class="font2 en">Even with an adverse environment that compromises 
-                production and a constantly rising demand, prices surprisingly fall (Graph 1).</p>
+                production and a constantly rising demand, prices surprisingly fall.</p>
                 
-                <p class="font2 en">Contrary to what happens in America (Graph 2), in some Asian countries there is a markedly 
-                abnormal relationship between the increase in hives and the growth of exports (Graph 3).</p>
+                <p class="font2 en">Contrary to what happens in America, in some Asian countries there is a markedly 
+                abnormal relationship between the increase in hives and the growth of exports.</p>
                 
                 <p class="font2 en">The price of Chinese "honey" is half the international value, which contradicts the 
                 rationality of the market.</p>
@@ -805,14 +803,13 @@ function lauderingHeaderImportExportFr()
 function lauderingHeaderImportExportEn()
 {
     echo '<h2 class="font1 en">United States and Chinese honey</h2>
-            <h3 class="font2 en">Does honey laundering repeat?
-            </h3>';
+            <h3 class="font2 en">Does honey laundering repeat?</h3>';
 }
 
 function lauderingImportExportEs()
 {
     echo '<div class="col-12 es">
-            <div class="padding-import-export es">
+            <div class="es">
                 <p class="mb-6 font3 es">En el año 2000 E.U.A. impuso una tarifa anti-dumping
                     a la importación de miel china debido a prácticas comerciales desleales que 
                     posibilitaban precios muy pordebajo del valor de mercado.
@@ -869,7 +866,7 @@ function lauderingImportExportFr()
 function lauderingImportExportEn()
 {
     echo '<div class="col-12 en">
-            <div class=" en">
+            <div class="en">
                     <p class="mb-6 font3 en">In the year 2000 E.U.A. imposed an anti-dumping tariff 
                     on the importation of Chinese honey due to unfair commercial practices that allowed 
                     prices to be well below market value.

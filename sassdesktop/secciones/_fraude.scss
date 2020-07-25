@@ -1,0 +1,167 @@
+.fullscreen {
+    @include center-block;
+}
+
+#section0-fraud {
+    .container-fluid {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        .row {
+            height: $height-100vh;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            .col-md-6 {
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+            }
+        }
+    }
+    .fp-bg {
+        &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            background: $color-gray-trasparent;
+            @include bt-0;
+            @include fullhw;
+        }
+        background-image: url('../../media/fraude/bg-sector0.jpg'),
+        url('../media/fraude/bg-sector0.jpg'),
+        url('media/fraude/bg-sector0.jpg');
+    }
+    .font1 {
+        @include font-fira-sans-extra-light;
+        font-size: $font-size-53px;
+        color: $color-white;
+        text-shadow: 1px 1px 0.3px $color-darky;
+    }
+    .font2 {
+        @include font-fira-sans-bold;
+        font-size: $font-size-35px;
+        color: $color-white;
+        text-shadow: 1px 1px 0.3px $color-darky;
+    }
+}
+
+#section1-fraud {
+    .container-fluid {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        .row {
+            height: $height-100vh;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            .col-md-6 {
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+            }
+        }
+    }
+    .font1 {
+        @include font-fira-sans-bold;
+        font-size: $font-size-30px;
+        color: $color-darky;
+    }
+    .font2 {
+        @include font-fira-sans-bold;
+        font-size: $font-size-16px;
+        color: $color-darky;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .font3 {
+        @include font-fira-sans-thin;
+        font-size: $font-size-16px;
+        color: $color-darky;
+        margin-bottom: 0.3rem;
+    }
+    .testimonial-item-fraud-page-col-1 {
+        @include testimonial-item-fraud-config;
+        margin-top: 23%;
+    }
+    .testimonial-item-fraud-page-col-2 {
+        @include testimonial-item-fraud-config;
+        margin-top: 30%;
+    }
+}
+
+#section2-fraud {
+    .container-fluid {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        .row {
+            height: $height-100vh;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            .col-md-6 {
+                padding: 0 0 0 0;
+                margin: 0 0 0 0;
+                .col-md-12 {
+                    padding: 0 0 0 0;
+                    margin: 0 0 0 0;
+                    height: 50vh;
+                }
+            }
+        }
+    }
+    .font1 {
+        @include font-fira-sans-bold;
+        font-size: $font-size-38px;
+        color: $color-egg;
+        margin-bottom: 0.5rem;
+    }
+    .font2 {
+        @include font-fira-sans-thin;
+        font-size: $font-size-21px;
+        color: $color-crema;
+        margin-bottom: 0.3rem;
+    }
+    .testimonial-item-graph {
+        max-width: 60%;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        padding: 0% 0 0% 0;
+        img {
+            margin-top: 0%;
+            width: 60%;
+            position: absolute;
+        }
+    }
+    .testimonial-item-graph-2 {
+        max-width: 60%;
+        margin-top: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        padding: 0% 0 0% 0;
+        img {
+            margin-top: 0%;
+            width: 60%;
+            position: absolute;
+            margin-left: 5%;
+        }
+    }
+    .testimonial-item-Fraud-Page {
+        max-width: 100%;
+        margin: 30% 13% 17% 6%;
+        text-align: left;
+        padding: 0 0;
+    }
+    .cover-img {
+        max-width: 100%;
+        padding-top: 5%;
+    }
+}
+
+// .bg-graph-fraude {
+//     background-image: url('../../media/bg-Recurso_14.svg');
+//     background-position: center;
+//     background-size: cover;
+// }
+// .bg-fraud2 {
+//     background-color: #DDD5CA;
+//     .testimonial-item-graph {
+//         padding-top: 3%;
+//         padding-bottom: 4%;
+//     }
+// }

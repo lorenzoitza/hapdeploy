@@ -1,0 +1,144 @@
+.es {
+    display: none;
+    &:lang(es) {
+        display: block;
+    }
+}
+
+.fr {
+    display: none;
+    &:lang(fr) {
+        display: block;
+    }
+}
+
+.en {
+    display: none;
+    &:lang(en) {
+        display: block;
+    }
+}
+
+.opacity1 {
+    opacity: 1;
+}
+
+.imgZoom {
+    img {
+        transition: transform .5s ease;
+    }
+    &:hover {
+        img {
+            transform: scale(1.5);
+        }
+    }
+}
+
+header {
+    width: 100%;
+    z-index: 99;
+    .logo {
+        // @include logo-color;
+        .logo-dark {
+            @include components-logo-0;
+            @include effect-duration-logo;
+            width: 30%;
+        }
+        .logo-light {
+            @include components-logo-0;
+            @include effect-duration-logo;
+            width: 30%;
+        }
+        .logo-dark.default {
+            @include components-logo-1;
+            @include effect-duration-logo;
+            width: 30%;
+        }
+        .logo-light.default {
+            @include components-logo-1;
+            @include effect-duration-logo;
+            width: 30%;
+        }
+    }
+    a.logo {
+        display: inline-block;
+        vertical-align: middle;
+        @include logo-margin;
+        margin: 25% 0 0 15%; // Add from mobile
+        img {
+            // @include logo-img-size;
+            margin-top: 0%; // Add from mobile
+            max-height: auto; // Add from mobile
+            max-width: 60%; // Add from mobile
+            vertical-align: sub; // Add from mobile
+        }
+    }
+}
+
+header.header-appear {
+    nav {
+        .logo {
+            .logo-light {
+                @include components-logo-1;
+                @include effect-duration-logo;
+                @include components-logo-0;
+                transition-duration: 0.5s;
+                -webkit-animation-name: fadeInDown;
+                -o-animation-name: fadeInDown;
+                animation-name: fadeInDown;
+            }
+            .logo-dark {
+                @include components-logo-0;
+                @include effect-duration-logo;
+                @include components-logo-1;
+            }
+        }
+    }
+    nav.header-dark {
+        .logo {
+            .logo-light {
+                @include components-logo-1;
+                @include effect-duration-logo;
+            }
+            .logo-dark {
+                @include components-logo-0;
+                @include effect-duration-logo;
+            }
+        }
+    }
+    nav.header-light {
+        .logo {
+            .logo-dark {
+                @include components-logo-1;
+                @include effect-duration-logo;
+            }
+            .logo-light {
+                @include components-logo-0;
+                transition-duration: 0.5s;
+                -webkit-animation-name: fadeInDown;
+                -o-animation-name: fadeInDown;
+                animation-name: fadeInDown;
+            }
+        }
+    }
+}
+
+.toggler-icon-nav {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.menu-ico {
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    svg {
+        height: 90%;
+        width: 90%;
+    }
+}

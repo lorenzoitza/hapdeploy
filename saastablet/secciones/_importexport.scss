@@ -1,0 +1,178 @@
+            /*** Start section 0 ***/
+            
+            #section0-io {
+                .fp-bg {
+                    &:before {
+                        @include fp-bg-before;
+                        @include bt-0;
+                        @include fullhw;
+                        background-image: url('../media/importexport/bg-sector0portrait.jpg');
+                        background-size: cover;
+                    }
+                }
+                .fullscreen {
+                    @include fullpage-home;
+                    .font1 {
+                        @include font-fira-sans-extra-light;
+                        font-size: $font-size-35px;
+                        color: $color-white;
+                    }
+                    .font2 {
+                        @include font-fira-sans-medium;
+                        font-size: $font-size-53px;
+                        color: $color-yellow;
+                        text-shadow: 1px 1px 0.3px $color-darky;
+                    }
+                    .font3 {
+                        @include font-fira-sans-medium;
+                        font-size: $font-size-53px;
+                        color: $color-orange;
+                        text-shadow: 1px 1px 0.3px $color-darky;
+                    }
+                    .font4 {
+                        @include font-fira-sans-medium;
+                        font-size: $font-size-53px;
+                        color: $color-orange;
+                    }
+                    .font5 {
+                        @include font-fira-sans-light;
+                        font-size: $font-size-53px;
+                        color: $color-white;
+                    }
+                }
+            }
+            /*** Start section 1 ***/
+            
+            #section1-io {
+                .container-fluid {
+                    @include pm-0;
+                    .lscp {
+                        @include hide-element
+                    }
+                    .prt {
+                        @include visible-element;
+                    }
+                    .row {
+                        @include pm-0;
+                        .col-md-12 {
+                            padding: 0 0 10% 0;
+                            margin: 0 0 0 0;
+                            display: flex;
+                            flex-wrap: wrap;
+                            .laudering {
+                                margin-left: 4%;
+                                margin-top: 15%;
+                            }
+                            .padding-import-export {
+                                padding-right: 0%;
+                                margin-left: 4%;
+                                margin-right: 4%;
+                                margin-top: 1%;
+                            }
+                        }
+                        .message-import-export-sector2 {
+                            margin-left: 4%;
+                            margin-top: 15%;
+                            margin-bottom: 20%;
+                        }
+                    }
+                }
+                .font1 {
+                    @include font-fira-sans-bold;
+                    font-size: $font-size-19px;
+                    color: $color-darky;
+                }
+                .font2 {
+                    @include font-fira-sans-light;
+                    font-size: $font-size-19px;
+                    color: $color-darky;
+                }
+                .font3 {
+                    @include font-fira-sans-light;
+                    font-size: $font-size-16px;
+                    line-height: $font-size-16px + 0.5;
+                    color: $color-darky;
+                }
+                .font4 {
+                    @include font-fira-sans-light;
+                    font-size: $font-size-19px;
+                    // color: $color-beige;
+                    color: $color-white;
+                }
+                .bgOrange {
+                    background-color: $color-orange-bg;
+                    background-size: cover;
+                    height: 100%;
+                    .img86 {
+                        width: 95% !important;
+                        height: auto;
+                        margin-left: 0%;
+                        margin-top: 15%;
+                        margin-bottom: 15%;
+                    }
+                }
+            }
+            
+            #section2-io {
+                .container-fluid {
+                    @include pm-0;
+                    height: 100%;
+                    .row {
+                        .lscp {
+                            @include hide-element
+                        }
+                        .prt {
+                            @include visible-element;
+                        }
+                        height: $height-100vh;
+                        @include pm-0;
+                        .col-sm-12 {
+                            @include pm-0;
+                            .laudering {}
+                        }
+                    }
+                }
+                .font1 {
+                    @include font-fira-sans-bold;
+                    font-size: $font-size-26px;
+                    color: $color-white;
+                    @include txt-TopImportExport;
+                    margin-left: 4%;
+                }
+                .font2 {
+                    @include font-fira-sans-thin;
+                    font-size: $font-size-21px;
+                    color: $color-white;
+                    margin-left: 4%;
+                }
+                .testimonial-item-graph-v {
+                    @include page-item;
+                    max-width: 100%;
+                    margin-top: 3%;
+                    margin-right: 6%;
+                    margin-bottom: 2%;
+                    padding: 0% 0 0% 0;
+                    @include center-block
+                }
+                .testimonial-item-graph-2-v {
+                    max-width: 100%;
+                    text-align: left;
+                    margin-left: 0%;
+                    margin-top: 0%;
+                    margin-right: 3%;
+                    margin-bottom: 3%;
+                    padding-top: 13%;
+                    padding-right: 0%;
+                    padding-bottom: 0%;
+                    padding-left: 0%;
+                    max-width: 100%;
+                    margin-top: 3%;
+                    margin-right: 6%;
+                    margin-bottom: 15%;
+                    padding: 0% 0 0% 0;
+                    @include center-block
+                }
+                .img85 {
+                    width: 55% !important;
+                }
+            }
