@@ -3,13 +3,13 @@ require_once('PageSettings.php');
 
 $version = "?1.0";
 $cssAnimate =           "css/animate.css"; // . $version;
-$cssBootstrapReboot =   "css/bootstrap-reboot.css";// . $version;
-$cssBootstrapCSS =      "css/bootstrap.css";// . $version;
-$cssFontAwesome =       "css/font-awesome.min.css";// . $version;
-$cssFullPage =          "css/fullpage.css";// . $version;
-$cssStyleSheet =        "css/style.css";// . $version;
-$cssMobile =            "css/stylemobile.css";// . $version;
-$cssTablet =            "css/styletablet.css";// . $version;
+$cssBootstrapReboot =   "css/bootstrap-reboot.css"; // . $version;
+$cssBootstrapCSS =      "css/bootstrap.css"; // . $version;
+$cssFontAwesome =       "css/font-awesome.min.css"; // . $version;
+$cssFullPage =          "css/fullpage.css"; // . $version;
+$cssStyleSheet =        "css/style.css"; // . $version;
+$cssMobile =            "css/stylemobile.css"; // . $version;
+$cssTablet =            "css/styletablet.css"; // . $version;
 
 // $version = "?3.2";
 // $cssAnimate = "css/animate.css" . $version;
@@ -47,23 +47,27 @@ function btnLeerMasIndexInvertEs($linkPageSrc)
             </div>';
 }
 
-function loadScrollDownWhite(){
-    echo '<a class="scroll-down scroll-down-section" href="javascript:void(0)"> <i>'. file_get_contents("css/chevron_down.svg") .'</i></a>';
+function loadScrollDownWhite()
+{
+    echo '<a class="scroll-down scroll-down-section" href="javascript:void(0)"> <i>' . file_get_contents("css/chevron_down.svg") . '</i></a>';
 }
 
-function loadScrollDownBlack(){
-    echo '<a class="scroll-down-black scroll-down-section" href="javascript:void(0)"> <i>'. file_get_contents("css/chevron_down.svg") .'</i></a>';
+function loadScrollDownBlack()
+{
+    echo '<a class="scroll-down-black scroll-down-section" href="javascript:void(0)"> <i>' . file_get_contents("css/chevron_down.svg") . '</i></a>';
 }
 
-function loadScrollUpWhite(){
-    echo '<a class="scroll-up scroll-up-section" href="javascript:void(0)"> <i>'. file_get_contents("css/chevron_up.svg") .'</i></a>';
+function loadScrollUpWhite()
+{
+    echo '<a class="scroll-up scroll-up-section" href="javascript:void(0)"> <i>' . file_get_contents("css/chevron_up.svg") . '</i></a>';
 }
 
-function loadScrollUpBlack(){
-    echo '<a class="scroll-up-black scroll-up-section" href="javascript:void(0)"> <i>'. file_get_contents("css/chevron_up.svg") .'</i></a>';
+function loadScrollUpBlack()
+{
+    echo '<a class="scroll-up-black scroll-up-section" href="javascript:void(0)"> <i>' . file_get_contents("css/chevron_up.svg") . '</i></a>';
 }
 
-    
+
 function loadCssFiles()
 {
     // echo '<script src="js/EventEmitter.min.js"></script>';
@@ -73,8 +77,17 @@ function loadCssFiles()
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapReboot'] . '">';
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapCSS'] . '">';
     // echo '<link rel="stylesheet" href="' . $GLOBALS['cssFontAwesome'] . '">';
-    echo '<link rel="stylesheet" href="' . $GLOBALS['cssStyleSheet'] . '">';
+    // echo '<link rel="stylesheet" href="' . $GLOBALS['cssStyleSheet'] . '">';
     // echo '<link rel="stylesheet" href="' . $GLOBALS['cssCustomFont'] . '">';
+    /* ----------- iPad 1, 2, Mini and Air -webkit-min-device-pixel-ratio: 1 iPad 3, 4 and Pro 9.7" -webkit-min-device-pixel-ratio: 2 ----------- */
+    echo '<link rel="stylesheet" media="screen and (min-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1 " href="' . $GLOBALS['cssTablet'] . '" />';
+    /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+    echo '<link rel="stylesheet" media="screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2)" href="' . $GLOBALS['cssTablet'] . '" />';
+    /* ----------- iPad Pro 10.5" ----------- */
+    echo '<link rel="stylesheet" media="screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2)" href="' . $GLOBALS['cssTablet'] . '" />';
+    /* ----------- iPad Pro 12.9" ----------- */
+    echo '<link rel="stylesheet" media="screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)" href="' . $GLOBALS['cssTablet'] . '" />';
+    echo '<link rel="stylesheet" media="screen and (min-width: 1000px)" href="' . $GLOBALS['cssStyleSheet'] . '" />';
 }
 
 function loadCssFilesMobile()
@@ -87,7 +100,6 @@ function loadCssFilesMobile()
     // echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapReboot'] . '">';
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapCSS'] . '">';
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssMobile'] . '">';
-
 }
 function loadCssFilesTablet()
 {
@@ -98,7 +110,6 @@ function loadCssFilesTablet()
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapReboot'] . '">';
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssBootstrapCSS'] . '">';
     echo '<link rel="stylesheet" href="' . $GLOBALS['cssTablet'] . '">';
-
 }
 
 function loadJsIndexFiles()
@@ -114,11 +125,11 @@ function loadJsIndexFiles()
     echo '<script type="text/javascript" src="js/fullpage.parallax.min.js"></script>';
     // echo "<script>
     // $(window).scroll($.debounce( 250, true, function(){
-       
+
     // }));
-      
+
     // </script> ";
-    
+
 
 
 }
@@ -191,20 +202,22 @@ function loadFooterMobile()
 
 function loadPopUp()
 {
-    if ($_SESSION['varHTML_Lang'] == 'es'){
-        $arrayform = ['Contáctanos','Nombre:','Apellido:','Email:','Número:','Mensaje','Enviar'];
-    }elseif ($_SESSION['varHTML_Lang'] == 'fr') {
-        $arrayform = ['Contactez nous','Nom:','Le nom:','Courriel:','Le phone:','Menssage','Envoyer'];
-    }elseif ($_SESSION['varHTML_Lang'] == 'en') {
-        $arrayform = ['Contact Us','First Name:','Last Name:','Email:','Phone:','Menssage','Send'];
+    if ($_SESSION['varHTML_Lang'] == 'es') {
+        $arrayform = ['Contáctanos', 'Nombre:', 'Apellido:', 'Email:', 'Número:', 'Mensaje', 'Enviar'];
+    } elseif ($_SESSION['varHTML_Lang'] == 'fr') {
+        $arrayform = ['Contactez nous', 'Nom:', 'Le nom:', 'Courriel:', 'Le phone:', 'Menssage', 'Envoyer'];
+    } elseif ($_SESSION['varHTML_Lang'] == 'en') {
+        $arrayform = ['Contact Us', 'First Name:', 'Last Name:', 'Email:', 'Phone:', 'Menssage', 'Send'];
     }
 
-   echo' 
+    echo ' 
    <div class="modal fade" id="contactMail" tabindex="-1" role="dialog" aria-labelledby="contactMailTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header align-middle">
-                    <h2 class="FiraSansThin38Modal" id="titleform">'; echo $arrayform[0]; echo '</h2>
+                    <h2 class="FiraSansThin38Modal" id="titleform">';
+    echo $arrayform[0];
+    echo '</h2>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -217,38 +230,50 @@ function loadPopUp()
 
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="'; echo $arrayform[1]; echo '" required="" id="first_name" name="first_name">
+                                    <input class="form-control" type="text" placeholder="';
+    echo $arrayform[1];
+    echo '" required="" id="first_name" name="first_name">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="'; echo $arrayform[2]; echo '" required="" id="last_name" name="last_name">
+                                    <input class="form-control" type="text" placeholder="';
+    echo $arrayform[2];
+    echo '" required="" id="last_name" name="last_name">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="email" placeholder="'; echo $arrayform[3]; echo '" required="" id="email" name="email">
+                                    <input class="form-control" type="email" placeholder="';
+    echo $arrayform[3];
+    echo '" required="" id="email" name="email">
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control" type="tel" placeholder="'; echo $arrayform[4]; echo '" id="phone" name="phone">
+                                    <input class="form-control" type="tel" placeholder="';
+    echo $arrayform[4];
+    echo '" id="phone" name="phone">
                                 </div>     
                             </div>
 
                             <div class="col-md-12 col-sm-12">
                                 <div class="form-group">
-                                    <textarea class="form-control messageplaceholder" placeholder="'; echo $arrayform[5]; echo '" id="message" name="message"></textarea>
+                                    <textarea class="form-control messageplaceholder" placeholder="';
+    echo $arrayform[5];
+    echo '" id="message" name="message"></textarea>
                                 </div>
                             </div>
 
                             <div class="col-sm-12 ">
                                 <button type="submit" class="btn btn-large btn-gradient btn-rounded mt-4" id="submit_btn">
                                     <i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> 
-                                    <span id="sendbutton">'; echo $arrayform[6]; echo '</span>
+                                    <span id="sendbutton">';
+    echo $arrayform[6];
+    echo '</span>
                                 </button>
                             </div>
 
@@ -259,5 +284,3 @@ function loadPopUp()
         </div>
     </div>';
 }
-
-

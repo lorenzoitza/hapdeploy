@@ -1,5 +1,10 @@
 $ = jQuery.noConflict();
 
+
+
+
+
+
 $('a#btn_ClicEs').on('click', function() {
 
     var lang = $(this).data('lang');
