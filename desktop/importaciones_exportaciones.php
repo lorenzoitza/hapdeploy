@@ -7,7 +7,7 @@ if (!isset($_SESSION)) {
     session_start();
   }
   if (!isset($_SESSION['varHTML_Lang'])) {
-    $_SESSION['varHTML_Lang'] = "es";
+    $_SESSION['varHTML_Lang'] = "en";
   }
 
 ?>
@@ -35,9 +35,8 @@ if (!isset($_SESSION)) {
 
     <body>
     <?php loadPopUp(); ?>
-        <header>
-            <?php LoadMenuHeaderBlack(); ?>
-        </header>
+    <?php LoadLogoBlack(); ?>
+    <?php LoadMenuHeaderBlack(); ?>
 
         <div id="fullpage">
 
@@ -88,9 +87,9 @@ if (!isset($_SESSION)) {
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
-                            <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
-                            <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
+                            <img data-src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
+                            <img data-src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
+                            <img data-src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
                         </div>
                     </div>
 
@@ -107,9 +106,9 @@ if (!isset($_SESSION)) {
                         </div>
                         <div class="col-md-12 lscp">
                             <div class="message-sector2 ">
-                                <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
-                                <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
-                                <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
+                                <img data-src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
+                                <img data-src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
+                                <img data-src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
                             </div>
                         </div>
                     </div>
@@ -151,9 +150,9 @@ if (!isset($_SESSION)) {
                                     ?>
                                 </div>
                                 <div class="col-lg-12">
-                                    <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
-                                    <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
-                                    <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
+                                    <img data-src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
+                                    <img data-src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
+                                    <img data-src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
                                 </div>
                             </div>
 
@@ -183,32 +182,32 @@ if (!isset($_SESSION)) {
 
                     <div class="col-sm-12 text-center prt">
                         <div class="testimonial-item-graph-v">
-                            <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
-                            <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
-                            <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
                         </div>
                     </div>
                     <div class="col-sm-12 text-center prt">
                         <div class="testimonial-item-graph-2-v ">
-                            <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
-                            <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
-                            <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
                         </div>
                     </div>
 
                     <!-- Start Landscape -->
                     <div class="col-sm-6 text-center lscp">
                         <div class="testimonial-item-graph-h">
-                            <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
-                            <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
-                            <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
                         </div>
                     </div>
                     <div class="col-sm-6 text-center lscp">
                         <div class="testimonial-item-graph-2-h ">
-                            <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
-                            <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
-                            <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
                         </div>
                     </div>
 
@@ -225,19 +224,19 @@ if (!isset($_SESSION)) {
                    
                         <div class="col-lg-6">
                             <div class="testimonial-item-graph">
-                                <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx-delete fadeInDown-delete-delete "
+                                <img data-src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx-delete fadeInDown-delete-delete "
                                     alt="">
-                                    <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx-delete fadeInDown-delete-delete "
+                                    <img data-src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx-delete fadeInDown-delete-delete "
                                     alt="">
-                                    <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx-delete fadeInDown-delete-delete "
+                                    <img data-src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx-delete fadeInDown-delete-delete "
                                     alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 align-items-riht">
                             <div class="testimonial-item-graph ">
-                                <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx-delete fadeInUp-delete " alt="">
-                                <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx-delete fadeInUp-delete " alt="">
-                                <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx-delete fadeInUp-delete " alt="">
+                                <img data-src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx-delete fadeInUp-delete " alt="">
+                                <img data-src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx-delete fadeInUp-delete " alt="">
+                                <img data-src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx-delete fadeInUp-delete " alt="">
                             </div>
                         </div>
                     </div>

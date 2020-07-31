@@ -32,7 +32,8 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 <body>
 
     <?php loadPopUp(); ?>
-    <header> <?php LoadMenuHeaderBlack(); ?> </header>
+    <?php LoadLogoBlack(); ?>
+    <?php LoadMenuHeaderBlack(); ?>
 
     <div id="fullpage">
 
@@ -87,18 +88,18 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- start portrait -->
                     <div class="col-sm-12 bgYellow-v prt">
                         <div class="testimonial-item-graph prt">
-                            <img src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight--delete">
-                            <img src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight--delete ">
-                            <img src="media/fraude/Recurso_14_1-es.svg" alt="" class="es  fxInRight--delete ">
+                            <img data-src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight--delete">
+                            <img data-src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight--delete ">
+                            <img data-src="media/fraude/Recurso_14_1-es.svg" alt="" class="es  fxInRight--delete ">
 
                         </div>
                     </div>
 
                     <div class="col-sm-12 bg-fraud-v prt">
                         <div class="testimonial-item-graph-2 prt">
-                            <img src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
-                            <img src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
-                            <img src="media/fraude/Recurso_14_2-es.svg" alt="" class="es  fxInRight ">
+                            <img data-src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
+                            <img data-src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
+                            <img data-src="media/fraude/Recurso_14_2-es.svg" alt="" class="es  fxInRight ">
                         </div>
                     </div>
                     <!-- end portrait -->
@@ -106,17 +107,17 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <!-- start landscape -->
                         <div class="col-sm-6 bgYellow-h lscp">
                             <div class="testimonial-item-graph lscp">
-                                <img src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight">
-                                <img src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight">
-                                <img src="media/fraude/Recurso_14_1-es.svg" alt="" class="es  fxInRight">
+                                <img data-src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight">
+                                <img data-src="media/fraude/Recurso_14_1-en.svg" alt="" class="en  fxInRight">
+                                <img data-src="media/fraude/Recurso_14_1-es.svg" alt="" class="es  fxInRight">
                             </div>
                         </div>
 
                         <div class="col-sm-6 bg-fraud-h lscp">
                             <div class="testimonial-item-graph estimonial-item-graph-2  lscp">
-                                <img src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
-                                <img src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
-                                <img src="media/fraude/Recurso_14_2-es.svg" alt="" class="es  fxInRight ">
+                                <img data-src="media/fraude/Recurso_14_2-fr.svg" alt="" class="fr  fxInRight ">
+                                <img data-src="media/fraude/Recurso_14_2-en.svg" alt="" class="en  fxInRight ">
+                                <img data-src="media/fraude/Recurso_14_2-es.svg" alt="" class="es  fxInRight ">
                             </div>
                         </div>
                 </div>

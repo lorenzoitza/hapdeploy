@@ -13,18 +13,25 @@ $ZoomFr = 'imgZoom';
 $ZoomEn = 'imgZoom';
 
 
-function menuLangOpacity(){
-    if ($_SESSION['varHTML_Lang'] == 'es'){
+function menuLangOpacity()
+{
+    if ($_SESSION['varHTML_Lang'] == 'es') {
         $GLOBALS['OpacityEs'] = 'opacity03';
         $GLOBALS['ZoomEs'] = " ";
-    }elseif ($_SESSION['varHTML_Lang'] == 'fr') {
+    } elseif ($_SESSION['varHTML_Lang'] == 'fr') {
         $GLOBALS['OpacityFr'] = 'opacity03';
         $GLOBALS['ZoomFr'] = " ";
-    }elseif ($_SESSION['varHTML_Lang'] == 'en') {
+    } elseif ($_SESSION['varHTML_Lang'] == 'en') {
         $GLOBALS['OpacityEn'] = 'opacity03';
         $GLOBALS['ZoomEn'] = " ";
     }
-    
+}
+function LoadLogoGrey()
+{
+    echo ' 
+    <a id ="indexlogo_page" href="index.php" title="Logo" class="logo logoScrollTop">
+                    <img id="indexlogo" src="' . $GLOBALS['pathFileImage'] . ' " class="logo-light default" alt="logo light">
+                </a>';
 }
 
 function LoadMenuHeader()
@@ -32,25 +39,28 @@ function LoadMenuHeader()
     menuLangOpacity();
 
     echo ' 
-        <nav class="navbar navbar-expand-md navbar-side d-flex justify-content-end">
-            <div class="mr-auto">
-                <a id ="indexlogo_page" href="index.php" title="Logo" class="logo logoScrollTop">
-                    <img id="indexlogo" src="' . $GLOBALS['pathFileImage'] . ' " class="logo-light default" alt="logo light">
-                </a>
-            </div>';
-            
-            headerflags();
+        <nav class="navbar navbar-expand-md navbar-side d-flex justify-content-end">';
+
+    headerflags();
     echo '         </nav>
 
         <div class="side-menu">
             <div class="inner-wrapper FiraSansThinWhite05rem">
                 <span class="btn-close d-lg-none d-xl-none" id="btn_sideNavClose"><i></i><i></i></span>';
-                menu_items();
-                menuFooter();
-                echo '
+    menu_items();
+    menuFooter();
+    echo '
             </div>
         </div>
         <a class="d-lg-none d-xl-none" id="close_side_menu" href="javascript:void(0);"></a>';
+}
+
+function LoadLogoBlack()
+{
+    echo ' 
+            <a id ="indexlogo_page" href="index.php" title="Logo" class="logo logoScrollTop">
+                <img id="indexlogo" src="' . $GLOBALS['pathFileImageBlack'] . ' " class="logo-light default" alt="logo light">
+            </a>';
 }
 
 
@@ -61,23 +71,18 @@ function LoadMenuHeaderBlack()
     menuLangOpacity();
 
     echo ' 
-        <nav class="navbar navbar-expand-md navbar-side d-flex justify-content-end navbar-dark">
-        <div class="mr-auto">
-            <a id ="indexlogo_page" href="index.php" title="Logo" class="logo logoScrollTop">
-                <img id="indexlogo" src="' . $GLOBALS['pathFileImageBlack'] . ' " class="logo-light default" alt="logo light">
-            </a>
-        </div>';
-        
-        headerflags();
+        <nav class="navbar navbar-expand-md navbar-side d-flex justify-content-end navbar-dark">';
+
+    headerflags();
 
     echo ' </nav>
 
         <div class="side-menu">
             <div class="inner-wrapper FiraSansThinWhite05rem">
                 <span class="btn-close d-lg-none d-xl-none" id="btn_sideNavClose"><i></i><i></i></span>';
-                menu_items();
-                menuFooter();
-                echo '
+    menu_items();
+    menuFooter();
+    echo '
 
             </div>
         </div>
@@ -85,32 +90,25 @@ function LoadMenuHeaderBlack()
 }
 
 
-function headerflags(){
+function headerflags()
+{
     echo '
-            <div class="p-2">
-                <a href="#" class="d-inline-block translateFr '.$GLOBALS['OpacityFr'].' '.$GLOBALS['ZoomFr'].' clicLang" data-lang="fr" id="btn_ClicFr" >
-                    <img src="css/flags/fr.svg" id="imgFlagFr">
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="#" class="d-inline-block translateEn '. $GLOBALS['OpacityEn'].' '.$GLOBALS['ZoomEn'].' clicLang" data-lang="en" id="btn_ClicEn">
-                    <img src="css/flags/gb-nir.svg" id="imgFlagEn">
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="#" class="d-inline-block translateEs '. $GLOBALS['OpacityEs'] .' '.$GLOBALS['ZoomEs'].' clicLang" data-lang="es" id="btn_ClicEs">
-                    <img src="css/flags/es.svg" id="imgFlagEs">
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
-                <span class="menu-ico">'. file_get_contents("css/flags/menu.svg") . '</span>
-                </a>
-            </div>';
-
+    <a href="#" class="d-inline-block translateFr ' . $GLOBALS['OpacityFr'] . ' ' . $GLOBALS['ZoomFr'] . ' clicLang" data-lang="fr" id="btn_ClicFr" >
+    <img src="css/flags/fr.svg" id="imgFlagFr">
+</a>
+<a href="#" class="d-inline-block translateEn ' . $GLOBALS['OpacityEn'] . ' ' . $GLOBALS['ZoomEn'] . ' clicLang" data-lang="en" id="btn_ClicEn">
+<img src="css/flags/gb-nir.svg" id="imgFlagEn">
+</a>
+<a href="#" class="d-inline-block translateEs ' . $GLOBALS['OpacityEs'] . ' ' . $GLOBALS['ZoomEs'] . ' clicLang" data-lang="es" id="btn_ClicEs">
+<img src="css/flags/es.svg" id="imgFlagEs">
+</a>
+<a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+<span class="menu-ico">' . file_get_contents("css/flags/menu.svg") . '</span>
+</a>';
 }
 
-function menu_items(){
+function menu_items()
+{
     echo '  <div class="es">
                 <nav class="side-nav w-100">
                     <ul class="navbar-nav">
@@ -167,7 +165,8 @@ function menu_items(){
             </div>';
 }
 
-function menuFooter(){
+function menuFooter()
+{
     echo '
     <div class="side-footer text-white w-100">
         <ul class="social-icons-simple">

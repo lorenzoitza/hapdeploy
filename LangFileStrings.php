@@ -135,8 +135,7 @@ function affectationsEn()
 function lowPricesAffectationsEs()
 {
     echo '<h2 class="font1 es">Bajos precios, principal, amenaza para las abejas </h2>
-            <p class="font2 es">Un estudio
-                <spam class="SpamYellow">publicado en 2015</spam> demuestra que los  bajos precios de la
+            <p class="font2 es">Un estudio publicado en 2015 demuestra que los  bajos precios de la
                 miel son la principal ameza para las abejas melíferas, incluso por encima de los 
                 plaguicidas y las plagas, ya que aunque los apicultores pierdan
                 colmenas a causa de plaguicidas u otras amenazas, si la miel tiene buen precio, 
@@ -154,7 +153,7 @@ function lowPricesAffectationsFr()
 {
     echo '<h2 class="font1 fr">Prix ​​bas, principale menace pour les abeilles</h2>
             <p class="font2 fr">
-                Une étude <spam class="SpamYellow">publiée en 2015 </spam> montre que les bas prix du miel sont la 
+                Une étude publiée en 2015 montre que les bas prix du miel sont la 
                 principale menace pour les abeilles, même au-dessus des pesticides et des ravageurs, car même si les 
                 apiculteurs perdent des ruches à cause des pesticides ou d&apos;autres menaces, si le miel Ils ont un 
                 bon prix, ils travaillent dur et récupèrent les ruches perdues.<br><br> Cependant, si le prix tombe à 
@@ -170,7 +169,7 @@ function lowPricesAffectationsEn()
 {
     echo '<h2 class="font1 en">Low prices, main threat to bees  </h2>
             <p class="font2 en">
-                A study <spam class="SpamYellow">published in 2015</spam> shows that low honey prices are the main 
+                A study published in 2015 shows that low honey prices are the main 
                 threat to honey bees, even above pesticides and pests, because although beekeepers lose hives due 
                 to pesticides or other threats, if honey They have a good price, they work hard and they recover 
                 the lost hives.<br><br> However, if the price falls to a level that is no longer attractive, producers 
@@ -308,12 +307,12 @@ function honeySpendsAffectationsEn()
 
 function txtGuardiansEs()
 {
-    echo '<h2 class="font1 mb-5 es">Apicultores: guardianes de la biodiversidad.</h2>
+    echo '<h2 class="font1 es">Apicultores: guardianes de la biodiversidad.</h2>
             <p class="font2 es">Una serie de artículos científicos
                 demuestran que los apicultores se han convertido en actores clave para la
                 preservación del medio ambiente y la biodiversidad.</p>
-                </p>
-                <p class="font2 es">ULa apicultura preserva la naturaleza, la agricultura, mantiene los medios de vida
+                
+                <p class="font2 es">La apicultura preserva la naturaleza, la agricultura, mantiene los medios de vida
                 y proporciona seguridad alimentaria. A pesar de estas importantes funciones de la
                 apicultura, los potenciales de la apicultura aparentemente no se explotan en las
                 actividades forestales. Los productos de abejas  proporcionan alimentos saludables y
@@ -323,7 +322,7 @@ function txtGuardiansEs()
 }
 function txtGuardiansFr()
 {
-    echo '<h2 class="font1 mb-5 fr">Apiculteurs: gardiens de la biodiversité.</h2>
+    echo '<h2 class="font1 fr">Apiculteurs: gardiens de la biodiversité.</h2>
             <p class="font2 fr">Une série d&apos;articles scientifiques démontrent 
             que les apiculteurs sont devenus des acteurs clés de la préservation de 
             l&apos;environnement et de la biodiversité.</p>
@@ -338,9 +337,9 @@ function txtGuardiansFr()
 }
 function txtGuardiansEn()
 {
-    echo '<h2 class="font1 mb-5 en">Beekeepers: guardians of biodiversity.</h2>
+    echo '<h2 class="font1 en">Beekeepers: guardians of biodiversity.</h2>
             <p class="font2 en">A series of scientific articles demonstrate that beekeepers 
-                have become key actors in preserving the environment and biodiversity.
+                have become key actors in preserving the environment and biodiversity.</p>
                 
                 <p class="font2 en">Beekeeping preserves nature, agriculture, maintains livelihoods and provides food 
                 security. Despite these important functions of beekeeping, beekeeping potentials are 

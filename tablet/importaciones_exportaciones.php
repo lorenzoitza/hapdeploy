@@ -31,9 +31,8 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
 <body>
     <?php loadPopUp(); ?>
-    <header>
-        <?php LoadMenuHeaderBlack(); ?>
-    </header>
+    <?php LoadLogoBlack(); ?>
+    <?php LoadMenuHeaderBlack(); ?>
 
     <div id="fullpage">
 
@@ -82,9 +81,9 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
-                            <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
-                            <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
+                            <img data-src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
+                            <img data-src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
+                            <img data-src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
                         </div>
                     </div>
 
@@ -101,9 +100,9 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                         <div class="col-md-12 lscp">
                             <div class="message-sector2 ">
-                                <img src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
-                                <img src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
-                                <img src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
+                                <img data-src="media/importexport/Recurso_17-fr.svg" alt="" class="fr img86">
+                                <img data-src="media/importexport/Recurso_17-en.svg" alt="" class="en img86">
+                                <img data-src="media/importexport/Recurso_17-es.svg" alt="" class="es img86">
                             </div>
                         </div>
                     </div>
@@ -131,32 +130,32 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
                     <div class="col-sm-12 text-center prt">
                         <div class="testimonial-item-graph-v">
-                            <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
-                            <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
-                            <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
                         </div>
                     </div>
                     <div class="col-sm-12 text-center prt">
                         <div class="testimonial-item-graph-2-v ">
-                            <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
-                            <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
-                            <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
                         </div>
                     </div>
 
                     <!-- Start Landscape -->
                     <div class="col-sm-6 text-center lscp">
                         <div class="testimonial-item-graph-h">
-                            <img src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
-                            <img src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
-                            <img src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-fr.svg" class="fr img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-en.svg" class="en img85 bg-import-export fx fadeInDown " alt="">
+                            <img data-src="media/importexport/graph-import-export1-es.svg" class="es img85 bg-import-export fx fadeInDown " alt="">
                         </div>
                     </div>
                     <div class="col-sm-6 text-center lscp">
                         <div class="testimonial-item-graph-2-h ">
-                            <img src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
-                            <img src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
-                            <img src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-fr.svg" class="fr img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-en.svg" class="en img85 fx fadeInUp " alt="">
+                            <img data-src="media/importexport/graph-import-export-2-es.svg" class="es img85 fx fadeInUp " alt="">
                         </div>
                     </div>
                 </div>
@@ -171,7 +170,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
 
     </div>
-    <?php loadJsIndexFiles(); ?>
+    <?php loadJsMobile(); ?>
     <script src="js/scripts/importexport-tablet.js "></script>
 </body>
 

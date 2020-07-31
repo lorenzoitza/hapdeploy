@@ -31,9 +31,8 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
 <body>
     <?php loadPopUp(); ?>
-    <header>
-        <?php LoadMenuHeader(); ?>
-    </header>
+    <?php LoadLogoGrey(); ?>
+    <?php LoadMenuHeader(); ?>
 
     <div id="fullpage">
 
@@ -71,9 +70,9 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                                 <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
                             </div>
                             <div class="col-md-4  img-consecuence">
-                                <img src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
-                                <img src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
-                                <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
+                                <img data-src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
+                                <img data-src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
+                                <img data-src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
                             </div>
                         </div>
                     </div>
@@ -104,9 +103,9 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                                 <p class="text-consecuence font3 en">Import price of honey of Chinese origin as a percentage of the average price of honey imported from the rest of the world</p>
                             </div>
                             <div class="col-md-12 img-consecuence lscp">
-                                <img src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
-                                <img src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
-                                <img src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
+                                <img data-src="media/consecuencias/Sector2Page2-fr.svg" width="55%" class="fr img-consecuence topposition fxInRightCC " alt="">
+                                <img data-src="media/consecuencias/Sector2Page2-en.svg" width="55%" class="en img-consecuence topposition fxInRightCC " alt="">
+                                <img data-src="media/consecuencias/Sector2Page2-es.svg" width="55%" class="es img-consecuence topposition fxInRightCC " alt="">
                             </div>
                         </div>
                         <div class="col-sm-12 bgCrema lscp">
@@ -137,27 +136,27 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <div class="col-sm-12 sector prt">
 
                         <div class="testimonial-item-graph item">
-                            <img src="media/consecuencias/Sector3_1Page2-fr.svg" class="fr fxInDownC--delete " alt="">
-                            <img src="media/consecuencias/Sector3_1Page2-en.svg" class="en fxInDownC--delete " alt="">
-                            <img src="media/consecuencias/Sector3_1Page2-es.svg" class="es fxInDownC--delete " alt="">
+                            <img data-src="media/consecuencias/Sector3_1Page2-fr.svg" class="fr fxInDownC--delete " alt="">
+                            <img data-src="media/consecuencias/Sector3_1Page2-en.svg" class="en fxInDownC--delete " alt="">
+                            <img data-src="media/consecuencias/Sector3_1Page2-es.svg" class="es fxInDownC--delete " alt="">
                         </div>
 
                     </div>
                     <div class="col-sm-12 sector prt">
 
                         <div class="testimonial-item-graph graph1 item">
-                            <img src="media/consecuencias/Sector3_2Page2-fr.svg" class="fr fxInUp--deleteC" alt="">
-                            <img src="media/consecuencias/Sector3_2Page2-en.svg" class="en fxInUpC--delete" alt="">
-                            <img src="media/consecuencias/Sector3_2Page2-es.svg" class="es fxInUpC--delete" alt="">
+                            <img data-src="media/consecuencias/Sector3_2Page2-fr.svg" class="fr fxInUp--deleteC" alt="">
+                            <img data-src="media/consecuencias/Sector3_2Page2-en.svg" class="en fxInUpC--delete" alt="">
+                            <img data-src="media/consecuencias/Sector3_2Page2-es.svg" class="es fxInUpC--delete" alt="">
                         </div>
 
                     </div>
                     <div class="col-sm-12 sector prt">
 
                         <div class="testimonial-item-grap2 graph2 item ">
-                            <img src="media/consecuencias/graph-3-section2-fr.svg" class="fr fxInLeftC--delete " alt="">
-                            <img src="media/consecuencias/graph-3-section2-en.svg" class="en fxInLeftC--delete " alt="">
-                            <img src="media/consecuencias/graph-3-section2-es.svg" class="es fxInLeftC--delete " alt="">
+                            <img data-src="media/consecuencias/graph-3-section2-fr.svg" class="fr fxInLeftC--delete " alt="">
+                            <img data-src="media/consecuencias/graph-3-section2-en.svg" class="en fxInLeftC--delete " alt="">
+                            <img data-src="media/consecuencias/graph-3-section2-es.svg" class="es fxInLeftC--delete " alt="">
                         </div>
 
                     </div>
@@ -167,25 +166,25 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                     <div class="col-sm-6">
 
                         <div class="testimonial-item-graph lscp">
-                            <img src="media/consecuencias/Sector3_1Page2-fr.svg" class="fr fxInDownC-delete " alt="">
-                            <img src="media/consecuencias/Sector3_1Page2-en.svg" class="en fxInDownC-delete " alt="">
-                            <img src="media/consecuencias/Sector3_1Page2-es.svg" class="es fxInDownC-delete " alt="">
+                            <img data-src="media/consecuencias/Sector3_1Page2-fr.svg" class="fr fxInDownC-delete " alt="">
+                            <img data-src="media/consecuencias/Sector3_1Page2-en.svg" class="en fxInDownC-delete " alt="">
+                            <img data-src="media/consecuencias/Sector3_1Page2-es.svg" class="es fxInDownC-delete " alt="">
                         </div>
 
                     </div>
                     <div class="col-sm-6">
 
                         <div class="testimonial-item-graph graph1 lscp">
-                            <img src="media/consecuencias/Sector3_2Page2-fr.svg" class="fr fxInUpC-delete" alt="">
-                            <img src="media/consecuencias/Sector3_2Page2-en.svg" class="en fxInUpC-delete" alt="">
-                            <img src="media/consecuencias/Sector3_2Page2-es.svg" class="es fxInUpC-delete" alt="">
+                            <img data-src="media/consecuencias/Sector3_2Page2-fr.svg" class="fr fxInUpC-delete" alt="">
+                            <img data-src="media/consecuencias/Sector3_2Page2-en.svg" class="en fxInUpC-delete" alt="">
+                            <img data-src="media/consecuencias/Sector3_2Page2-es.svg" class="es fxInUpC-delete" alt="">
                         </div>
 
                     </div>
                     <div class="col-sm-12 sector">
 
                         <div class="testimonial-item-grap2 graph2 lscp">
-                            <img src="media/consecuencias/graph-3-section2-fr.svg" class="fr fxInLeftC-delete " alt="">
+                            <img data-src="media/consecuencias/graph-3-section2-fr.svg" class="fr fxInLeftC-delete " alt="">
                             <img src="media/consecuencias/graph-3-section2-en.svg" class="en fxInLeftC-delete " alt="">
                             <img src="media/consecuencias/graph-3-section2-es.svg" class="es fxInLeftC-delete " alt="">
                         </div>

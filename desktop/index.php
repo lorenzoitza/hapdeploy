@@ -7,7 +7,7 @@ if (!isset($_SESSION)) {
     session_start();
 }
 if (!isset($_SESSION['varHTML_Lang'])) {
-    $_SESSION['varHTML_Lang'] = "es";
+    $_SESSION['varHTML_Lang'] = "en";
 }
 
 $detect = new Mobile_Detect;
@@ -38,10 +38,8 @@ $detect = new Mobile_Detect;
 
 <body>
     <?php loadPopUp(); ?>
-    <header>
-        <?php LoadMenuHeader(); ?>
-
-    </header>
+    <?php LoadLogoGrey(); ?>
+    <?php LoadMenuHeader(); ?>
 
 
     <div id="fullpage">
@@ -70,7 +68,7 @@ $detect = new Mobile_Detect;
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12  center-block justify-content-center align-items-center m-0 bgOrange">
-                        <img src="media/index/colmena.svg" class="hive fx fadeInRight" alt="">
+                        <img data-src="media/index/colmena.svg" class="hive fx fadeInRight" alt="">
                     </div>
 
                     <div class="col-md-6 bg-light lscp">
@@ -82,7 +80,7 @@ $detect = new Mobile_Detect;
                         </div>
                     </div>
                     <div class="col-md-6 center-block justify-content-center align-items-center bgOrange lscp">
-                        <img src="media/index/colmena.svg" class="hive fx fadeInRight" alt="hive">
+                        <img data-src="media/index/colmena.svg" class="hive fx fadeInRight" alt="hive">
                     </div>
 
                 </div>
@@ -165,14 +163,14 @@ $detect = new Mobile_Detect;
                     <div class="bgCrema-v  col-sm-12  prt">
                         <div class="col-sm-6">
                             <div class="text-center item-newspaper-left-v prt">
-                                <img src="media/index/news1.png" class="prt newspaper-padding fx fadeInRight1" alt="">
-                                <img src="media/index/news2.png" class="prt newspaper-padding fx fadeInRight2" alt="">
+                                <img data-src="media/index/news1.png" class="prt newspaper-padding fx fadeInRight1" alt="">
+                                <img data-src="media/index/news2.png" class="prt newspaper-padding fx fadeInRight2" alt="">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="text-center item-newspaper-right-v prt">
-                                <img src="media/index/news3.png" class="prt newspaper-padding fx fadeInRight3" alt="">
-                                <img src="media/index/news4.png" class="prt newspaper-padding bottomnews paper-padding fx fadeInRight4" alt="">
+                                <img data-src="media/index/news3.png" class="prt newspaper-padding fx fadeInRight3" alt="">
+                                <img data-src="media/index/news4.png" class="prt newspaper-padding bottomnews paper-padding fx fadeInRight4" alt="">
                             </div>
                         </div>
                     </div>
@@ -188,10 +186,10 @@ $detect = new Mobile_Detect;
                     </div>
                     <div class="bgCrema-h col-sm-4 center-block text-right justify-content-center align-items-center lscp">
                         <div class="text-center item-newspaper-v item-newspaper-h">
-                            <img src="media/index/news1.png" class="newspaper-padding-1 fx fadeInRight1" alt="">
-                            <img src="media/index/news2.png" class="newspaper-padding fx fadeInRight2" alt="">
-                            <img src="media/index/news3.png" class="newspaper-padding fx fadeInRight3" alt="">
-                            <img src="media/index/news4.png" class="newspaper-padding fx fadeInRight4" alt="">
+                            <img data-src="media/index/news1.png" class="newspaper-padding-1 fx fadeInRight1" alt="">
+                            <img data-src="media/index/news2.png" class="newspaper-padding fx fadeInRight2" alt="">
+                            <img data-src="media/index/news3.png" class="newspaper-padding fx fadeInRight3" alt="">
+                            <img data-src="media/index/news4.png" class="newspaper-padding fx fadeInRight4" alt="">
                         </div>
                     </div>
 
@@ -206,10 +204,10 @@ $detect = new Mobile_Detect;
                     </div>
                     <div class="col-lg-6 center-block text-right justify-content-center align-items-center ">
                         <div class="text-right pt-1">
-                            <p class="p-0 m-0 "><img src="media/index/news1.png" class="newspaper-padding fx fadeInRight1" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/index/news2.png" class="newspaper-padding fx fadeInRight2" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/index/news3.png" class="newspaper-padding fx fadeInRight3" alt=""> </p>
-                            <p class="p-0 m-0"><img src="media/index/news4.png" class="newspaper-padding fx fadeInRight4" alt=""> </p>
+                            <p class="p-0 m-0 "><img data-src="media/index/news1.png" class="newspaper-padding fx fadeInRight1" alt=""> </p>
+                            <p class="p-0 m-0"><img data-src="media/index/news2.png" class="newspaper-padding fx fadeInRight2" alt=""> </p>
+                            <p class="p-0 m-0"><img data-src="media/index/news3.png" class="newspaper-padding fx fadeInRight3" alt=""> </p>
+                            <p class="p-0 m-0"><img data-src="media/index/news4.png" class="newspaper-padding fx fadeInRight4" alt=""> </p>
                         </div>
                     </div>
                 </div>
