@@ -466,12 +466,13 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 
 #section3-2 .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; height: 100%; }
 #section3-2 .container-fluid .row { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
-#section3-2 .container-fluid .row .lscp { display: none; }
-#section3-2 .container-fluid .row .prt { display: block; }
-#section3-2 .container-fluid .row .bgCrema-v { background-color: #FFF8DC; }
-#section3-2 .container-fluid .row .bgCrema-v .item-newspaper-v { padding: 0% 0% 0% 0%; margin: 0% 58% 0% 0%; }
-#section3-2 .container-fluid .row .bgCrema-v .item-newspaper-v .newspaper-padding { margin-top: 0%; width: 100%; margin-left: 4%; margin-right: 0%; width: 70%; }
-#section3-2 .container-fluid .row .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
+#section3-2 .container-fluid .row .col-sm-6 { display: block; }
+#section3-2 .container-fluid .row .col-sm-6 .item-newspaper { padding: 0% 0% 0% 0%; margin: 15% 0% -20% 0%; }
+#section3-2 .container-fluid .row .col-sm-6 .item-newspaper .newspaper-padding { padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%; }
+#section3-2 .container-fluid .row .col-sm-6 .item-newspaper-2 { padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%; }
+#section3-2 .container-fluid .row .col-sm-6 .item-newspaper-2 .newspaper-padding { padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%; }
+#section3-2 .container-fluid .row .col-sm-6 img { margin-top: 0%; width: 95%; }
+#section3-2 .container-fluid .row .col-sm-6 { padding: 0 0 0 0; margin: 0 0 0 0; }
 
 @media (orientation: landscape) { #section0-consecuence .fp-bg { background-image: url("../media/consecuencias/bg-section0.jpg"); }
   #section0-consecuence .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
@@ -649,16 +650,15 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
   #section3 .container-fluid .row .col-sm-4 .topmnews { padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0; }
   #section3 .container-fluid .row .col-sm-4 .item-newspaper-h { position: absolute; margin-top: -23%; }
   #section3 .container-fluid .row .col-sm-4 .newspaper-padding { padding-top: 0; width: 73%; }
-  #section3 .container-fluid .row .col-sm-4 .newspaper-padding-1 { margin-top: 40%; width: 73%; } }
-#section3-2 .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; height: 100%; }
-#section3-2 .container-fluid .row { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
-#section3-2 .container-fluid .row .lscp { display: block; }
-#section3-2 .container-fluid .row .prt { display: none; }
-#section3-2 .container-fluid .row .bgCrema { background-color: #FFF8DC; }
-#section3-2 .container-fluid .row .bgCrema .item-newspaper-h { padding: 0% 0% 0% 0%; margin: 0% 0% 0% 0%; }
-#section3-2 .container-fluid .row .bgCrema .item-newspaper-h .newspaper-padding { margin-top: 0%; width: 100%; margin-left: 4%; margin-right: 0%; width: 30%; }
-#section3-2 .container-fluid .row .col-sm-6 { padding: 0 0 0 0; margin: 0 0 0 0; }
-
+  #section3 .container-fluid .row .col-sm-4 .newspaper-padding-1 { margin-top: 40%; width: 73%; }
+  #section3-2 .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; height: 100%; }
+  #section3-2 .container-fluid .row { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
+  #section3-2 .container-fluid .row .col-sm-6 { display: block; }
+  #section3-2 .container-fluid .row .col-sm-6 .item-newspaper { padding: 0% 0% 0% 0%; margin: 15% 0% 0% 0%; }
+  #section3-2 .container-fluid .row .col-sm-6 .item-newspaper .newspaper-padding { margin-top: 0%; width: 100%; margin-left: 4%; margin-right: 0%; width: 95%; }
+  #section3-2 .container-fluid .row .col-sm-6 .item-newspaper-2 { padding: 0% 0% 0% 0%; margin: 25% 0% 0% 0%; }
+  #section3-2 .container-fluid .row .col-sm-6 .item-newspaper-2 .newspaper-padding { margin-top: 0%; width: 100%; margin-left: 4%; margin-right: 0%; width: 95%; }
+  #section3-2 .container-fluid .row .col-sm-6 { padding: 0 0 0 0; margin: 0 0 0 0; } }
 /*** Start body style***/
 /* The Overlay (background) */
 .overlay { /* Height & width depends on how you want to reveal the overlay (see JS below) */ height: 100%; width: 0; position: fixed; /* Stay in place */ z-index: 1; /* Sit on top */ left: 0; top: 0; background-color: black; /* Black fallback color */ background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */ overflow-x: hidden; /* Disable horizontal scroll */ -webkit-transition: 0.5s; transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */ }

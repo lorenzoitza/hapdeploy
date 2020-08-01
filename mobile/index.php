@@ -16,19 +16,20 @@ $detect = new Mobile_Detect;
 
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo $_SESSION['varHTML_Lang']; ?>"> 
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
-<meta name="mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="white" />
-<meta http-equiv="cache-control" content="no-cache" />
+<html lang="<?php echo $_SESSION['varHTML_Lang']; ?>">
 
-<title>
-    <?php echo $TittlePageEs; ?>
-</title>
-<link rel="icon" href="media/favicon.ico">
-<?php loadCssFilesMobile(); ?>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
+    <meta http-equiv="cache-control" content="no-cache" />
+
+    <title>
+        <?php echo $TittlePageEs; ?>
+    </title>
+    <link rel="icon" href="media/favicon.ico">
+    <?php loadCssFilesMobile(); ?>
 
 </head>
 
@@ -97,9 +98,9 @@ $detect = new Mobile_Detect;
                         </div>
                     </div>
                     <div class="col-sm-6  lscp">
-                    <?php 
-                            btnLeer("fraude.php");
-                            ?>
+                        <?php
+                        btnLeer("fraude.php");
+                        ?>
                         <div class="fraudMessage">
                             <?php fraudMessageIndexEs();
                             ?>
@@ -154,11 +155,12 @@ $detect = new Mobile_Detect;
                             <img data-src="media/index/news4.png" class="newspaper-padding fx fadeInRight4" alt="">
                         </div>
                     </div> -->
-                    <?php //loadFooterMobile(); ?>
+                    <?php //loadFooterMobile(); 
+                    ?>
                 </div>
                 <!-- End landscape -->
-                
-                <?php loadScrollDownBlack(); 
+
+                <?php loadScrollDownBlack();
                 ?>
             </div>
             <?php// loadFooter(); ?>
@@ -166,36 +168,27 @@ $detect = new Mobile_Detect;
 
         <!-- End portrait Section3 - Section4 -->
 
-        <div class="section prt" id="section3-2">
-            <div class="container-fluid bgCrema  prt">
-                <div class="row prt">
+        <div class="section" id="section3-2">
+            <div class="container-fluid bgCrema">
+                <div class="row">
+                <div class="col-sm-6">
+                            <div class="item-newspaper">
+                                <img data-src="media/index/news1.png" class="newspaper-padding fx fadeInRight1" alt="">
+                                <img data-src="media/index/news2.png" class="newspaper-padding fx fadeInRight2" alt="">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="item-newspaper-2 ">
+                                <img data-src="media/index/news3.png" class="newspaper-padding fx fadeInRight3" alt="">
+                                <img data-src="media/index/news4.png" class="newspaper-padding bottomnews paper-padding fx fadeInRight4" alt="">
+                            </div>
 
-                    <div class="col-sm-12 center-block justify-content-center align-items-center prt">
-                        <div class="text-center item-newspaper-v prt">
-                            <img data-src="media/index/news1.png" class="prt newspaper-padding fx fadeInRight1" alt="">
-                            <img data-src="media/index/news2.png" class="prt newspaper-padding fx fadeInRight2" alt="">
-                            <img data-src="media/index/news3.png" class="prt newspaper-padding fx fadeInRight3" alt="">
-                            <img data-src="media/index/news4.png" class="prt newspaper-padding bottomnews paper-padding fx fadeInRight4" alt="">
-                        </div>
-                    </div>
-                    <div class="col-sm-6 center-block justify-content-center align-items-center lsc">
-                        <div class="text-center item-newspaper-h lsc">
-                            <img data-src="media/index/news1.png" class="lsc newspaper-padding fx fadeInRight1" alt="">
-                            <img data-src="media/index/news2.png" class="lsc newspaper-padding fx fadeInRight2" alt="">
-                        </div>
-                    </div>
-                    <div class="col-sm-6 center-block justify-content-center align-items-center lsc">
-                        <div class="text-center item-newspaper-h lsc">
-                            <img data-src="media/index/news3.png" class="lsc newspaper-padding fx fadeInRight3" alt="">
-                            <img data-src="media/index/news4.png" class="lsc newspaper-padding bottomnews paper-padding fx fadeInRight4" alt="">
-                        </div>
-                    </div>
-                </div> 
-                
+                </div>
+
             </div>
             <?php loadFooterMobile();
             ?>
-        </div> 
+        </div>
         <!-- End portrait Section3 - Section4 -->
 
 
