@@ -32,7 +32,7 @@ if (!isset($_SESSION)) {
 <body>
 <?php loadPopUp(); ?>
 <?php LoadLogoGrey(); ?>
-    <?php LoadMenuHeader(); ?>
+    <?php LoadMenu(); ?>
     
     <div id="fullpage">
 

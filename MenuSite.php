@@ -34,6 +34,48 @@ function LoadLogoGrey()
                 </a>';
 }
 
+function LoadMenu()
+{
+    menuLangOpacity();
+
+    echo ' 
+        <nav class="navbar">';
+
+    headerflags();
+    echo '         </nav>
+
+        <div class="side-menu">
+            <div class="inner-wrapper FiraSansThinWhite05rem">
+                <span class="btn-close d-lg-none d-xl-none" id="btn_sideNavClose"><i></i><i></i></span>';
+    menu_items();
+    menuFooter();
+    echo '
+            </div>
+        </div>
+        <a class="d-lg-none d-xl-none" id="close_side_menu" href="javascript:void(0);"></a>';
+}
+
+function LoadMenuBlack()
+{
+    menuLangOpacity();
+
+    echo ' 
+        <nav class="navbar navbar-dark">';
+
+    headerflags();
+    echo '         </nav>
+
+        <div class="side-menu">
+            <div class="inner-wrapper FiraSansThinWhite05rem">
+                <span class="btn-close d-lg-none d-xl-none" id="btn_sideNavClose"><i></i><i></i></span>';
+    menu_items();
+    menuFooter();
+    echo '
+            </div>
+        </div>
+        <a class="d-lg-none d-xl-none" id="close_side_menu" href="javascript:void(0);"></a>';
+}
+
 function LoadMenuHeader()
 {
     menuLangOpacity();

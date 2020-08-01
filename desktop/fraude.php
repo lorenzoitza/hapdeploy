@@ -34,7 +34,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
 
     <?php loadPopUp(); ?>
     <?php LoadLogoBlack(); ?>
-    <?php LoadMenuHeaderBlack(); ?>
+    <?php LoadMenuBlack(); ?>
 
 
     <div id="fullpage">

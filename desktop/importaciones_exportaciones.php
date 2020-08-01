@@ -36,7 +36,7 @@ if (!isset($_SESSION)) {
     <body>
     <?php loadPopUp(); ?>
     <?php LoadLogoBlack(); ?>
-    <?php LoadMenuHeaderBlack(); ?>
+    <?php LoadMenuBlack(); ?>
 
         <div id="fullpage">
 

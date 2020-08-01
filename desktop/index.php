@@ -39,7 +39,7 @@ $detect = new Mobile_Detect;
 <body>
     <?php loadPopUp(); ?>
     <?php LoadLogoGrey(); ?>
-    <?php LoadMenuHeader(); ?>
+    <?php LoadMenu(); ?>
 
 
     <div id="fullpage">
