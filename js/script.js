@@ -232,7 +232,7 @@ $(document).on('click', '.scroll-down-section', function() {
 
 $(document).on('click', '.scroll-up-section', function() {
 
-    fullpage_api.moveSectionDown();
+    fullpage_api.moveSectionUp();
 
 });
 
