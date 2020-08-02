@@ -134,7 +134,7 @@ function affectationsEn()
 
 function lowPricesAffectationsEs()
 {
-    echo '<h2 class="font1 es">Bajos precios, principal, amenaza para las abejas </h2>
+    echo '<h2 class="font1 es">Bajos precios, principal amenaza para las abejas </h2>
             <p class="font2 es">Un estudio publicado en 2015 demuestra que los  bajos precios de la
                 miel son la principal ameza para las abejas melíferas, incluso por encima de los 
                 plaguicidas y las plagas, ya que aunque los apicultores pierdan
@@ -188,7 +188,7 @@ function lowPricesAffectationsEn()
 
 function lowPricesAffectationsRow1()
 {
-echo '<h2 class="font1 es">Bajos precios, principal, amenaza para las abejas </h2>
+echo '<h2 class="font1 es">Bajos precios, principal amenaza para las abejas </h2>
     <p class="font2 es">Un estudio publicado en 2015 demuestra que los bajos precios de la
         miel son la principal ameza para las abejas melíferas, incluso por encima de los
         plaguicidas y las plagas, ya que aunque los apicultores pierdan
