@@ -247,6 +247,20 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 
 @media (orientation: landscape) { #indexlogo { width: 9%; height: auto; position: absolute; z-index: 1; }
   #indexlogo { margin-top: 1.4%; } }
+/* Fade In */
+/* fadeInDown  */
+/* fadeInUp */
+/* fadeInRight */
+/* fadeInLeft */
+/* fadeInDownBig */
+/* Index Vertical */
+/* Index Horizontal */
+/* Consecuencias Vertical */
+/* Consecuencias Horizontal */
+/* Fraude Vertical */
+/* Fraude Horizontal */
+/* Importaciones Exportaciones Vertical */
+/* Importaciones Exportaciones Horizontal */
 /*** Section 0 ***/
 #section0-consecuence .fp-bg { background-image: url("../media/consecuencias/bg-section0V.jpg"); }
 #section0-consecuence .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
@@ -307,6 +321,14 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 
 .SpamYellow { color: #FECE00; height: 100%; width: 100%; }
 
+/* Index Vertical */
+/* Index Horizontal */
+/* Consecuencias Vertical */
+/* Consecuencias Horizontal */
+/* Fraude Vertical */
+/* Fraude Horizontal */
+/* Importaciones Exportaciones Vertical */
+/* Importaciones Exportaciones Horizontal */
 #section0-fraud .fp-bg { background-image: url("../media/fraude/bg-sector0V.jpg"); }
 #section0-fraud .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
 #section0-fraud .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
@@ -348,24 +370,14 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 
 .cover-img { max-width: 100%; }
 
-.animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
-
-.fadeInUp.animated { -webkit-animation-name: fadeInUp; animation-name: fadeInUp; -webkit-animation-name: fadeInUp; animation-name: fadeInUp; }
-
-.fadeInDown.animated { -webkit-animation-name: fadeInDown; animation-name: fadeInDown; -webkit-animation-name: fadeInDown; animation-name: fadeInDown; }
-
-.fadeIn.animated { -webkit-animation-name: fadeIn; animation-name: fadeIn; }
-
-.fadeInDownBig.animated { -webkit-animation-name: fadeInDownBig; animation-name: fadeInDownBig; }
-
-.fadeInRight.animated { -webkit-animation-name: fadeInRight; animation-name: fadeInRight; }
-
-.fadeInRightF { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-name: fadeInRightF; animation-name: fadeInRightF; }
-
-.fx { opacity: 1; }
-
-.fxInRight { opacity: 1; }
-
+/* Index Vertical */
+/* Index Horizontal */
+/* Consecuencias Vertical */
+/* Consecuencias Horizontal */
+/* Fraude Vertical */
+/* Fraude Horizontal */
+/* Importaciones Exportaciones Vertical */
+/* Importaciones Exportaciones Horizontal */
 /*** Start section 0 ***/
 #section0-io .fp-bg:before { content: ''; position: absolute; display: block; top: 0; bottom: 0; height: 100%; width: 100%; background-image: url("../media/importexport/bg-sector0portrait.jpg"); background-size: cover; }
 #section0-io .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
@@ -429,6 +441,13 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 #section1 .container-fluid .row { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
 #section1 .container-fluid .row .scroll-down { position: absolute; z-index: 1; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); bottom: 12%; color: #fff !important; }
 #section1 .container-fluid .row .col-sm-6 { padding: 0 0 0 0; margin: 0 0 0 0; }
+#section1 .container-fluid .row .col-sm-6 .fx { opacity: 1; }
+#section1 .container-fluid .row .col-sm-6 .fadeInRight { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+@-webkit-keyframes fadeInRight { from { opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0); }
+  to { opacity: 1; -webkit-transform: none; transform: none; } }
+@keyframes fadeInRight { from { opacity: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0); }
+  to { opacity: 1; -webkit-transform: none; transform: none; } }
+#section1 .container-fluid .row .col-sm-6 .fadeInRight .fadeInRight.animated { -webkit-animation-name: fadeInRight; animation-name: fadeInRight; }
 #section1 .portraitmobile { display: none; }
 #section1 .landscapemobile { display: visible; }
 #section1 .font1 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.31rem; color: #2D2521; }
@@ -482,6 +501,14 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 #section3-2 .container-fluid .row .col-sm-6 img { margin-top: 0%; width: 95%; }
 #section3-2 .container-fluid .row .col-sm-6 { padding: 0 0 0 0; margin: 0 0 0 0; }
 
+/* Index Vertical */
+/* Index Horizontal */
+/* Consecuencias Vertical */
+/* Consecuencias Horizontal */
+/* Fraude Vertical */
+/* Fraude Horizontal */
+/* Importaciones Exportaciones Vertical */
+/* Importaciones Exportaciones Horizontal */
 @media (orientation: landscape) { #section0-consecuence .fp-bg { background-image: url("../media/consecuencias/bg-section0.jpg"); }
   #section0-consecuence .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
   #section0-consecuence .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
@@ -535,6 +562,14 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
   #section3-consecuence .container-fluid .row .bgOrange .item-consecuencias { max-width: 100%; margin: 13% 4% 0% 3%; text-align: left; padding: 0 0 0% 0; }
   #section3-consecuence .container-fluid .row .bgOrange .item-consecuencias .font1 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 0.93rem; color: #2D2521; margin-bottom: 4% !important; }
   #section3-consecuence .container-fluid .row .bgOrange .item-consecuencias .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 0.87rem; color: #fff; } }
+/* Index Vertical */
+/* Index Horizontal */
+/* Consecuencias Vertical */
+/* Consecuencias Horizontal */
+/* Fraude Vertical */
+/* Fraude Horizontal */
+/* Importaciones Exportaciones Vertical */
+/* Importaciones Exportaciones Horizontal */
 @media (orientation: landscape) { #section0-fraud .fp-bg { background-image: url("../media/fraude/bg-sector0-h.jpg"); }
   #section0-fraud .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
   #section0-fraud .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
@@ -564,6 +599,14 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
   #section2-fraud-2 .container-fluid .row .bgYellow-h .testimonial-item-graph { max-width: 100%; margin-top: 25%; margin-right: 6%; margin-left: 2%; margin-bottom: 0%; padding: 0% 0 0% 0; }
   #section2-fraud-2 .container-fluid .row .bg-fraud-h { height: 100vh; background-color: #DDD5CA; background-size: cover; }
   #section2-fraud-2 .container-fluid .row .bg-fraud-h .testimonial-item-graph { max-width: 100%; margin-top: 25%; margin-right: 6%; margin-left: 4%; margin-bottom: 0%; padding: 0% 0 0% 0; } }
+/* Index Vertical */
+/* Index Horizontal */
+/* Consecuencias Vertical */
+/* Consecuencias Horizontal */
+/* Fraude Vertical */
+/* Fraude Horizontal */
+/* Importaciones Exportaciones Vertical */
+/* Importaciones Exportaciones Horizontal */
 @media (orientation: landscape) { /*** Start section 0 ***/
   #section0-io .fp-bg:before { content: ''; position: absolute; display: block; top: 0; bottom: 0; height: 100%; width: 100%; background-image: url("../media/importexport/bg-sector0.png"); background-size: cover; }
   #section0-io .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
@@ -606,6 +649,14 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
   #section2-io .container-fluid .row .col-sm-6 .testimonial-item-graph-h { max-width: 100%; text-align: left; margin-left: 4%; margin-right: 3%; margin-bottom: 0%; padding-top: 2%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; margin-top: 0%; margin-right: 6%; margin-bottom: 2%; }
   #section2-io .container-fluid .row .col-sm-6 .testimonial-item-graph-2-h { max-width: 100%; text-align: left; margin-left: 0%; margin-right: 3%; margin-bottom: 0%; padding-top: 2%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; margin-top: 0%; margin-right: 6%; margin-bottom: 2%; }
   #section2-io .container-fluid .row .col-sm-6 .img85 { width: 70%; } }
+/* Index Vertical */
+/* Index Horizontal */
+/* Consecuencias Vertical */
+/* Consecuencias Horizontal */
+/* Fraude Vertical */
+/* Fraude Horizontal */
+/* Importaciones Exportaciones Vertical */
+/* Importaciones Exportaciones Horizontal */
 @media (orientation: landscape) { #section0 .fp-bg { background-image: url("../media/index/mapaindex.svg"); }
   #section0 .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
   #section0 .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }

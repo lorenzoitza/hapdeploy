@@ -7,7 +7,7 @@ if (!isset($_SESSION)) {
     session_start();
 }
 if (!isset($_SESSION['varHTML_Lang'])) {
-    $_SESSION['varHTML_Lang'] = "es";
+    $_SESSION['varHTML_Lang'] = "en";
 }
 
 ?>
@@ -98,7 +98,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                     </div>
                     <!-- end portrait -->
-                    <div class="col-md-8 bg-import-export lscp">
+                    <div class="col-md-6 bg-import-export lscp">
                         <div class="testimonial-item-Fraud-Page lscp">
                             <?php
                             backgroundFraudEs();
@@ -108,7 +108,7 @@ if (!isset($_SESSION['varHTML_Lang'])) {
                         </div>
                     </div>
                     <!-- start landscape -->
-                    <div class="col-md-4 lscp">
+                    <div class="col-md-6 lscp">
                         <div class="col-md-12 bgYellow-h lscp">
                             <div class="testimonial-item-graph lscp">
                                 <img data-src="media/fraude/Recurso_14_1-fr.svg" alt="" class="fr  fxInRight">

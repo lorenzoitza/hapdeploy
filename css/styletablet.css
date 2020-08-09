@@ -245,14 +245,14 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 #section0-consecuence .fullscreen .font3 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 1.93rem; color: #fff; }
 
 /*** Section 1 ***/
-#section1-consecuence .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
+#section1-consecuence .container-fluid { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
 #section1-consecuence .container-fluid .col-lg-12 { display: none; }
 #section1-consecuence .container-fluid .col-lg-6 { display: none; }
 #section1-consecuence .container-fluid .lscp { display: none; }
 #section1-consecuence .container-fluid .prt { display: block; }
-#section1-consecuence .container-fluid .testimonial-item-consecuence-page { max-width: 100%; height: 100%; margin: 20% 3% 0% 4%; padding: 0% 0% 0% 0%; }
+#section1-consecuence .container-fluid .testimonial-item-consecuence-page { max-width: 100%; height: 100%; margin: 12% 3% 0% 4%; padding: 0% 0% 0% 0%; }
 #section1-consecuence .container-fluid .testimonial-item-consecuence-page .font1 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 1.31rem; color: #2D2521; }
-#section1-consecuence .container-fluid .testimonial-item-consecuence-page .font2 { font-family: "Fira Sans", sans-serif; font-weight: 100; font-style: normal; font-size: 1.18rem; color: #2D2521; }
+#section1-consecuence .container-fluid .testimonial-item-consecuence-page .font2 { font-family: "Fira Sans", sans-serif; font-weight: 100; font-style: normal; font-size: 1rem; color: #2D2521; }
 #section1-consecuence .container-fluid .bgYellow { padding: 0 0 0 0; margin: 0 0 0 0; }
 #section1-consecuence .container-fluid .bgYellow .testimonial-item2 { max-width: 100%; margin-top: 5%; margin-right: 3%; margin-left: 4%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 11%; padding-bottom: 0; }
 #section1-consecuence .container-fluid .bgYellow .testimonial-item2 .tabletconsecuencetext { max-width: 100%; margin-top: 20%; margin-right: 1%; margin-left: 0%; text-align: left; padding-top: 0; padding-right: 0; padding-left: 0; margin-bottom: 0%; padding-bottom: 0; }
@@ -262,7 +262,7 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 #section1-consecuence .container-fluid .bgCrema .long .font4 { font-family: "Fira Sans", sans-serif; font-weight: 100; font-style: normal; font-size: 1.18rem; color: #2D2521; margin-bottom: 0.3rem; }
 #section1-consecuence .container-fluid .bgCrema .long .font5 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 0.93rem; color: #f49600; margin-bottom: 0.3rem; }
 #section1-consecuence .container-fluid .bgCrema .long .font6 { font-family: "Fira Sans", sans-serif; font-weight: 400; font-style: normal; font-size: 0.93rem; color: #f49600; margin-bottom: 0.3rem; }
-#section1-consecuence .container-fluid .row { padding: 0 0 0 0; margin: 0 0 0 0; }
+#section1-consecuence .container-fluid .row { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
 #section1-consecuence .container-fluid .row .col-md-4 { padding: 0 0 0 0; margin: 0 0 0 0; }
 #section1-consecuence .container-fluid .row .col-md-4 .col-md-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
 #section1-consecuence .container-fluid .row .col-md-8 { padding: 0 0 0 0; margin: 0 0 0 0; }
@@ -305,7 +305,7 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 #section0-fraud .fp-bg { background-image: url("../media/fraude/bg-sector0V.jpg"); }
 #section0-fraud .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
 #section0-fraud .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
-#section0-fraud .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 3.31rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
+#section0-fraud .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
 #section0-fraud .fullscreen .font2 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 3.31rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
 
 #section1-fraud .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
@@ -331,7 +331,7 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 #section2-fraud .container-fluid .row .bg-fraud-v .testimonial-item-graph-2 { max-width: 90%; margin-top: 0; margin-right: 6%; margin-left: 4%; margin-bottom: 100%; padding: 0% 0 0% 0; }
 #section2-fraud .container-fluid .row .bg-fraud-v .testimonial-item-graph-2 img { margin-top: 5%; }
 #section2-fraud .container-fluid .row .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
-#section2-fraud .container-fluid .row .col-sm-12 .testimonial-item-Fraud-Page { max-width: 500%; margin: 20% 5% 21% 4%; text-align: left; padding: 0 0; }
+#section2-fraud .container-fluid .row .col-sm-12 .testimonial-item-Fraud-Page { max-width: 500%; margin: 20% 5% 16% 4%; text-align: left; padding: 0 0; }
 #section2-fraud .container-fluid .row .col-sm-12 .testimonial-item-Fraud-Page .font1 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.31rem; color: #FECE00; margin-bottom: 0.5rem; }
 #section2-fraud .container-fluid .row .col-sm-12 .testimonial-item-Fraud-Page .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.31rem; color: #FFF8DC; margin-bottom: 0.3rem; }
 #section2-fraud .container-fluid .row .col-md-12 { padding: 0 0 0 0; margin: 0 0 0 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
@@ -360,13 +360,13 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 .fxInRight { opacity: 1; }
 
 /*** Start section 0 ***/
-#section0-io .fp-bg:before { content: ''; position: absolute; display: block; top: 0; bottom: 0; height: 100%; width: 100%; background-image: url("../media/importexport/bg-sector0portrait.jpg"); background-size: cover; }
+#section0-io .fp-bg:before { content: ''; position: absolute; display: block; top: 0; bottom: 0; height: 100%; width: 100%; background-image: url("../media/importexport/bg-sector0V-ipad.jpg"); background-size: cover; }
 #section0-io .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
-#section0-io .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 2.18rem; color: #fff; }
+#section0-io .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 2.18rem; color: #fff; }
 #section0-io .fullscreen .font2 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #ffdd00; text-shadow: 1px 1px 0.3px #2D2521; }
 #section0-io .fullscreen .font3 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #f49600; text-shadow: 1px 1px 0.3px #2D2521; }
 #section0-io .fullscreen .font4 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #f49600; }
-#section0-io .fullscreen .font5 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 3.31rem; color: #fff; }
+#section0-io .fullscreen .font5 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #fff; }
 
 /*** Start section 1 ***/
 #section1-io .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
@@ -400,7 +400,7 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 #section2-io .testimonial-item-graph-2-v { max-width: 100%; text-align: left; margin-left: 0%; margin-top: 0%; margin-right: 3%; margin-bottom: 3%; padding-top: 13%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; max-width: 100%; margin-top: 3%; margin-right: 6%; margin-bottom: 15%; padding: 0% 0 0% 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 #section2-io .testimonial-item-graph-2-v .img85 { width: 55%; }
 
-#section0 .fp-bg { background-image: url("../media/index/mapaindexportrait.svg"); }
+#section0 .fp-bg { background-image: url("../media/index/mapaindexportrait-ipad.jpg"); }
 #section0 .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
 #section0 .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
 #section0 .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 2.18rem; color: #fff; margin: 0% 1%; }
@@ -417,9 +417,9 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
 #section1 .container-fluid .prt { display: block; }
 #section1 .container-fluid .row { height: 100%; background-color: #d88100; }
 #section1 .container-fluid .index-consecuence-item { max-width: 100%; text-align: left; margin-left: 4%; margin-top: 25%; margin-right: 3%; margin-bottom: 15%; padding-top: 0%; padding-right: 0%; padding-bottom: 0%; padding-left: 0%; }
-#section1 .container-fluid .hive { max-width: 52%; padding-bottom: 3%; margin-top: 0%; padding-top: 0%; margin-left: 0%; }
+#section1 .container-fluid .hive { max-width: 52%; padding-bottom: 3%; margin-top: 0%; padding-top: 0%; margin-left: 20%; }
 
-#section2 .fp-bg { background-image: url("../media/index/bg-index-section2portrait.jpg"); background-size: cover; }
+#section2 .fp-bg { background-image: url("../media/index/bg-index-section2portrait-ipad.jpg"); background-size: cover; }
 #section2 .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
 #section2 .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
 #section2 .container-fluid .row { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
@@ -463,7 +463,7 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
   #section0-consecuence .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
   #section0-consecuence .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
   #section0-consecuence .fullscreen .bg-darky { background-color: rgba(0, 0, 0, 0.3); padding: 3%; }
-  #section0-consecuence .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 1.93rem; color: #fff; }
+  #section0-consecuence .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 1.93rem; color: #fff; }
   #section0-consecuence .fullscreen .font2 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 1.93rem; color: #fff; }
   #section0-consecuence .fullscreen .font3 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 1.93rem; color: #fff; }
   /*** Section 1 ***/
@@ -517,17 +517,17 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
   #section3-consecuence .container-fluid .row .bgOrange .item-consecuencias { max-width: 100%; margin: 13% 4% 0% 3%; text-align: left; padding: 0 0 0% 0; }
   #section3-consecuence .container-fluid .row .bgOrange .item-consecuencias .font1 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 1.62rem; color: #2D2521; margin-bottom: 4% !important; }
   #section3-consecuence .container-fluid .row .bgOrange .item-consecuencias .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1.31rem; color: #fff; } }
-@media (orientation: landscape) { #section0-fraud .fp-bg { background-image: url("../media/fraude/bg-sector0.jpg"); }
+@media (orientation: landscape) { #section0-fraud .fp-bg { background-image: url("../media/fraude/bg-sector0-h-ipad.jpg"); }
   #section0-fraud .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
   #section0-fraud .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
-  #section0-fraud .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 1.93rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
+  #section0-fraud .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 1.93rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
   #section0-fraud .fullscreen .font2 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.93rem; color: #fff; text-shadow: 1px 1px 0.3px #2D2521; }
   #section1-fraud .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section1-fraud .container-fluid .col-lg-6 { display: none; }
   #section1-fraud .container-fluid .col-lg-12 { display: none; }
   #section1-fraud .container-fluid .row { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section1-fraud .container-fluid .row .col-sm-12 { padding: 0 0 0 0; margin: 0 0 0 0; }
-  #section1-fraud .container-fluid .row .col-sm-12 .item-fraud-page { max-width: 100%; margin: 13% 5% 5% 4%; text-align: left; padding: 0 0; }
+  #section1-fraud .container-fluid .row .col-sm-12 .item-fraud-page { max-width: 100%; margin: 13% 5% 5% 4%; text-align: left; padding: 0 0 6% 0; }
   #section1-fraud .container-fluid .row .col-sm-12 .item-fraud-page .font1 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.18rem; color: #2D2521; }
   #section1-fraud .container-fluid .row .col-sm-12 .item-fraud-page .font2 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.18rem; color: #2D2521; margin-top: 0.5rem; margin-bottom: 0.5rem; }
   #section1-fraud .container-fluid .row .col-sm-12 .item-fraud-page .font3 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1rem; color: #2D2521; margin-bottom: 0.3rem; }
@@ -537,25 +537,25 @@ a.logo img { margin-top: 2%; max-height: auto; max-width: 60%; }
   #section2-fraud .container-fluid .row .prt { display: none; }
   #section2-fraud .container-fluid .row .col-lg-6 { display: none; }
   #section2-fraud .container-fluid .row .col-lg-12 { display: none; }
-  #section2-fraud .container-fluid .row .col-md-8 { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
-  #section2-fraud .container-fluid .row .col-md-8 .testimonial-item-Fraud-Page { max-width: 100%; margin: 15% 5% 0% 3.2%; text-align: left; padding: 0 0; }
-  #section2-fraud .container-fluid .row .col-md-8 .testimonial-item-Fraud-Page .font1 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.18rem; color: #FECE00; margin-bottom: 0.5rem; }
-  #section2-fraud .container-fluid .row .col-md-8 .testimonial-item-Fraud-Page .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1rem; color: #FFF8DC; margin-bottom: 0.3rem; }
-  #section2-fraud .container-fluid .row .col-md-4 { padding: 0 0 0 0; margin: 0 0 0 0; }
+  #section2-fraud .container-fluid .row .col-md-6 { height: 100%; padding: 0 0 0 0; margin: 0 0 0 0; }
+  #section2-fraud .container-fluid .row .col-md-6 .testimonial-item-Fraud-Page { max-width: 100%; margin: 35% 5% 0% 3.2%; text-align: left; padding: 0 0; }
+  #section2-fraud .container-fluid .row .col-md-6 .testimonial-item-Fraud-Page .font1 { font-family: "Fira Sans", sans-serif; font-weight: 700; font-style: normal; font-size: 1.18rem; color: #FECE00; margin-bottom: 0.5rem; }
+  #section2-fraud .container-fluid .row .col-md-6 .testimonial-item-Fraud-Page .font2 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 1rem; color: #FFF8DC; margin-bottom: 0.3rem; }
+  #section2-fraud .container-fluid .row .col-md-6 { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section2-fraud .container-fluid .row .bgYellow-h { background-color: #ffdd00; background-size: cover; height: 50vh; }
   #section2-fraud .container-fluid .row .bgYellow-h .testimonial-item-graph { max-width: 100%; margin-top: 0%; margin-right: 6%; margin-left: 4%; margin-bottom: 0%; padding: 0% 0 0% 0; }
-  #section2-fraud .container-fluid .row .bgYellow-h .testimonial-item-graph img { padding-top: 45%; }
+  #section2-fraud .container-fluid .row .bgYellow-h .testimonial-item-graph img { padding-top: 25%; }
   #section2-fraud .container-fluid .row .bg-fraud-h { height: 50vh; background-color: #DDD5CA; background-size: cover; }
   #section2-fraud .container-fluid .row .bg-fraud-h .testimonial-item-graph { max-width: 100%; margin-top: 0%; margin-right: 6%; margin-left: 4%; margin-bottom: 0%; padding: 0% 0 0% 0; }
-  #section2-fraud .container-fluid .row .bg-fraud-h .testimonial-item-graph img { padding-top: 35%; } }
+  #section2-fraud .container-fluid .row .bg-fraud-h .testimonial-item-graph img { padding-top: 5%; } }
 @media (orientation: landscape) { /*** Start section 0 ***/
   #section0-io .fp-bg:before { content: ''; position: absolute; display: block; top: 0; bottom: 0; height: 100%; width: 100%; background-image: url("../media/importexport/bg-sector0.svg"); background-size: cover; }
   #section0-io .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
-  #section0-io .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 3.31rem; color: #fff; }
+  #section0-io .fullscreen .font1 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #fff; }
   #section0-io .fullscreen .font2 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #ffdd00; text-shadow: 1px 1px 0.3px #2D2521; }
   #section0-io .fullscreen .font3 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #f49600; text-shadow: 1px 1px 0.3px #2D2521; }
   #section0-io .fullscreen .font4 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #f49600; }
-  #section0-io .fullscreen .font5 { font-family: "Fira Sans", sans-serif; font-weight: 300; font-style: normal; font-size: 3.31rem; color: #fff; }
+  #section0-io .fullscreen .font5 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #fff; }
   /*** Start section 1 ***/
   #section1-io .container-fluid { padding: 0 0 0 0; margin: 0 0 0 0; }
   #section1-io .container-fluid .lscp { display: block; }

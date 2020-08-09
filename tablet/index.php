@@ -7,7 +7,7 @@ if (!isset($_SESSION)) {
     session_start();
 }
 if (!isset($_SESSION['varHTML_Lang'])) {
-    $_SESSION['varHTML_Lang'] = "es";
+    $_SESSION['varHTML_Lang'] = "en";
 }
 
 $detect = new Mobile_Detect;
