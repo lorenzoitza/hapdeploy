@@ -272,7 +272,7 @@ a.logo img { margin-top: 1%; max-height: auto; max-width: 60%; }
 #section0-consecuence .fullscreen { min-width: 100%; min-height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; text-align: center; }
 #section0-consecuence .fp-bg { background-image: url("../media/consecuencias/bg-section0.jpg"); }
 #section0-consecuence .fp-bg:before { content: ''; position: absolute; display: block; background: rgba(173, 173, 173, 0.2); top: 0; bottom: 0; height: 100%; width: 100%; }
-#section0-consecuence .font1 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 3.31rem; color: #fff; }
+#section0-consecuence .font1 { font-family: "Fira Sans", sans-serif; font-weight: 400; font-style: normal; font-size: 3.31rem; color: #fff; }
 #section0-consecuence .font2 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 3.31rem; color: #fff; margin-bottom: 1.7rem; }
 #section0-consecuence .font3 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 1.68rem; color: #fff; }
 
@@ -284,9 +284,9 @@ a.logo img { margin-top: 1%; max-height: auto; max-width: 60%; }
 #section1-consecuence .text-consecuence { margin: 5% 1% 0% 3%; text-align: left; font-weight: bold; font-size: 1.3rem; line-height: 1.6rem; }
 #section1-consecuence .container-fluid { padding: 0 0 0 0; }
 #section1-consecuence .font1 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 2.18rem; color: #2D2521; }
-#section1-consecuence .font2 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 1rem; color: #2D2521; }
+#section1-consecuence .font2 { font-family: "Fira Sans", sans-serif; font-weight: 400; font-style: normal; font-size: 1rem; color: #2D2521; }
 #section1-consecuence .font3 { font-family: "Fira Sans", sans-serif; font-weight: 500; font-style: normal; font-size: 1.18rem; color: #2D2521; }
-#section1-consecuence .font4 { font-family: "Fira Sans", sans-serif; font-weight: 200; font-style: normal; font-size: 2.18rem; color: #2D2521; }
+#section1-consecuence .font4 { font-family: "Fira Sans", sans-serif; font-weight: 400; font-style: normal; font-size: 2.18rem; color: #2D2521; }
 #section1-consecuence .font5 { font-family: "Fira Sans", sans-serif; font-weight: 800; font-style: normal; font-size: 1.18rem; color: #f49600; margin-bottom: 0rem; }
 #section1-consecuence .font6 { font-family: "Fira Sans", sans-serif; font-weight: 400; font-style: normal; font-size: 1.18rem; color: #f49600; margin-bottom: 0rem; }
 
